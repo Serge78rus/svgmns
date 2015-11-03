@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg>
+	<pattern id="tank_chc_p" x="0" y="0" width="1" height="1" patternUnits="userSpaceOnUse" patternTransform="scale(.05,.05)">
+		<line x1="0" y1="1" x2="1" y2="0" stroke="black" stroke-width=".1"/>
+	</pattern>
+	<linearGradient id="tank_chc_lg">
+		<stop offset="0" stop-color="black"/>
+		<stop offset="1" stop-color="silver"/>
+	</linearGradient>
+	<symbol id="tank_chc" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<path fill="silver" stroke="black" stroke-width=".01"
+					d="M.5,.995 L.5,.9 L.9,.9 L.9,.1 L.5,.1 L.5,.005 L.995,.005 L.995,.995 z"/>
+		<path fill="url(#tank_chc_p)" stroke="black" stroke-width=".01"
+					d="M.5,.995 L.5,.9 L.9,.9 L.9,.1 L.5,.1 L.5,.005 L.995,.005 L.995,.995 z"/>
+		<rect x="0" y="0" width=".5" height="1" stroke="none" fill="url(#tank_chc_lg)"/>
+		<line x1=".5" y1="0" x2=".5" y2="1" stroke="black" stroke-width=".01"/>
+	</symbol>
+</svg>

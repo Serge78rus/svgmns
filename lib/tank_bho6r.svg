@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg>
+	<pattern id="tank_bho6r_p" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse" patternTransform="scale(.1,.05)">
+		<line x1="0" y1="0" x2="1" y2="0" stroke="black" stroke-width=".1" />
+		<line x1="0" y1=".5" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="0" x2="0" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="1" y1="0" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1=".5" y1=".5" x2=".5" y2="1" stroke="black" stroke-width=".1" />
+	</pattern>
+	<pattern id="tank_bho6r_p1" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse" patternTransform="scale(.05,.05)">
+		<line x1="0" y1="0" x2="1" y2="0" stroke="black" stroke-width=".1" />
+		<line x1="0" y1=".5" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="0" x2="0" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="1" y1="0" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1=".5" y1=".5" x2=".5" y2="1" stroke="black" stroke-width=".1" />
+	</pattern>
+	<pattern id="tank_bho6r_h" x="0" y="0" width="1" height="1" patternUnits="userSpaceOnUse" patternTransform="scale(.05,.05)">
+		<line x1="0" y1="1" x2="1" y2="0" stroke="black" stroke-width=".1"/>
+	</pattern>
+	<symbol id="tank_bho6r" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<rect x=".9" y=".005" width=".095" height=".9" fill="red" stroke="black" stroke-width=".01"/>
+		<rect x=".9" y=".005" width=".095" height=".9" fill="url(#tank_bho6r_p)" stroke="black" stroke-width=".01"/>
+		<rect x=".25" y=".9" width=".25" height=".1" stroke="none" fill="silver" />
+		<rect x=".5" y=".9" width=".495" height=".095" stroke="black" stroke-width=".01" fill="silver" />
+		<rect x=".5" y=".9" width=".495" height=".095" stroke="black" stroke-width=".01" fill="url(#tank_bho6r_h)" />
+		<rect x="0" y=".9" width=".25" height=".1" stroke="none" fill="gray"/>
+		<rect x="0" y="0" width=".25" height=".9" stroke="none" fill="maroon"/>
+		<rect x="0" y="0" width=".25" height=".9" stroke="none" fill="url(#tank_bho6r_p1)" />
+		<path fill="red" stroke="none"
+					d="M.25,.9 L.25,0 L.5,0 A.7,.7 0 0,1 .5,.45 A.7,.7 0 0,0 .5,.9 z"/>
+		<path fill="url(#tank_bho6r_p)" stroke="none"
+					d="M.25,.9 L.25,0 L.5,0 A.7,.7 0 0,1 .5,.45 A.7,.7 0 0,0 .5,.9 z"/>
+		<path fill="none" stroke="black" stroke-width=".01"
+					d="M.5,0 A.7,.7 0 0,1 .5,.45 A.7,.7 0 0,0 .5,.9"/>
+	</symbol>
+</svg>

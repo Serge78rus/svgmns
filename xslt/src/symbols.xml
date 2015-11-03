@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbols>
+	<symbol name="body" grd="true" />
+	<symbol name="tube" grd="true" />
+	<symbol name="tube_l" grd="true" />
+	<symbol name="tube_t" />
+	<symbol name="tube_x" />
+	<symbol name="pump" />
+	<symbol name="valve" />
+	<symbol name="valve_b" />
+	<symbol name="valve_w" />
+	<symbol name="led" grd="true" />
+	<symbol name="fan" grd="true" />
+	<symbol name="pwr_a" />
+	<symbol name="pwr_d" />
+	<symbol name="pwr_b" />
+	<symbol name="arrow" />
+<!--
+	<symbol name="panel" flt="true" grd="true" />
+-->
+	<symbol name="panel" grd="true" />
+
+	<symbol name="label" />
+	<symbol name="display" />
+	<symbol name="switch" grd="true" />
+	<symbol name="tank" grd="true" />
+	<symbol name="scale_l" />
+	<symbol name="scale_r" />
+	<symbol name="gauge" />
+	<symbol name="meter" />
+	<symbol name="level" />
+	<symbol name="border" grd="true" />
+	<symbol name="button" grd="true" />
+	<symbol name="help" />
+</symbols>

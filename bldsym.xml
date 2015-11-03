@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><project name="bldsym" default="bldsym" basedir=".">
+<property file="ant.properties"/>
+<target name="bldsym">
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/body.xsl" style="${xslt.sym}/body.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/tube.xsl" style="${xslt.sym}/tube.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/tube_l.xsl" style="${xslt.sym}/tube_l.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/led.xsl" style="${xslt.sym}/led.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/fan.xsl" style="${xslt.sym}/fan.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/panel.xsl" style="${xslt.sym}/panel.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/switch.xsl" style="${xslt.sym}/switch.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/tank.xsl" style="${xslt.sym}/tank.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/border.xsl" style="${xslt.sym}/border.xsl"/>
+<xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/button.xsl" style="${xslt.sym}/button.xsl"/>
+</target>
+</project>

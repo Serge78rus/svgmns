@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg>
+	<symbol id="tower_a" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<line x1=".025" y1="1.003" x2=".2" y2="-.003" stroke="black" stroke-width=".05" />
+		<line x1=".975" y1="1.003" x2=".8" y2="-.003" stroke="black" stroke-width=".05" />
+		<path stroke="black" stroke-width=".01" fill="none"
+					d="M.19,.03 H.81 L.15,.3 H.85 L.1,.6 H.9 L.03,.98" />
+	</symbol>
+</svg>
+

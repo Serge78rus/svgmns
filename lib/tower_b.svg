@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg>
+	<pattern id="tower_b_wall" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse" patternTransform="scale(.1,.05)">
+		<line x1="0" y1="0" x2="1" y2="0" stroke="black" stroke-width=".1" />
+		<line x1="0" y1=".5" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="0" x2="0" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="1" y1="0" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1=".5" y1=".5" x2=".5" y2="1" stroke="black" stroke-width=".1" />
+	</pattern>
+	<linearGradient id="tower_b_lg">
+		<stop offset="0" stop-color="black"/>
+		<stop offset=".5" stop-color="silver"/>
+		<stop offset="1" stop-color="black"/>
+	</linearGradient>
+	<symbol id="tower_b" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<rect x="0" y="0" width="1" height="1" stroke="none" fill="url(#tower_b_lg)"/>
+		<rect x="0" y="0" width="1" height="1" stroke="none" fill="url(#tower_b_wall)" />
+	</symbol>
+</svg>

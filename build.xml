@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [ <!ENTITY common SYSTEM "common.xml"> ]>
+<project name="build" default="deploy" basedir=".">
+
+	<property file="ant.properties"/>
+
+	<target name="deploy" depends="build">
+<!--
+		<copy todir="${dpl}">
+			<fileset dir="${dst.cnt}"/>
+		</copy>
+-->
+		<copy todir="${dpl}/script">
+			<filelist dir="${dst.cnt}">
+				<file name="mns.js"/>
+			</filelist>
+		</copy>
+		<copy todir="${dpl}/demo1">
+			<filelist dir="${dst.loc.cnt}">
+				<file name="tst.svg"/>
+			</filelist>
+		</copy>
+		<copy todir="${dpl}/metar">
+			<filelist dir="${dst.loc.cnt}">
+				<file name="metar.svg"/>
+				<file name="mns.html"/>
+				<file name="mns.css"/>
+				<file name="mns.js"/>
+			</filelist>
+		</copy>
+	</target>
+
+	<target name="build" depends="bld_srvr, bld_glob_clnt, bld_loc_clnt, bld_mns"/>
+
+	<target name="bld_srvr">
+	</target>
+
+	<target name="bld_glob_clnt">
+		<concat destfile="${dst.cnt}/mns.js" encoding="utf-8">
+			<filelist dir="${clnt.glob.src}">
+				<file name="mns.js"/>
+				<file name="util.js"/>
+				<file name="el.js"/>
+				<file name="pump.js"/>
+				<file name="led.js"/>
+				<file name="valve.js"/>
+				<file name="label.js"/>
+				<file name="switch.js"/>
+				<file name="gauge.js"/>
+			</filelist>
+		</concat>
+	</target>
+
+	<target name="bld_loc_clnt">
+		<copy todir="${dst.loc.cnt}">
+			<filelist dir="${clnt.loc.src}">
+				<file name="mns.html"/>
+				<file name="mns.css"/>
+			</filelist>
+		</copy>
+		<concat destfile="${dst.loc.cnt}/mns.js" encoding="utf-8">
+			<filelist dir="${clnt.loc.src}">
+				<file name="mns.js"/>
+			</filelist>
+		</concat>
+	</target>
+
+	<target name="bld_mns" depends="bld_xslt">
+		<xslt	basedir="${mns.src}" destdir="${dst.loc.cnt}"	style="${xslt}/mns.xsl"	extension=".svg" force="true"/>
+	</target>
+
+	<target name="bld_xslt">
+		<xslt in="${xslt.src}/symbols.xml" out="bldsym.xml" style="${xslt}/bldsymant.xsl"/>
+		<xslt in="${xslt.src}/symbols.xml" out="${xslt.gen}/symbols.xsl" style="${xslt}/bldsymxsl.xsl"/>
+		<ant antfile="bldsym.xml" />
+	</target>
+
+</project>

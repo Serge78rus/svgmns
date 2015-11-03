@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+	<pattern id="tower_at_tp" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse"  patternTransform="scale(.1,.07)">
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".2" />
+	</pattern>
+	<symbol id="tower_at_t" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<rect x="0" y="0" width="1" height="1" fill="url(#tower_at_tp)" stroke="none"/>
+		<line x1=".05" y1="0" x2=".05" y2="1" stroke="black" stroke-width=".1" />
+		<line x1=".95" y1="0" x2=".95" y2="1" stroke="black" stroke-width=".1" />
+	</symbol>
+	<symbol id="tower_at" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<line x1=".025" y1="1.003" x2=".2" y2="-.003" stroke="black" stroke-width=".05" />
+		<line x1=".975" y1="1.003" x2=".8" y2="-.003" stroke="black" stroke-width=".05" />
+		<path stroke="black" stroke-width=".01" fill="none"
+					d="M.19,.03 H.81 L.15,.3 H.85 L.1,.6 H.9 L.03,.98" />
+		<use xlink:href="#tower_at_t" x=".25" y=".03" width=".2" height=".97" />
+	</symbol>
+</svg>

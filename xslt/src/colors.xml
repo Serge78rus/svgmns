@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color name="black" rgb="000000" desc="Черный" />
+	<color name="blue" rgb="0000FF" desc="Синий" />
+	<color name="fuchsia" rgb="FF00FF" desc="Светло-фиолетовый" />
+	<color name="gray" rgb="808080" desc="Темно-серый" />
+	<color name="green" rgb="008000" desc="Зеленый" />
+	<color name="lime" rgb="00FF00" desc="Светло-зеленый" />
+	<color name="maroon" rgb="800000" desc="Темно-красный" />
+	<color name="navy" rgb="000080" desc="Темно-синий" />
+	<color name="olive" rgb="808000" desc="Оливковый" />
+	<color name="purple" rgb="800080" desc="Темно-фиолетовый" />
+	<color name="red" rgb="FF0000" desc="Красный" />
+	<color name="silver" rgb="C0C0C0" desc="Светло-серый" />
+	<color name="teal" rgb="008080" desc="Сине-зеленый" />
+	<color name="white" rgb="FFFFFF" desc="Белый" />
+	<color name="yellow" rgb="FFFF00" desc="Желтый" />
+</colors>

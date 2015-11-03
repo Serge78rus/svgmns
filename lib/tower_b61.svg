@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+	<pattern id="tower_b61_wall" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse"  patternTransform="scale(.1,.08)">
+		<line x1="0" y1="0" x2="1" y2="0" stroke="black" stroke-width=".1" />
+		<line x1="0" y1=".5" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="0" x2="0" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="1" y1="0" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1=".5" y1=".5" x2=".5" y2="1" stroke="black" stroke-width=".1" />
+	</pattern>
+	<pattern id="tower_b61_wall1" x="0" y="0" width="1" height="1"
+			patternUnits="userSpaceOnUse" patternTransform="scale(.05,.08)">
+		<line x1="0" y1="0" x2="1" y2="0" stroke="black" stroke-width=".1" />
+		<line x1="0" y1=".5" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="1" x2="1" y2="1" stroke="black" stroke-width=".1" />
+		<line x1="0" y1="0" x2="0" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1="1" y1="0" x2="1" y2=".5" stroke="black" stroke-width=".1" />
+		<line x1=".5" y1=".5" x2=".5" y2="1" stroke="black" stroke-width=".1" />
+	</pattern>
+	<symbol id="tower_b61_1" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<rect x=".25" y="0" width=".5" height="1" stroke="none" fill="silver"/>
+		<rect x="0" y="0" width=".25" height="1" stroke="none" fill="gray"/>
+		<rect x=".75" y="0" width=".25" height="1" stroke="none" fill="gray"/>
+	</symbol>
+	<symbol id="tower_b61_2" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<rect x=".25" y="0" width=".5" height="1" stroke="none" fill="url(#tower_b61_wall)" />
+		<rect x="0" y="0" width=".25" height="1" stroke="none" fill="url(#tower_b61_wall1)"/>
+		<rect x=".75" y="0" width=".25" height="1" stroke="none" fill="url(#tower_b61_wall1)"/>
+	</symbol>
+	<symbol id="tower_b61" viewBox="0 0 1 1" preserveAspectRatio="none">
+		<polygon points=".25,.05 .5,0 .75,.05" stroke="none" fill="silver"/>
+		<polygon points="0,.05 .5,0 .25,.05" stroke="none" fill="gray"/>
+		<polygon points="1,.05 .5,0 .75,.05" stroke="none" fill="gray"/>
+		<use xlink:href="#tower_b61_1" x=".1" y=".05" width=".8" height=".35" />
+		<use xlink:href="#tower_b61_2" x=".1" y=".05" width=".8" height=".35" />
+		<use xlink:href="#tower_b61_1" x=".07" y=".4" width=".86" height=".03" />
+		<use xlink:href="#tower_b61_1" x=".2" y=".43" width=".6" height=".57" />
+		<use xlink:href="#tower_b61_2" x=".2" y=".43" width=".6" height=".57" />
+	</symbol>
+</svg>
