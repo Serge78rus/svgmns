@@ -7,7 +7,7 @@
 	<symbol name="tube_x" />
 	<symbol name="pump" />
 	<symbol name="valve" />
-	<symbol name="valve_b" />
+	<symbol name="valve_b" ></symbol>
 	<symbol name="valve_w" />
 	<symbol name="led" grd="true" />
 	<symbol name="fan" grd="true" />

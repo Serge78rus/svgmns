@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><project name="bldsym" default="bldsym" basedir=".">
+<?xml version="1.0" encoding="UTF-8"?><project basedir="." default="bldsym" name="bldsym">
 <property file="ant.properties"/>
 <target name="bldsym">
 <xslt in="${xslt.src}/colors.xml" out="${xslt.gen}/body.xsl" style="${xslt.sym}/body.xsl"/>
