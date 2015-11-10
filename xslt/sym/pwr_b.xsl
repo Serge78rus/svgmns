@@ -3,10 +3,10 @@
 <xsl:stylesheet version='1.0'
 	xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
 
-	<xsl:output method="xml" encoding="utf-8" indent="yes" />
-
 	<xsl:import href="../xsl.xsl" />
 	<xsl:import href="../attr.xsl" />
+
+	<xsl:output method="xml" encoding="utf-8" indent="yes" />
 
 	<xsl:template name="pwr_b_sym">
 		<symbol id="pwr_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">

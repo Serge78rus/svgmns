@@ -3,13 +3,14 @@
 <xsl:stylesheet version='1.0'
 	xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
 
-	<xsl:output method="xml" encoding="utf-8" indent="yes" cdata-section-elements="style script" />
-
 	<xsl:import href="gen/symbols.xsl" />
 	<xsl:import href="style.xsl" />
 	<xsl:import href="script.xsl" />
 	<xsl:import href="filter.xsl" />
 	<xsl:import href="font.xsl" />
+
+	<xsl:output method="xml" encoding="utf-8" indent="yes" cdata-section-elements="style script" />
+
 	<xsl:call-template name="sym_imp" />
 
 	<xsl:template match="mnemo">
