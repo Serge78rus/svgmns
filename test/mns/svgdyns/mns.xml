@@ -2,7 +2,7 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/baterfly.svg" />
+		<svg f="../../../lib/baterfly.svg" />
 	</defs>
 	<body>
 		<svg i="1" xmlns:xlink="http://www.w3.org/1999/xlink">

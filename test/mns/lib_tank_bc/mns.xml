@@ -2,31 +2,31 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/grid.svg" />
+		<svg f="../../../lib/grid.svg" />
 
-		<svg f="../../svg/tank_bho.svg" />
-		<svg f="../../svg/tank_bho4g.svg" />
-		<svg f="../../svg/tank_bho4r.svg" />
-		<svg f="../../svg/tank_bho6g.svg" />
-		<svg f="../../svg/tank_bho6r.svg" />
+		<svg f="../../../lib/tank_bho.svg" />
+		<svg f="../../../lib/tank_bho4g.svg" />
+		<svg f="../../../lib/tank_bho4r.svg" />
+		<svg f="../../../lib/tank_bho6g.svg" />
+		<svg f="../../../lib/tank_bho6r.svg" />
 
-		<svg f="../../svg/tank_bhc.svg" />
-		<svg f="../../svg/tank_bhc4g.svg" />
-		<svg f="../../svg/tank_bhc4r.svg" />
-		<svg f="../../svg/tank_bhc6g.svg" />
-		<svg f="../../svg/tank_bhc6r.svg" />
+		<svg f="../../../lib/tank_bhc.svg" />
+		<svg f="../../../lib/tank_bhc4g.svg" />
+		<svg f="../../../lib/tank_bhc4r.svg" />
+		<svg f="../../../lib/tank_bhc6g.svg" />
+		<svg f="../../../lib/tank_bhc6r.svg" />
 
-		<svg f="../../svg/tank_bxo.svg" />
-		<svg f="../../svg/tank_bxo4g.svg" />
-		<svg f="../../svg/tank_bxo4r.svg" />
-		<svg f="../../svg/tank_bxo6g.svg" />
-		<svg f="../../svg/tank_bxo6r.svg" />
+		<svg f="../../../lib/tank_bxo.svg" />
+		<svg f="../../../lib/tank_bxo4g.svg" />
+		<svg f="../../../lib/tank_bxo4r.svg" />
+		<svg f="../../../lib/tank_bxo6g.svg" />
+		<svg f="../../../lib/tank_bxo6r.svg" />
 
-		<svg f="../../svg/tank_bxc.svg" />
-		<svg f="../../svg/tank_bxc4g.svg" />
-		<svg f="../../svg/tank_bxc4r.svg" />
-		<svg f="../../svg/tank_bxc6g.svg" />
-		<svg f="../../svg/tank_bxc6r.svg" />
+		<svg f="../../../lib/tank_bxc.svg" />
+		<svg f="../../../lib/tank_bxc4g.svg" />
+		<svg f="../../../lib/tank_bxc4r.svg" />
+		<svg f="../../../lib/tank_bxc6g.svg" />
+		<svg f="../../../lib/tank_bxc6r.svg" />
 
 	</defs>
 	<body>

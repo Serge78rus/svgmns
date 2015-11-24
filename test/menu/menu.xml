@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+
+<root label="Menu">
+ 	<item target="content" ref="logo.html" label="NoSCADA logo" />
+	<tree label="Elements">
+		<tree label="Static">
+	  		<item target="content" ref="mns/bodies/index.html" label="3D bodies" />
+	  		<item target="content" ref="mns/tubes/index.html" label="Tubes" />
+	  		<item target="content" ref="mns/tanks/index.html" label="Tanks" />
+	  		<item target="content" ref="mns/panels/index.html" label="Panels" />
+	  		<item target="content" ref="mns/scales/index.html" label="Scales" />
+	  		<item target="content" ref="mns/borders/index.html" label="Borders" />
+	  		<item target="content" ref="mns/svgs/index.html" label="SVG graphics" />
+	  		<item target="content" ref="mns/svganis/index.html" label="SVG animation" />
+	  		<item target="content" ref="mns/groups/index.html" label="Groups" />
+		</tree>
+		<tree label="Dynamic">
+	  		<item target="content" ref="mns/leds/index.html" label="Leds" />
+	  		<item target="content" ref="mns/pumps/index.html" label="Pumps" />
+	  		<item target="content" ref="mns/ventils/index.html" label="Ventils" />
+	  		<item target="content" ref="mns/fans/index.html" label="Fans" />
+	  		<item target="content" ref="mns/pwr/index.html" label="Powers" />
+	  		<item target="content" ref="mns/arrows/index.html" label="Arrows" />
+	  		<item target="content" ref="mns/labels/index.html" label="Labels" />
+	  		<item target="content" ref="mns/displays/index.html" label="Displays" />
+	  		<item target="content" ref="mns/switches/index.html" label="Switches" />
+	  		<item target="content" ref="mns/gauges/index.html" label="Gauges" />
+	  		<item target="content" ref="mns/meters/index.html" label="Meters" />
+	  		<item target="content" ref="mns/levels/index.html" label="Levels" />
+	  		<item target="content" ref="mns/svgdyns/index.html" label="SVG graphics" />
+	  		<item target="content" ref="mns/groupdyns/index.html" label="Groups" />
+		</tree>
+		<tree label="Controls">
+	  		<item target="content" ref="mns/buttons/index.html" label="Buttons" />
+		</tree>
+		<tree label="SVG library">
+	  		<item target="content" ref="mns/lib_towers/index.html" label="Towers" />
+	  		<item target="content" ref="mns/lib_tanks/index.html" label="Tanks" />
+	  		<item target="content" ref="mns/lib_tanks_b/index.html" label="Tanks B" />
+	  		<item target="content" ref="mns/lib_tank_bc/index.html" label="Tanks BC" />
+		</tree>
+  	<item target="content" ref="mns/helps/index.html" label="Help" />
+	</tree>
+	<tree label="Tech process">
+  		<item target="content" ref="mns/kns/index.html" label="Waste plant" />
+  		<item target="content" ref="mns/kns3/index.html" label="Waste plant 3" />
+  		<item target="content" ref="mns/kns_ch/index.html" label="WP + Chart" />
+  		<item target="content" ref="mns/tower/index.html" label="Tower" />
+	</tree>
+</root>
+

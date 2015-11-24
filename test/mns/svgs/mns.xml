@@ -8,8 +8,8 @@
 				<line x1=".1" y1=".9" x2=".9" y2=".1" stroke="rgba(255,0,0,1)" stroke-width=".05" />
 	 		</symbol>
 		</svg>
-		<svg f="../../svg/svglogo.svg" />
-		<svg f="../../svg/baterfly.svg" />
+		<svg f="../../../lib/svglogo.svg" />
+		<svg f="../../../lib/baterfly.svg" />
 
 	</defs>
 	<body>

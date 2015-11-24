@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="utf-8"?><svg version="1.1" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" onload="svgload(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<desc>Auto generating svg</desc>
+<!--Auto generating svg-->
+<style type="text/css"><![CDATA[
+/*
+#hlp .message {
+	-moz-transition-property:fill-opacity;
+  -moz-transition-duration:1s;
+	-webkit-transition-property:fill-opacity;
+  -webkit-transition-duration:1s;
+	transition-property:fill-opacity;
+  transition-duration:1s;
+}
+
+#hlp .message.hide {
+	fill-opacity:0;
+}
+
+#hlp .message.show {
+	fill-opacity:1;
+}
+*/
+
+#int .button {
+	cursor:pointer;
+  -moz-user-select:-moz-none;
+  -o-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+text {font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;}
+
+		]]></style>
+<script type="application/ecmascript"><![CDATA[
+
+var mns;
+function svgload(evt) {
+	var w = window;
+	while (w && !w.Mns)
+		w = w.parent;
+	if (w) {
+		mns = w.Mns
+		mns.svgload(evt);
+	}
+}
+
+function buttonclick(id) {
+	if (mns)
+		mns.buttonclick(id);
+}
+function btnpress(btn) {
+	var e = btn.firstElementChild;
+	e.setAttribute("stroke", e.getAttribute("stroke").replace("button_", "button_press_"));
+}
+function btnrelease(btn) {
+	var e = btn.firstElementChild;
+	e.setAttribute("stroke", e.getAttribute("stroke").replace("button_press_", "button_"));
+}
+
+function showhlp(evt) {
+	if (mns)
+		mns.showhlp(evt);
+}
+function hidehlp(evt) {
+	if (mns)
+		mns.hidehlp(evt);
+}
+
+		]]></script>
+<filter id="shadow" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000">
+<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5"/>
+<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/>
+<feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+</filter>
+<linearGradient id="cyl_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</radialGradient>
+<linearGradient id="cyl_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</radialGradient>
+<linearGradient id="cyl_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</radialGradient>
+<linearGradient id="cyl_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</radialGradient>
+<linearGradient id="cyl_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</radialGradient>
+<linearGradient id="cyl_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</radialGradient>
+<linearGradient id="cyl_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</radialGradient>
+<linearGradient id="cyl_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</radialGradient>
+<linearGradient id="cyl_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</radialGradient>
+<linearGradient id="cyl_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</radialGradient>
+<linearGradient id="cyl_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</radialGradient>
+<linearGradient id="cyl_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</radialGradient>
+<linearGradient id="cyl_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</radialGradient>
+<linearGradient id="cyl_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<linearGradient id="cyl_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</radialGradient>
+<symbol id="cyl" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="cone" viewBox="0 0 1 1" preserveAspectRatio="none">
+<polygon points="0,1 .5,0 1,1" stroke="none"/>
+</symbol>
+<symbol id="ball" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<symbol id="tor" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<linearGradient id="tube_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<linearGradient id="tube_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<linearGradient id="tube_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<linearGradient id="tube_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<linearGradient id="tube_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<linearGradient id="tube_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<linearGradient id="tube_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<linearGradient id="tube_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<linearGradient id="tube_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<linearGradient id="tube_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<linearGradient id="tube_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<linearGradient id="tube_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<linearGradient id="tube_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<linearGradient id="tube_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tube_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<symbol id="tube" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</radialGradient>
+<symbol id="tube_l" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0,0 L1,0 A1,1 0 0,1 0,1 z" stroke="none"/>
+</symbol>
+<symbol id="tube_t" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(90, .5, .5)" stroke="none"/>
+</symbol>
+<symbol id="tube_x" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(90, .5, .5)" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(270, .5, .5)" stroke="none"/>
+</symbol>
+<symbol id="pump" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<polygon points=".4,.7 .6,.7 .5,.85" fill="black" stroke="none"/>
+</symbol>
+<symbol id="valve" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05"/>
+</symbol>
+<symbol id="valve_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05" fill="black"/>
+</symbol>
+<symbol id="valve_w" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05" fill="white"/>
+</symbol>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<symbol id="led" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".1"/>
+</symbol>
+<linearGradient id="fan_lg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<linearGradient id="fan_lg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<linearGradient id="fan_lg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<linearGradient id="fan_lg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<linearGradient id="fan_lg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<linearGradient id="fan_lg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<linearGradient id="fan_lg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<linearGradient id="fan_lg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<linearGradient id="fan_lg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<linearGradient id="fan_lg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<linearGradient id="fan_lg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<linearGradient id="fan_lg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<linearGradient id="fan_lg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<linearGradient id="fan_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="fan_lg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<symbol id="fan_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".2" stroke="none"/>
+</symbol>
+<symbol id="fan_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path stroke="none" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(72,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(144,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(216,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(288,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+</symbol>
+<symbol id="pwr_a" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<path stroke="black" stroke-width=".08" fill="none" d="M.2,.5 a.15,.2 0 0,1 .3,0 a.15,.2 0 0,0 .3,0"/>
+</symbol>
+<symbol id="pwr_d" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<line stroke="black" stroke-width=".08" x1=".2" y1=".4" x2=".8" y2=".4"/>
+<line stroke="black" stroke-width=".08" x1=".2" y1=".6" x2=".8" y2=".6"/>
+</symbol>
+<symbol id="pwr_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<line stroke="black" stroke-width=".08" x1=".18" y1=".5" x2=".38" y2=".5"/>
+<line stroke="black" stroke-width=".12" x1=".38" y1=".3" x2=".38" y2=".7"/>
+<line stroke="black" stroke-width=".08" x1=".56" y1=".18" x2=".56" y2=".82"/>
+<line stroke="black" stroke-width=".08" x1=".56" y1=".5" x2=".82" y2=".5"/>
+</symbol>
+<symbol id="arrow" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<path stroke="none" stroke-width="0" d="M.4,.05 l0,.65 l-.3,0 l.4,.25 l.4,-.25 l-.3,0 l0,-.65 z"/>
+</symbol>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_black">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_blue">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_gray">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_green">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_lime">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_maroon">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_navy">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_olive">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_purple">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_red">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_silver">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_teal">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_white">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_yellow">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<symbol id="panel" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".12" ry=".12" stroke="none"/>
+<rect x="0.02" y="0.02" width=".96" height=".96" rx=".1" ry=".1" stroke-width=".04" fill="none"/>
+</symbol>
+<symbol id="label" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".1" ry=".1"/>
+</symbol>
+<symbol id="display" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient id="switch_rg" cx=".5" cy=".5" r="1" fx=".12" fy=".12">
+<stop offset="0" stop-color="white"/>
+<stop offset=".7" stop-color="#202020"/>
+</radialGradient>
+<symbol id="switch_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".2" fill="black" stroke="url(#switch_rg)" stroke-width=".05"/>
+</symbol>
+<symbol id="switch_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<polygon points=".46,.2 .4,.8 .6,.8 .54,.2" fill="black" stroke="gray" stroke-width=".01"/>
+<polygon points=".5,.22 .48,.28 .52,.28" fill="white" stroke="none"/>
+</symbol>
+<linearGradient id="tank_lv_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<symbol id="tank" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y=".05" width="1" height=".9" stroke="none"/>
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lv1" viewBox="0 0 1 1" preserveAspectRatio="none">
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lv2" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y=".05" width=".5" height=".9" stroke="none"/>
+<line x1=".995" y1=".05" x2=".995" y2=".95" stroke-width=".01"/>
+</symbol>
+<symbol id="tank_lhl" viewBox="0 0 1 1" preserveAspectRatio="none">
+<path stroke="none" d="M0,.05 L.5,0 L1,.05 L1,.5 A.7,.7 0 0,0 .5,.5 A.7,.7 0 0,1 0,.5 z"/>
+<line x1=".005" y1=".5" x2=".005" y2=".95" stroke-width=".01"/>
+<line x1=".995" y1=".5" x2=".995" y2=".95" stroke-width=".01"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lhr" viewBox="0 0 1 1" preserveAspectRatio="none">
+<path stroke="none" d="M0,.95 L.5,1 L1,.95 L1,.5 A.7,.7 0 0,1 .5,.5 A.7,.7 0 0,0 0,.5 z"/>
+<line x1=".005" y1=".5" x2=".005" y2=".05" stroke-width=".01"/>
+<line x1=".995" y1=".5" x2=".995" y2=".05" stroke-width=".01"/>
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+</symbol>
+<symbol id="scale_l" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="scale_r120" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0.066,.257 A.5,.5 0 0,1 .934,.257" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="scale_r240" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0.073,.747 A.49,.497 0 1,1 .927,.747" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="scale_r360" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".49375" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="gauge" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="meter" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<line x1=".5" x2=".5" y1=".05" y2=".5" stroke-width=".02"/>
+<circle cx=".5" cy=".5" r=".05" stroke="none"/>
+</symbol>
+<symbol id="level" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_black">
+<stop offset=".45" stop-color="black"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_blue">
+<stop offset=".45" stop-color="blue"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_fuchsia">
+<stop offset=".45" stop-color="fuchsia"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_gray">
+<stop offset=".45" stop-color="gray"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_green">
+<stop offset=".45" stop-color="green"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_lime">
+<stop offset=".45" stop-color="lime"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_maroon">
+<stop offset=".45" stop-color="maroon"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_navy">
+<stop offset=".45" stop-color="navy"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_olive">
+<stop offset=".45" stop-color="olive"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_purple">
+<stop offset=".45" stop-color="purple"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_red">
+<stop offset=".45" stop-color="red"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_silver">
+<stop offset=".45" stop-color="silver"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_teal">
+<stop offset=".45" stop-color="teal"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_white">
+<stop offset=".45" stop-color="white"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_yellow">
+<stop offset=".45" stop-color="yellow"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<symbol id="border" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="border_c_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<symbol id="border_c_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".45" stroke="none"/>
+</symbol>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_black">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_black">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_blue">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_blue">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_gray">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_gray">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_green">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_green">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_lime">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_lime">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_maroon">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_maroon">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_navy">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_navy">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_olive">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_olive">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_purple">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_purple">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_red">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_red">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_silver">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_silver">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_teal">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_teal">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_white">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_white">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_yellow">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_yellow">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<symbol id="button" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".12" ry=".12" stroke="none"/>
+<rect x="0.02" y="0.02" width=".96" height=".96" rx=".1" ry=".1" stroke-width=".04" fill="none"/>
+</symbol>
+<symbol id="help" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none" fill="rgba(0,255,0,.5)"/>
+<text text-anchor="middle" x=".5" y=".83" font-size="1" stroke="none" fill="white" style="cursor:help;-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;">?</text>
+</symbol>
+</defs>
+<g id="dyn0">
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+
+		
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+
+		
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+		</g>
+<g id="stat">
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="50" y="30" transform="translate(400,0) rotate(90,50,30)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="450" y="50"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="50" y="450" transform="translate(400,0) rotate(90,50,450)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="30" y="50"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="50" y="240" transform="translate(400,0) rotate(90,50,240)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="20" height="400" x="240" y="50"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" width="20" height="20" x="30" y="30" transform="rotate(180,40,40)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" width="20" height="20" x="450" y="30" transform="rotate(270,460,40)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" width="20" height="20" x="450" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" width="20" height="20" x="30" y="450" transform="rotate(90,40,460)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_black)" width="20" height="20" x="240" y="30" transform="rotate(90,250,40)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_black)" width="20" height="20" x="450" y="240" transform="rotate(180,460,250)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_black)" width="20" height="20" x="240" y="450" transform="rotate(270,250,460)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_black)" width="20" height="20" x="30" y="240"/>
+<use class="tube_x" xlink:href="#tube_x" fill="url(#tube_lg_black)" width="20" height="20" x="240" y="240"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="550" y="30" transform="translate(400,0) rotate(90,550,30)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="950" y="50"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="550" y="450" transform="translate(400,0) rotate(90,550,450)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="530" y="50"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="550" y="240" transform="translate(400,0) rotate(90,550,240)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_blue)" width="20" height="400" x="740" y="50"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_blue)" width="20" height="20" x="530" y="30" transform="rotate(180,540,40)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_blue)" width="20" height="20" x="950" y="30" transform="rotate(270,960,40)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_blue)" width="20" height="20" x="950" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_blue)" width="20" height="20" x="530" y="450" transform="rotate(90,540,460)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_blue)" width="20" height="20" x="740" y="30" transform="rotate(90,750,40)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_blue)" width="20" height="20" x="950" y="240" transform="rotate(180,960,250)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_blue)" width="20" height="20" x="740" y="450" transform="rotate(270,750,460)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_blue)" width="20" height="20" x="530" y="240"/>
+<use class="tube_x" xlink:href="#tube_x" fill="url(#tube_lg_blue)" width="20" height="20" x="740" y="240"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="50" y="530" transform="translate(400,0) rotate(90,50,530)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="450" y="550"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="50" y="950" transform="translate(400,0) rotate(90,50,950)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="30" y="550"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="50" y="740" transform="translate(400,0) rotate(90,50,740)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="20" height="400" x="240" y="550"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" width="20" height="20" x="30" y="530" transform="rotate(180,40,540)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" width="20" height="20" x="450" y="530" transform="rotate(270,460,540)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" width="20" height="20" x="450" y="950"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" width="20" height="20" x="30" y="950" transform="rotate(90,40,960)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_red)" width="20" height="20" x="240" y="530" transform="rotate(90,250,540)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_red)" width="20" height="20" x="450" y="740" transform="rotate(180,460,750)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_red)" width="20" height="20" x="240" y="950" transform="rotate(270,250,960)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_red)" width="20" height="20" x="30" y="740"/>
+<use class="tube_x" xlink:href="#tube_x" fill="url(#tube_lg_red)" width="20" height="20" x="240" y="740"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="550" y="530" transform="translate(400,0) rotate(90,550,530)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="950" y="550"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="550" y="950" transform="translate(400,0) rotate(90,550,950)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="530" y="550"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="550" y="740" transform="translate(400,0) rotate(90,550,740)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_green)" width="20" height="400" x="740" y="550"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_green)" width="20" height="20" x="5300" y="530" transform="rotate(180,5310,540)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_green)" width="20" height="20" x="950" y="530" transform="rotate(270,960,540)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_green)" width="20" height="20" x="950" y="950"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_green)" width="20" height="20" x="530" y="950" transform="rotate(90,540,960)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_green)" width="20" height="20" x="740" y="530" transform="rotate(90,750,540)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_green)" width="20" height="20" x="950" y="740" transform="rotate(180,960,750)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_green)" width="20" height="20" x="740" y="950" transform="rotate(270,750,960)"/>
+<use class="tube_t" xlink:href="#tube_t" fill="url(#tube_lg_green)" width="20" height="20" x="530" y="740"/>
+<use class="tube_x" xlink:href="#tube_x" fill="url(#tube_lg_green)" width="20" height="20" x="740" y="740"/>
+<g class="tubes">
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="100" y="100" transform="translate(150,0) rotate(90,100,100)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="250" y="100" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="250" y="70"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="250" y="55" width="15" height="15" transform="rotate(270,257.5,62.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="220" y="55" transform="translate(30,0) rotate(90,220,55)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="205" y="55" width="15" height="15" transform="rotate(180,212.5,62.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="205" y="70"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="205" y="220" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="175" y="220" transform="translate(30,0) rotate(90,175,220)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="160" y="220" width="15" height="15" transform="rotate(90,167.5,227.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="160" y="190"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="160" y="175" width="15" height="15" transform="rotate(180,167.5,182.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="175" y="175" transform="translate(150,0) rotate(90,175,175)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="325" y="175" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="325" y="145"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="325" y="130" width="15" height="15" transform="rotate(270,332.5,137.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="295" y="130" transform="translate(30,0) rotate(90,295,130)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="280" y="130" width="15" height="15" transform="rotate(180,287.5,137.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="280" y="145"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="280" y="295" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="250" y="295" transform="translate(30,0) rotate(90,250,295)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="235" y="295" width="15" height="15" transform="rotate(90,242.5,302.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="235" y="265"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="235" y="250" width="15" height="15" transform="rotate(180,242.5,257.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="250" y="250" transform="translate(150,0) rotate(90,250,250)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="400" y="250" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="400" y="220"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="400" y="205" width="15" height="15" transform="rotate(270,407.5,212.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="370" y="205" transform="translate(30,0) rotate(90,370,205)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="355" y="205" width="15" height="15" transform="rotate(180,362.5,212.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="355" y="220"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="355" y="370" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="325" y="370" transform="translate(30,0) rotate(90,325,370)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="310" y="370" width="15" height="15" transform="rotate(90,317.5,377.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="310" y="340"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="310" y="325" width="15" height="15" transform="rotate(180,317.5,332.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="325" y="325" transform="translate(150,0) rotate(90,325,325)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="475" y="325" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="475" y="295"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="475" y="280" width="15" height="15" transform="rotate(270,482.5,287.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="445" y="280" transform="translate(30,0) rotate(90,445,280)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="430" y="280" width="15" height="15" transform="rotate(180,437.5,287.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="430" y="295"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="430" y="445" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="400" y="445" transform="translate(30,0) rotate(90,400,445)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="385" y="445" width="15" height="15" transform="rotate(90,392.5,452.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="385" y="415"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="385" y="400" width="15" height="15" transform="rotate(180,392.5,407.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="400" y="400" transform="translate(150,0) rotate(90,400,400)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="550" y="400" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="550" y="370"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="550" y="355" width="15" height="15" transform="rotate(270,557.5,362.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="520" y="355" transform="translate(30,0) rotate(90,520,355)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="505" y="355" width="15" height="15" transform="rotate(180,512.5,362.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="505" y="370"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="505" y="520" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="475" y="520" transform="translate(30,0) rotate(90,475,520)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="460" y="520" width="15" height="15" transform="rotate(90,467.5,527.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="460" y="490"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="460" y="475" width="15" height="15" transform="rotate(180,467.5,482.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="475" y="475" transform="translate(150,0) rotate(90,475,475)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="625" y="475" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="625" y="445"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="625" y="430" width="15" height="15" transform="rotate(270,632.5,437.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="595" y="430" transform="translate(30,0) rotate(90,595,430)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="580" y="430" width="15" height="15" transform="rotate(180,587.5,437.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="580" y="445"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="580" y="595" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="550" y="595" transform="translate(30,0) rotate(90,550,595)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="535" y="595" width="15" height="15" transform="rotate(90,542.5,602.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="535" y="565"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="535" y="550" width="15" height="15" transform="rotate(180,542.5,557.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="550" y="550" transform="translate(150,0) rotate(90,550,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="700" y="550" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="700" y="520"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="700" y="505" width="15" height="15" transform="rotate(270,707.5,512.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="670" y="505" transform="translate(30,0) rotate(90,670,505)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="655" y="505" width="15" height="15" transform="rotate(180,662.5,512.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="655" y="520"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="655" y="670" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="625" y="670" transform="translate(30,0) rotate(90,625,670)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="610" y="670" width="15" height="15" transform="rotate(90,617.5,677.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="610" y="640"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="610" y="625" width="15" height="15" transform="rotate(180,617.5,632.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="625" y="625" transform="translate(150,0) rotate(90,625,625)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="775" y="625" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="775" y="595"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="775" y="580" width="15" height="15" transform="rotate(270,782.5,587.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="745" y="580" transform="translate(30,0) rotate(90,745,580)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="730" y="580" width="15" height="15" transform="rotate(180,737.5,587.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="730" y="595"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="730" y="745" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="700" y="745" transform="translate(30,0) rotate(90,700,745)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="685" y="745" width="15" height="15" transform="rotate(90,692.5,752.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="685" y="715"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="685" y="700" width="15" height="15" transform="rotate(180,692.5,707.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="700" y="700" transform="translate(150,0) rotate(90,700,700)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="850" y="700" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="850" y="670"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="850" y="655" width="15" height="15" transform="rotate(270,857.5,662.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="820" y="655" transform="translate(30,0) rotate(90,820,655)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="805" y="655" width="15" height="15" transform="rotate(180,812.5,662.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="805" y="670"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="805" y="820" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="775" y="820" transform="translate(30,0) rotate(90,775,820)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="760" y="820" width="15" height="15" transform="rotate(90,767.5,827.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="760" y="790"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="760" y="775" width="15" height="15" transform="rotate(180,767.5,782.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="775" y="775" transform="translate(150,0) rotate(90,775,775)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="925" y="775" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="925" y="745"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="925" y="730" width="15" height="15" transform="rotate(270,932.5,737.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="30" x="895" y="730" transform="translate(30,0) rotate(90,895,730)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_red)" x="880" y="730" width="15" height="15" transform="rotate(180,887.5,737.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_red)" width="15" height="150" x="880" y="745"/>
+</g>
+<g class="tubes">
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="100" y="900" transform="translate(100,0) rotate(90,100,900)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="200" y="900" width="15" height="15" transform="rotate(270,207.5,907.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="200" y="915"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="200" y="945" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="170" y="945" transform="translate(30,0) rotate(90,170,945)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="155" y="945" width="15" height="15" transform="rotate(90,162.5,952.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="155" y="845"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="155" y="830" width="15" height="15" transform="rotate(270,162.5,837.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="125" y="830" transform="translate(30,0) rotate(90,125,830)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="110" y="830" width="15" height="15" transform="rotate(180,117.5,837.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="110" y="845"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="110" y="875" width="15" height="15" transform="rotate(90,117.5,882.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="125" y="875" transform="translate(100,0) rotate(90,125,875)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="225" y="875" width="15" height="15" transform="rotate(270,232.5,882.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="225" y="890"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="225" y="920" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="195" y="920" transform="translate(30,0) rotate(90,195,920)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="180" y="920" width="15" height="15" transform="rotate(90,187.5,927.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="180" y="820"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="180" y="805" width="15" height="15" transform="rotate(270,187.5,812.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="150" y="805" transform="translate(30,0) rotate(90,150,805)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="135" y="805" width="15" height="15" transform="rotate(180,142.5,812.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="135" y="820"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="135" y="850" width="15" height="15" transform="rotate(90,142.5,857.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="150" y="850" transform="translate(100,0) rotate(90,150,850)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="250" y="850" width="15" height="15" transform="rotate(270,257.5,857.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="250" y="865"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="250" y="895" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="220" y="895" transform="translate(30,0) rotate(90,220,895)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="205" y="895" width="15" height="15" transform="rotate(90,212.5,902.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="205" y="795"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="205" y="780" width="15" height="15" transform="rotate(270,212.5,787.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="175" y="780" transform="translate(30,0) rotate(90,175,780)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="160" y="780" width="15" height="15" transform="rotate(180,167.5,787.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="160" y="795"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="160" y="825" width="15" height="15" transform="rotate(90,167.5,832.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="175" y="825" transform="translate(100,0) rotate(90,175,825)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="275" y="825" width="15" height="15" transform="rotate(270,282.5,832.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="275" y="840"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="275" y="870" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="245" y="870" transform="translate(30,0) rotate(90,245,870)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="230" y="870" width="15" height="15" transform="rotate(90,237.5,877.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="230" y="770"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="230" y="755" width="15" height="15" transform="rotate(270,237.5,762.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="200" y="755" transform="translate(30,0) rotate(90,200,755)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="185" y="755" width="15" height="15" transform="rotate(180,192.5,762.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="185" y="770"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="185" y="800" width="15" height="15" transform="rotate(90,192.5,807.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="200" y="800" transform="translate(100,0) rotate(90,200,800)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="300" y="800" width="15" height="15" transform="rotate(270,307.5,807.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="300" y="815"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="300" y="845" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="270" y="845" transform="translate(30,0) rotate(90,270,845)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="255" y="845" width="15" height="15" transform="rotate(90,262.5,852.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="255" y="745"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="255" y="730" width="15" height="15" transform="rotate(270,262.5,737.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="225" y="730" transform="translate(30,0) rotate(90,225,730)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="210" y="730" width="15" height="15" transform="rotate(180,217.5,737.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="210" y="745"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="210" y="775" width="15" height="15" transform="rotate(90,217.5,782.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="225" y="775" transform="translate(100,0) rotate(90,225,775)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="325" y="775" width="15" height="15" transform="rotate(270,332.5,782.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="325" y="790"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="325" y="820" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="295" y="820" transform="translate(30,0) rotate(90,295,820)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="280" y="820" width="15" height="15" transform="rotate(90,287.5,827.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="280" y="720"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="280" y="705" width="15" height="15" transform="rotate(270,287.5,712.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="250" y="705" transform="translate(30,0) rotate(90,250,705)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="235" y="705" width="15" height="15" transform="rotate(180,242.5,712.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="235" y="720"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="235" y="750" width="15" height="15" transform="rotate(90,242.5,757.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="250" y="750" transform="translate(100,0) rotate(90,250,750)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="350" y="750" width="15" height="15" transform="rotate(270,357.5,757.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="350" y="765"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="350" y="795" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="320" y="795" transform="translate(30,0) rotate(90,320,795)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="305" y="795" width="15" height="15" transform="rotate(90,312.5,802.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="305" y="695"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="305" y="680" width="15" height="15" transform="rotate(270,312.5,687.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="275" y="680" transform="translate(30,0) rotate(90,275,680)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="260" y="680" width="15" height="15" transform="rotate(180,267.5,687.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="260" y="695"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="260" y="725" width="15" height="15" transform="rotate(90,267.5,732.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="275" y="725" transform="translate(100,0) rotate(90,275,725)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="375" y="725" width="15" height="15" transform="rotate(270,382.5,732.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="375" y="740"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="375" y="770" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="345" y="770" transform="translate(30,0) rotate(90,345,770)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="330" y="770" width="15" height="15" transform="rotate(90,337.5,777.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="330" y="670"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="330" y="655" width="15" height="15" transform="rotate(270,337.5,662.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="300" y="655" transform="translate(30,0) rotate(90,300,655)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="285" y="655" width="15" height="15" transform="rotate(180,292.5,662.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="285" y="670"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="285" y="700" width="15" height="15" transform="rotate(90,292.5,707.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="300" y="700" transform="translate(100,0) rotate(90,300,700)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="400" y="700" width="15" height="15" transform="rotate(270,407.5,707.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="400" y="715"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="400" y="745" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="370" y="745" transform="translate(30,0) rotate(90,370,745)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="355" y="745" width="15" height="15" transform="rotate(90,362.5,752.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="355" y="645"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="355" y="630" width="15" height="15" transform="rotate(270,362.5,637.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="325" y="630" transform="translate(30,0) rotate(90,325,630)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="310" y="630" width="15" height="15" transform="rotate(180,317.5,637.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="310" y="645"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="310" y="675" width="15" height="15" transform="rotate(90,317.5,682.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="325" y="675" transform="translate(100,0) rotate(90,325,675)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="425" y="675" width="15" height="15" transform="rotate(270,432.5,682.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="425" y="690"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="425" y="720" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="395" y="720" transform="translate(30,0) rotate(90,395,720)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="380" y="720" width="15" height="15" transform="rotate(90,387.5,727.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="380" y="620"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="380" y="605" width="15" height="15" transform="rotate(270,387.5,612.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="350" y="605" transform="translate(30,0) rotate(90,350,605)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="335" y="605" width="15" height="15" transform="rotate(180,342.5,612.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="335" y="620"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="335" y="650" width="15" height="15" transform="rotate(90,342.5,657.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="350" y="650" transform="translate(100,0) rotate(90,350,650)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="450" y="650" width="15" height="15" transform="rotate(270,457.5,657.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="450" y="665"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="450" y="695" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="420" y="695" transform="translate(30,0) rotate(90,420,695)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="405" y="695" width="15" height="15" transform="rotate(90,412.5,702.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="405" y="595"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="405" y="580" width="15" height="15" transform="rotate(270,412.5,587.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="375" y="580" transform="translate(30,0) rotate(90,375,580)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="360" y="580" width="15" height="15" transform="rotate(180,367.5,587.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="360" y="595"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="360" y="625" width="15" height="15" transform="rotate(90,367.5,632.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="375" y="625" transform="translate(100,0) rotate(90,375,625)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="475" y="625" width="15" height="15" transform="rotate(270,482.5,632.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="475" y="640"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="475" y="670" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="445" y="670" transform="translate(30,0) rotate(90,445,670)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="430" y="670" width="15" height="15" transform="rotate(90,437.5,677.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="430" y="570"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="430" y="555" width="15" height="15" transform="rotate(270,437.5,562.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="400" y="555" transform="translate(30,0) rotate(90,400,555)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="385" y="555" width="15" height="15" transform="rotate(180,392.5,562.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="385" y="570"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="385" y="600" width="15" height="15" transform="rotate(90,392.5,607.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="400" y="600" transform="translate(100,0) rotate(90,400,600)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="500" y="600" width="15" height="15" transform="rotate(270,507.5,607.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="500" y="615"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="500" y="645" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="470" y="645" transform="translate(30,0) rotate(90,470,645)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="455" y="645" width="15" height="15" transform="rotate(90,462.5,652.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="455" y="545"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="455" y="530" width="15" height="15" transform="rotate(270,462.5,537.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="425" y="530" transform="translate(30,0) rotate(90,425,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="410" y="530" width="15" height="15" transform="rotate(180,417.5,537.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="410" y="545"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="410" y="575" width="15" height="15" transform="rotate(90,417.5,582.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="425" y="575" transform="translate(100,0) rotate(90,425,575)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="525" y="575" width="15" height="15" transform="rotate(270,532.5,582.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="525" y="590"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="525" y="620" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="495" y="620" transform="translate(30,0) rotate(90,495,620)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="480" y="620" width="15" height="15" transform="rotate(90,487.5,627.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="480" y="520"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="480" y="505" width="15" height="15" transform="rotate(270,487.5,512.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="450" y="505" transform="translate(30,0) rotate(90,450,505)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="435" y="505" width="15" height="15" transform="rotate(180,442.5,512.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="435" y="520"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="435" y="550" width="15" height="15" transform="rotate(90,442.5,557.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="450" y="550" transform="translate(100,0) rotate(90,450,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="550" y="550" width="15" height="15" transform="rotate(270,557.5,557.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="550" y="565"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="550" y="595" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="520" y="595" transform="translate(30,0) rotate(90,520,595)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="505" y="595" width="15" height="15" transform="rotate(90,512.5,602.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="505" y="495"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="505" y="480" width="15" height="15" transform="rotate(270,512.5,487.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="475" y="480" transform="translate(30,0) rotate(90,475,480)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="460" y="480" width="15" height="15" transform="rotate(180,467.5,487.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="460" y="495"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="460" y="525" width="15" height="15" transform="rotate(90,467.5,532.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="475" y="525" transform="translate(100,0) rotate(90,475,525)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="575" y="525" width="15" height="15" transform="rotate(270,582.5,532.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="575" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="575" y="570" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="545" y="570" transform="translate(30,0) rotate(90,545,570)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="530" y="570" width="15" height="15" transform="rotate(90,537.5,577.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="530" y="470"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="530" y="455" width="15" height="15" transform="rotate(270,537.5,462.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="500" y="455" transform="translate(30,0) rotate(90,500,455)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="485" y="455" width="15" height="15" transform="rotate(180,492.5,462.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="485" y="470"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="485" y="500" width="15" height="15" transform="rotate(90,492.5,507.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="500" y="500" transform="translate(100,0) rotate(90,500,500)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="600" y="500" width="15" height="15" transform="rotate(270,607.5,507.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="600" y="515"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="600" y="545" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="570" y="545" transform="translate(30,0) rotate(90,570,545)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="555" y="545" width="15" height="15" transform="rotate(90,562.5,552.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="555" y="445"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="555" y="430" width="15" height="15" transform="rotate(270,562.5,437.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="525" y="430" transform="translate(30,0) rotate(90,525,430)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="510" y="430" width="15" height="15" transform="rotate(180,517.5,437.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="510" y="445"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="510" y="475" width="15" height="15" transform="rotate(90,517.5,482.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="525" y="475" transform="translate(100,0) rotate(90,525,475)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="625" y="475" width="15" height="15" transform="rotate(270,632.5,482.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="625" y="490"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="625" y="520" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="595" y="520" transform="translate(30,0) rotate(90,595,520)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="580" y="520" width="15" height="15" transform="rotate(90,587.5,527.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="580" y="420"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="580" y="405" width="15" height="15" transform="rotate(270,587.5,412.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="550" y="405" transform="translate(30,0) rotate(90,550,405)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="535" y="405" width="15" height="15" transform="rotate(180,542.5,412.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="535" y="420"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="535" y="450" width="15" height="15" transform="rotate(90,542.5,457.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="550" y="450" transform="translate(100,0) rotate(90,550,450)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="650" y="450" width="15" height="15" transform="rotate(270,657.5,457.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="650" y="465"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="650" y="495" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="620" y="495" transform="translate(30,0) rotate(90,620,495)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="605" y="495" width="15" height="15" transform="rotate(90,612.5,502.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="605" y="395"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="605" y="380" width="15" height="15" transform="rotate(270,612.5,387.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="575" y="380" transform="translate(30,0) rotate(90,575,380)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="560" y="380" width="15" height="15" transform="rotate(180,567.5,387.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="560" y="395"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="560" y="425" width="15" height="15" transform="rotate(90,567.5,432.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="575" y="425" transform="translate(100,0) rotate(90,575,425)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="675" y="425" width="15" height="15" transform="rotate(270,682.5,432.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="675" y="440"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="675" y="470" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="645" y="470" transform="translate(30,0) rotate(90,645,470)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="630" y="470" width="15" height="15" transform="rotate(90,637.5,477.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="630" y="370"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="630" y="355" width="15" height="15" transform="rotate(270,637.5,362.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="600" y="355" transform="translate(30,0) rotate(90,600,355)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="585" y="355" width="15" height="15" transform="rotate(180,592.5,362.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="585" y="370"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="585" y="400" width="15" height="15" transform="rotate(90,592.5,407.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="600" y="400" transform="translate(100,0) rotate(90,600,400)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="700" y="400" width="15" height="15" transform="rotate(270,707.5,407.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="700" y="415"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="700" y="445" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="670" y="445" transform="translate(30,0) rotate(90,670,445)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="655" y="445" width="15" height="15" transform="rotate(90,662.5,452.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="655" y="345"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="655" y="330" width="15" height="15" transform="rotate(270,662.5,337.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="625" y="330" transform="translate(30,0) rotate(90,625,330)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="610" y="330" width="15" height="15" transform="rotate(180,617.5,337.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="610" y="345"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="610" y="375" width="15" height="15" transform="rotate(90,617.5,382.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="625" y="375" transform="translate(100,0) rotate(90,625,375)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="725" y="375" width="15" height="15" transform="rotate(270,732.5,382.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="725" y="390"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="725" y="420" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="695" y="420" transform="translate(30,0) rotate(90,695,420)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="680" y="420" width="15" height="15" transform="rotate(90,687.5,427.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="680" y="320"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="680" y="305" width="15" height="15" transform="rotate(270,687.5,312.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="650" y="305" transform="translate(30,0) rotate(90,650,305)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="635" y="305" width="15" height="15" transform="rotate(180,642.5,312.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="635" y="320"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="635" y="350" width="15" height="15" transform="rotate(90,642.5,357.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="650" y="350" transform="translate(100,0) rotate(90,650,350)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="750" y="350" width="15" height="15" transform="rotate(270,757.5,357.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="750" y="365"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="750" y="395" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="720" y="395" transform="translate(30,0) rotate(90,720,395)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="705" y="395" width="15" height="15" transform="rotate(90,712.5,402.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="705" y="295"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="705" y="280" width="15" height="15" transform="rotate(270,712.5,287.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="675" y="280" transform="translate(30,0) rotate(90,675,280)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="660" y="280" width="15" height="15" transform="rotate(180,667.5,287.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="660" y="295"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="660" y="325" width="15" height="15" transform="rotate(90,667.5,332.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="675" y="325" transform="translate(100,0) rotate(90,675,325)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="775" y="325" width="15" height="15" transform="rotate(270,782.5,332.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="775" y="340"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="775" y="370" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="745" y="370" transform="translate(30,0) rotate(90,745,370)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="730" y="370" width="15" height="15" transform="rotate(90,737.5,377.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="730" y="270"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="730" y="255" width="15" height="15" transform="rotate(270,737.5,262.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="700" y="255" transform="translate(30,0) rotate(90,700,255)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="685" y="255" width="15" height="15" transform="rotate(180,692.5,262.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="685" y="270"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="685" y="300" width="15" height="15" transform="rotate(90,692.5,307.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="700" y="300" transform="translate(100,0) rotate(90,700,300)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="800" y="300" width="15" height="15" transform="rotate(270,807.5,307.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="800" y="315"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="800" y="345" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="770" y="345" transform="translate(30,0) rotate(90,770,345)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="755" y="345" width="15" height="15" transform="rotate(90,762.5,352.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="755" y="245"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="755" y="230" width="15" height="15" transform="rotate(270,762.5,237.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="725" y="230" transform="translate(30,0) rotate(90,725,230)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="710" y="230" width="15" height="15" transform="rotate(180,717.5,237.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="710" y="245"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="710" y="275" width="15" height="15" transform="rotate(90,717.5,282.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="725" y="275" transform="translate(100,0) rotate(90,725,275)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="825" y="275" width="15" height="15" transform="rotate(270,832.5,282.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="825" y="290"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="825" y="320" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="795" y="320" transform="translate(30,0) rotate(90,795,320)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="780" y="320" width="15" height="15" transform="rotate(90,787.5,327.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="780" y="220"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="780" y="205" width="15" height="15" transform="rotate(270,787.5,212.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="750" y="205" transform="translate(30,0) rotate(90,750,205)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="735" y="205" width="15" height="15" transform="rotate(180,742.5,212.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="735" y="220"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="735" y="250" width="15" height="15" transform="rotate(90,742.5,257.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="750" y="250" transform="translate(100,0) rotate(90,750,250)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="850" y="250" width="15" height="15" transform="rotate(270,857.5,257.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="850" y="265"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="850" y="295" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="820" y="295" transform="translate(30,0) rotate(90,820,295)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="805" y="295" width="15" height="15" transform="rotate(90,812.5,302.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="805" y="195"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="805" y="180" width="15" height="15" transform="rotate(270,812.5,187.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="775" y="180" transform="translate(30,0) rotate(90,775,180)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="760" y="180" width="15" height="15" transform="rotate(180,767.5,187.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="760" y="195"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="760" y="225" width="15" height="15" transform="rotate(90,767.5,232.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="775" y="225" transform="translate(100,0) rotate(90,775,225)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="875" y="225" width="15" height="15" transform="rotate(270,882.5,232.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="875" y="240"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="875" y="270" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="845" y="270" transform="translate(30,0) rotate(90,845,270)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="830" y="270" width="15" height="15" transform="rotate(90,837.5,277.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="830" y="170"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="830" y="155" width="15" height="15" transform="rotate(270,837.5,162.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="800" y="155" transform="translate(30,0) rotate(90,800,155)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="785" y="155" width="15" height="15" transform="rotate(180,792.5,162.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="785" y="170"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="785" y="200" width="15" height="15" transform="rotate(90,792.5,207.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="800" y="200" transform="translate(100,0) rotate(90,800,200)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="900" y="200" width="15" height="15" transform="rotate(270,907.5,207.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="900" y="215"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="900" y="245" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="870" y="245" transform="translate(30,0) rotate(90,870,245)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="855" y="245" width="15" height="15" transform="rotate(90,862.5,252.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="855" y="145"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="855" y="130" width="15" height="15" transform="rotate(270,862.5,137.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="825" y="130" transform="translate(30,0) rotate(90,825,130)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="810" y="130" width="15" height="15" transform="rotate(180,817.5,137.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="810" y="145"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="810" y="175" width="15" height="15" transform="rotate(90,817.5,182.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="825" y="175" transform="translate(100,0) rotate(90,825,175)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="925" y="175" width="15" height="15" transform="rotate(270,932.5,182.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="925" y="190"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="925" y="220" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="895" y="220" transform="translate(30,0) rotate(90,895,220)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="880" y="220" width="15" height="15" transform="rotate(90,887.5,227.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="880" y="120"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="880" y="105" width="15" height="15" transform="rotate(270,887.5,112.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="850" y="105" transform="translate(30,0) rotate(90,850,105)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="835" y="105" width="15" height="15" transform="rotate(180,842.5,112.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="835" y="120"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="835" y="150" width="15" height="15" transform="rotate(90,842.5,157.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="850" y="150" transform="translate(100,0) rotate(90,850,150)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="950" y="150" width="15" height="15" transform="rotate(270,957.5,157.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="950" y="165"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="950" y="195" width="15" height="15"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="30" x="920" y="195" transform="translate(30,0) rotate(90,920,195)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_black)" x="905" y="195" width="15" height="15" transform="rotate(90,912.5,202.5)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="100" x="905" y="95"/>
+</g>
+<g class="tubes">
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="0" y="460" transform="translate(100,0) rotate(90,0,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="100" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="100" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="100" y="440" width="10" height="10" transform="rotate(270,105,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="90" y="440" transform="translate(10,0) rotate(90,90,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="80" y="440" width="10" height="10" transform="rotate(180,85,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="80" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="80" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="70" y="550" transform="translate(10,0) rotate(90,70,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="60" y="550" width="10" height="10" transform="rotate(90,65,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="60" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="60" y="530" width="10" height="10" transform="rotate(180,65,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="70" y="530" transform="translate(100,0) rotate(90,70,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="170" y="530" width="10" height="10" transform="rotate(270,175,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="170" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="170" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="160" y="550" transform="translate(10,0) rotate(90,160,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="150" y="550" width="10" height="10" transform="rotate(90,155,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="150" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="150" y="440" width="10" height="10" transform="rotate(270,155,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="140" y="440" transform="translate(10,0) rotate(90,140,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="130" y="440" width="10" height="10" transform="rotate(180,135,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="130" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="130" y="460" width="10" height="10" transform="rotate(90,135,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="140" y="460" transform="translate(100,0) rotate(90,140,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="240" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="240" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="240" y="440" width="10" height="10" transform="rotate(270,245,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="230" y="440" transform="translate(10,0) rotate(90,230,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="220" y="440" width="10" height="10" transform="rotate(180,225,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="220" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="220" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="210" y="550" transform="translate(10,0) rotate(90,210,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="200" y="550" width="10" height="10" transform="rotate(90,205,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="200" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="200" y="530" width="10" height="10" transform="rotate(180,205,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="210" y="530" transform="translate(100,0) rotate(90,210,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="310" y="530" width="10" height="10" transform="rotate(270,315,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="310" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="310" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="300" y="550" transform="translate(10,0) rotate(90,300,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="290" y="550" width="10" height="10" transform="rotate(90,295,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="290" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="290" y="440" width="10" height="10" transform="rotate(270,295,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="280" y="440" transform="translate(10,0) rotate(90,280,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="270" y="440" width="10" height="10" transform="rotate(180,275,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="270" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="270" y="460" width="10" height="10" transform="rotate(90,275,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="280" y="460" transform="translate(100,0) rotate(90,280,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="380" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="380" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="380" y="440" width="10" height="10" transform="rotate(270,385,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="370" y="440" transform="translate(10,0) rotate(90,370,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="360" y="440" width="10" height="10" transform="rotate(180,365,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="360" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="360" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="350" y="550" transform="translate(10,0) rotate(90,350,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="340" y="550" width="10" height="10" transform="rotate(90,345,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="340" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="340" y="530" width="10" height="10" transform="rotate(180,345,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="350" y="530" transform="translate(100,0) rotate(90,350,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="450" y="530" width="10" height="10" transform="rotate(270,455,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="450" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="450" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="440" y="550" transform="translate(10,0) rotate(90,440,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="430" y="550" width="10" height="10" transform="rotate(90,435,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="430" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="430" y="440" width="10" height="10" transform="rotate(270,435,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="420" y="440" transform="translate(10,0) rotate(90,420,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="410" y="440" width="10" height="10" transform="rotate(180,415,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="410" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="410" y="460" width="10" height="10" transform="rotate(90,415,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="420" y="460" transform="translate(100,0) rotate(90,420,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="520" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="520" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="520" y="440" width="10" height="10" transform="rotate(270,525,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="510" y="440" transform="translate(10,0) rotate(90,510,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="500" y="440" width="10" height="10" transform="rotate(180,505,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="500" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="500" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="490" y="550" transform="translate(10,0) rotate(90,490,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="480" y="550" width="10" height="10" transform="rotate(90,485,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="480" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="480" y="530" width="10" height="10" transform="rotate(180,485,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="490" y="530" transform="translate(100,0) rotate(90,490,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="590" y="530" width="10" height="10" transform="rotate(270,595,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="590" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="590" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="580" y="550" transform="translate(10,0) rotate(90,580,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="570" y="550" width="10" height="10" transform="rotate(90,575,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="570" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="570" y="440" width="10" height="10" transform="rotate(270,575,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="560" y="440" transform="translate(10,0) rotate(90,560,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="550" y="440" width="10" height="10" transform="rotate(180,555,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="550" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="550" y="460" width="10" height="10" transform="rotate(90,555,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="560" y="460" transform="translate(100,0) rotate(90,560,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="660" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="660" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="660" y="440" width="10" height="10" transform="rotate(270,665,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="650" y="440" transform="translate(10,0) rotate(90,650,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="640" y="440" width="10" height="10" transform="rotate(180,645,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="640" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="640" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="630" y="550" transform="translate(10,0) rotate(90,630,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="620" y="550" width="10" height="10" transform="rotate(90,625,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="620" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="620" y="530" width="10" height="10" transform="rotate(180,625,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="630" y="530" transform="translate(100,0) rotate(90,630,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="730" y="530" width="10" height="10" transform="rotate(270,735,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="730" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="730" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="720" y="550" transform="translate(10,0) rotate(90,720,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="710" y="550" width="10" height="10" transform="rotate(90,715,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="710" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="710" y="440" width="10" height="10" transform="rotate(270,715,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="700" y="440" transform="translate(10,0) rotate(90,700,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="690" y="440" width="10" height="10" transform="rotate(180,695,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="690" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="690" y="460" width="10" height="10" transform="rotate(90,695,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="700" y="460" transform="translate(100,0) rotate(90,700,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="800" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="800" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="800" y="440" width="10" height="10" transform="rotate(270,805,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="790" y="440" transform="translate(10,0) rotate(90,790,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="780" y="440" width="10" height="10" transform="rotate(180,785,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="780" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="780" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="770" y="550" transform="translate(10,0) rotate(90,770,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="760" y="550" width="10" height="10" transform="rotate(90,765,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="760" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="760" y="530" width="10" height="10" transform="rotate(180,765,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="770" y="530" transform="translate(100,0) rotate(90,770,530)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="870" y="530" width="10" height="10" transform="rotate(270,875,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="870" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="870" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="860" y="550" transform="translate(10,0) rotate(90,860,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="850" y="550" width="10" height="10" transform="rotate(90,855,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="850" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="850" y="440" width="10" height="10" transform="rotate(270,855,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="840" y="440" transform="translate(10,0) rotate(90,840,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="830" y="440" width="10" height="10" transform="rotate(180,835,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="830" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="830" y="460" width="10" height="10" transform="rotate(90,835,465)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="840" y="460" transform="translate(100,0) rotate(90,840,460)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="940" y="460" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="940" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="940" y="440" width="10" height="10" transform="rotate(270,945,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="930" y="440" transform="translate(10,0) rotate(90,930,440)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="920" y="440" width="10" height="10" transform="rotate(180,925,445)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="920" y="450"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="920" y="550" width="10" height="10"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="910" y="550" transform="translate(10,0) rotate(90,910,550)"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="900" y="550" width="10" height="10" transform="rotate(90,905,555)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="10" x="900" y="540"/>
+<use class="tube_l" xlink:href="#tube_l" fill="url(#tube_l_rg_maroon)" x="900" y="530" width="10" height="10" transform="rotate(180,905,535)"/>
+<use class="tube" xlink:href="#tube" fill="url(#tube_lg_maroon)" width="10" height="100" x="910" y="530" transform="translate(100,0) rotate(90,910,530)"/>
+</g>
+<a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+</g>
+<g id="dyn"/>
+<g id="int"/>
+<g id="hlp" display="none"/>
+</svg>

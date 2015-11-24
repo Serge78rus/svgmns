@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?><svg version="1.1" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" onload="svgload(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<desc>Auto generating svg</desc>
+<!--Auto generating svg-->
+<style type="text/css"><![CDATA[
+/*
+#hlp .message {
+	-moz-transition-property:fill-opacity;
+  -moz-transition-duration:1s;
+	-webkit-transition-property:fill-opacity;
+  -webkit-transition-duration:1s;
+	transition-property:fill-opacity;
+  transition-duration:1s;
+}
+
+#hlp .message.hide {
+	fill-opacity:0;
+}
+
+#hlp .message.show {
+	fill-opacity:1;
+}
+*/
+
+#int .button {
+	cursor:pointer;
+  -moz-user-select:-moz-none;
+  -o-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+text {font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;}
+
+		]]></style>
+<script type="application/ecmascript"><![CDATA[
+
+var mns;
+function svgload(evt) {
+	var w = window;
+	while (w && !w.Mns)
+		w = w.parent;
+	if (w) {
+		mns = w.Mns
+		mns.svgload(evt);
+	}
+}
+
+function buttonclick(id) {
+	if (mns)
+		mns.buttonclick(id);
+}
+function btnpress(btn) {
+	var e = btn.firstElementChild;
+	e.setAttribute("stroke", e.getAttribute("stroke").replace("button_", "button_press_"));
+}
+function btnrelease(btn) {
+	var e = btn.firstElementChild;
+	e.setAttribute("stroke", e.getAttribute("stroke").replace("button_press_", "button_"));
+}
+
+function showhlp(evt) {
+	if (mns)
+		mns.showhlp(evt);
+}
+function hidehlp(evt) {
+	if (mns)
+		mns.hidehlp(evt);
+}
+
+		]]></script>
+<filter id="shadow" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000">
+<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5"/>
+<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/>
+<feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+</filter>
+<linearGradient id="cyl_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</radialGradient>
+<linearGradient id="cyl_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</radialGradient>
+<linearGradient id="cyl_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</radialGradient>
+<linearGradient id="cyl_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</radialGradient>
+<linearGradient id="cyl_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</radialGradient>
+<linearGradient id="cyl_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</radialGradient>
+<linearGradient id="cyl_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</radialGradient>
+<linearGradient id="cyl_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</radialGradient>
+<linearGradient id="cyl_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</radialGradient>
+<linearGradient id="cyl_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</radialGradient>
+<linearGradient id="cyl_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</radialGradient>
+<linearGradient id="cyl_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</radialGradient>
+<linearGradient id="cyl_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</radialGradient>
+<linearGradient id="cyl_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<linearGradient id="cyl_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="ball_rg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r=".5" id="tor_rg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</radialGradient>
+<symbol id="cyl" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="cone" viewBox="0 0 1 1" preserveAspectRatio="none">
+<polygon points="0,1 .5,0 1,1" stroke="none"/>
+</symbol>
+<symbol id="ball" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<symbol id="tor" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<linearGradient id="tube_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<linearGradient id="tube_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<linearGradient id="tube_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<linearGradient id="tube_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<linearGradient id="tube_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<linearGradient id="tube_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<linearGradient id="tube_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<linearGradient id="tube_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<linearGradient id="tube_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<linearGradient id="tube_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<linearGradient id="tube_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<linearGradient id="tube_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<linearGradient id="tube_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<linearGradient id="tube_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tube_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<symbol id="tube" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<radialGradient cx="0" cy="0" r="1" id="tube_l_rg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</radialGradient>
+<symbol id="tube_l" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0,0 L1,0 A1,1 0 0,1 0,1 z" stroke="none"/>
+</symbol>
+<symbol id="tube_t" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(90, .5, .5)" stroke="none"/>
+</symbol>
+<symbol id="tube_x" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(90, .5, .5)" stroke="none"/>
+<polygon points="0,0 .5,.5 1,0" transform="rotate(270, .5, .5)" stroke="none"/>
+</symbol>
+<symbol id="pump" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<polygon points=".4,.7 .6,.7 .5,.85" fill="black" stroke="none"/>
+</symbol>
+<symbol id="valve" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05"/>
+</symbol>
+<symbol id="valve_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05" fill="black"/>
+</symbol>
+<symbol id="valve_w" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<polygon points=".1,.1 .1,.9 .5,.5" stroke="black" stroke-width=".05"/>
+<polygon points=".9,.1 .9,.9 .5,.5" stroke="black" stroke-width=".05" fill="white"/>
+</symbol>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" fx=".3" fy=".3" id="led_rg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<symbol id="led" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".1"/>
+</symbol>
+<linearGradient id="fan_lg_black">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="black"/>
+</linearGradient>
+<linearGradient id="fan_lg_blue">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="blue"/>
+</linearGradient>
+<linearGradient id="fan_lg_fuchsia">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="fuchsia"/>
+</linearGradient>
+<linearGradient id="fan_lg_gray">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="gray"/>
+</linearGradient>
+<linearGradient id="fan_lg_green">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="green"/>
+</linearGradient>
+<linearGradient id="fan_lg_lime">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="lime"/>
+</linearGradient>
+<linearGradient id="fan_lg_maroon">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="maroon"/>
+</linearGradient>
+<linearGradient id="fan_lg_navy">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="navy"/>
+</linearGradient>
+<linearGradient id="fan_lg_olive">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="olive"/>
+</linearGradient>
+<linearGradient id="fan_lg_purple">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="purple"/>
+</linearGradient>
+<linearGradient id="fan_lg_red">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="red"/>
+</linearGradient>
+<linearGradient id="fan_lg_silver">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="silver"/>
+</linearGradient>
+<linearGradient id="fan_lg_teal">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="teal"/>
+</linearGradient>
+<linearGradient id="fan_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="fan_lg_yellow">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="yellow"/>
+</linearGradient>
+<symbol id="fan_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".2" stroke="none"/>
+</symbol>
+<symbol id="fan_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path stroke="none" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(72,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(144,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(216,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+<path stroke="none" transform="rotate(288,.5,.5)" d="      M.4,.32      a.3,.3 0 0,1 .2,.08      L.7,.1      a.4,.4 0 0,0 -.4,0      z"/>
+</symbol>
+<symbol id="pwr_a" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<path stroke="black" stroke-width=".08" fill="none" d="M.2,.5 a.15,.2 0 0,1 .3,0 a.15,.2 0 0,0 .3,0"/>
+</symbol>
+<symbol id="pwr_d" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<line stroke="black" stroke-width=".08" x1=".2" y1=".4" x2=".8" y2=".4"/>
+<line stroke="black" stroke-width=".08" x1=".2" y1=".6" x2=".8" y2=".6"/>
+</symbol>
+<symbol id="pwr_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".4" stroke="black" stroke-width=".05"/>
+<line stroke="black" stroke-width=".08" x1=".18" y1=".5" x2=".38" y2=".5"/>
+<line stroke="black" stroke-width=".12" x1=".38" y1=".3" x2=".38" y2=".7"/>
+<line stroke="black" stroke-width=".08" x1=".56" y1=".18" x2=".56" y2=".82"/>
+<line stroke="black" stroke-width=".08" x1=".56" y1=".5" x2=".82" y2=".5"/>
+</symbol>
+<symbol id="arrow" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<path stroke="none" stroke-width="0" d="M.4,.05 l0,.65 l-.3,0 l.4,.25 l.4,-.25 l-.3,0 l0,-.65 z"/>
+</symbol>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_black">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_blue">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_gray">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_green">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_lime">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_maroon">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_navy">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_olive">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_purple">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_red">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_silver">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_teal">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_white">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="panel_lg_yellow">
+<stop offset=".45" stop-color="rgba(255,255,255,.7)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.3)"/>
+</linearGradient>
+<symbol id="panel" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".12" ry=".12" stroke="none"/>
+<rect x="0.02" y="0.02" width=".96" height=".96" rx=".1" ry=".1" stroke-width=".04" fill="none"/>
+</symbol>
+<symbol id="label" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".1" ry=".1"/>
+</symbol>
+<symbol id="display" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient id="switch_rg" cx=".5" cy=".5" r="1" fx=".12" fy=".12">
+<stop offset="0" stop-color="white"/>
+<stop offset=".7" stop-color="#202020"/>
+</radialGradient>
+<symbol id="switch_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<rect x=".25" y=".25" width=".5" height=".5" fill="none" stroke-width=".5"/>
+<circle cx=".5" cy=".5" r=".2" fill="black" stroke="url(#switch_rg)" stroke-width=".05"/>
+</symbol>
+<symbol id="switch_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<polygon points=".46,.2 .4,.8 .6,.8 .54,.2" fill="black" stroke="gray" stroke-width=".01"/>
+<polygon points=".5,.22 .48,.28 .52,.28" fill="white" stroke="none"/>
+</symbol>
+<linearGradient id="tank_lv_lg_black">
+<stop offset="0" stop-color="black"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_blue">
+<stop offset="0" stop-color="blue"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_fuchsia">
+<stop offset="0" stop-color="fuchsia"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_gray">
+<stop offset="0" stop-color="gray"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_green">
+<stop offset="0" stop-color="green"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_lime">
+<stop offset="0" stop-color="lime"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_maroon">
+<stop offset="0" stop-color="maroon"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_navy">
+<stop offset="0" stop-color="navy"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_olive">
+<stop offset="0" stop-color="olive"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_purple">
+<stop offset="0" stop-color="purple"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_red">
+<stop offset="0" stop-color="red"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_silver">
+<stop offset="0" stop-color="silver"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_teal">
+<stop offset="0" stop-color="teal"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_white">
+<stop offset="0" stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="tank_lv_lg_yellow">
+<stop offset="0" stop-color="yellow"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<symbol id="tank" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y=".05" width="1" height=".9" stroke="none"/>
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lv1" viewBox="0 0 1 1" preserveAspectRatio="none">
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lv2" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y=".05" width=".5" height=".9" stroke="none"/>
+<line x1=".995" y1=".05" x2=".995" y2=".95" stroke-width=".01"/>
+</symbol>
+<symbol id="tank_lhl" viewBox="0 0 1 1" preserveAspectRatio="none">
+<path stroke="none" d="M0,.05 L.5,0 L1,.05 L1,.5 A.7,.7 0 0,0 .5,.5 A.7,.7 0 0,1 0,.5 z"/>
+<line x1=".005" y1=".5" x2=".005" y2=".95" stroke-width=".01"/>
+<line x1=".995" y1=".5" x2=".995" y2=".95" stroke-width=".01"/>
+<polygon points="0,.95 1,.95 .5,1" stroke="none"/>
+</symbol>
+<symbol id="tank_lhr" viewBox="0 0 1 1" preserveAspectRatio="none">
+<path stroke="none" d="M0,.95 L.5,1 L1,.95 L1,.5 A.7,.7 0 0,1 .5,.5 A.7,.7 0 0,0 0,.5 z"/>
+<line x1=".005" y1=".5" x2=".005" y2=".05" stroke-width=".01"/>
+<line x1=".995" y1=".5" x2=".995" y2=".05" stroke-width=".01"/>
+<polygon points="0,.05 1,.05 .5,0" stroke="none"/>
+</symbol>
+<symbol id="scale_l" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="scale_r120" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0.066,.257 A.5,.5 0 0,1 .934,.257" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="scale_r240" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<path d="M0.073,.747 A.49,.497 0 1,1 .927,.747" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="scale_r360" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".49375" fill="none" stroke-width=".0125"/>
+</symbol>
+<symbol id="gauge" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="meter" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<line x1=".5" x2=".5" y1=".05" y2=".5" stroke-width=".02"/>
+<circle cx=".5" cy=".5" r=".05" stroke="none"/>
+</symbol>
+<symbol id="level" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_black">
+<stop offset=".45" stop-color="black"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="black"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_blue">
+<stop offset=".45" stop-color="blue"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="blue"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_fuchsia">
+<stop offset=".45" stop-color="fuchsia"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="fuchsia"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_gray">
+<stop offset=".45" stop-color="gray"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="gray"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_green">
+<stop offset=".45" stop-color="green"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="green"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_lime">
+<stop offset=".45" stop-color="lime"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="lime"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_maroon">
+<stop offset=".45" stop-color="maroon"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="maroon"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_navy">
+<stop offset=".45" stop-color="navy"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="navy"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_olive">
+<stop offset=".45" stop-color="olive"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="olive"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_purple">
+<stop offset=".45" stop-color="purple"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="purple"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_red">
+<stop offset=".45" stop-color="red"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="red"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_silver">
+<stop offset=".45" stop-color="silver"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="silver"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_teal">
+<stop offset=".45" stop-color="teal"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="teal"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_white">
+<stop offset=".45" stop-color="white"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="white"/>
+</radialGradient>
+<radialGradient cx=".5" cy=".5" r="1" id="border_rg_yellow">
+<stop offset=".45" stop-color="yellow"/>
+<stop offset=".475" stop-color="white"/>
+<stop offset=".5" stop-color="yellow"/>
+</radialGradient>
+<symbol id="border" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" stroke="none"/>
+</symbol>
+<symbol id="border_c_f" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none"/>
+</symbol>
+<symbol id="border_c_b" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".45" stroke="none"/>
+</symbol>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_black">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_black">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="black"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_blue">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_blue">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="blue"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_fuchsia">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="fuchsia"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_gray">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_gray">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="gray"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_green">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_green">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="green"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_lime">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_lime">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="lime"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_maroon">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_maroon">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="maroon"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_navy">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_navy">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="navy"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_olive">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_olive">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="olive"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_purple">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_purple">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="purple"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_red">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_red">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="red"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_silver">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_silver">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="silver"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_teal">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_teal">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="teal"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_white">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_white">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="white"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_lg_yellow">
+<stop offset=".45" stop-color="rgba(255,255,255,.5)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(0,0,0,.5)"/>
+</linearGradient>
+<linearGradient x1="0" y1="0" x2="1" y2="1" id="button_press_lg_yellow">
+<stop offset=".45" stop-color="rgba(0,0,0,.5)"/>
+<stop offset=".5" stop-color="yellow"/>
+<stop offset=".55" stop-color="rgba(255,255,255,.5)"/>
+</linearGradient>
+<symbol id="button" viewBox="0 0 1 1" preserveAspectRatio="none">
+<rect x="0" y="0" width="1" height="1" rx=".12" ry=".12" stroke="none"/>
+<rect x="0.02" y="0.02" width=".96" height=".96" rx=".1" ry=".1" stroke-width=".04" fill="none"/>
+</symbol>
+<symbol id="help" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+<circle cx=".5" cy=".5" r=".5" stroke="none" fill="rgba(0,255,0,.5)"/>
+<text text-anchor="middle" x=".5" y=".83" font-size="1" stroke="none" fill="white" style="cursor:help;-moz-user-select:-moz-none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;">?</text>
+</symbol>
+</defs>
+<g id="dyn0"/>
+<g id="stat">
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="300" height="300" x="10" y="10" fill="silver"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_blue)" width="300" height="300" x="400" y="10" fill="blue"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_red)" width="300" height="300" x="10" y="400" fill="red"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_green)" width="300" height="300" x="400" y="400" fill="green"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="190" height="500" x="800" y="10" fill="silver"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="500" height="190" x="10" y="770" fill="silver"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="290" height="290" x="700" y="700" fill="silver"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="190" height="190" x="720" y="720" fill="silver"/>
+<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="90" height="90" x="740" y="740" fill="silver"/>
+<a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+</g>
+<g id="dyn"/>
+<g id="int"/>
+<g id="hlp" display="none"/>
+</svg>

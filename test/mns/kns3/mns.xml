@@ -76,7 +76,7 @@
 			<pump i="p" x="50" y="122.5" s="70" o="r" f="gray" />
 			<valve_b x="235" y="137.5" s="40" o="h" f="white" />
 		</group>
-		<svg f="../../svg/svglogo.svg" />
+		<svg f="../../../lib/svglogo.svg" />
 	</defs>
 	<body>
 

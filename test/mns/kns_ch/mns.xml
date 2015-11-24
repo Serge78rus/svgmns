@@ -2,7 +2,7 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/grid_1k.svg"></svg>
+		<svg f="../../../lib/grid_1k.svg"></svg>
 		<group i="i">
 			<tube x="140" y="90" w="15" l="10" o="h" c="black" />
 			<cone x="120" y="90" w="15" l="20" o="l" c="black" />
@@ -56,7 +56,7 @@
 			<tube x="265" y="140" w="15" l="105" o="h" c="black" />
 			<valve_b x="235" y="127.5" s="40" o="h" f="white" />
 		</group>
-		<svg f="../../svg/svglogo.svg" />
+		<svg f="../../../lib/svglogo.svg" />
 	</defs>
 	<body>
 

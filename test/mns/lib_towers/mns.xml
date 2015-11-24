@@ -2,19 +2,19 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/grid.svg" />
-		<svg f="../../svg/tower_a.svg" />
-		<svg f="../../svg/tower_at.svg" />
-		<svg f="../../svg/tower_a3d.svg" />
-		<svg f="../../svg/tower_a3dt.svg" />
-		<svg f="../../svg/tower_b.svg" />
-		<svg f="../../svg/tower_bc.svg" />
-		<svg f="../../svg/tower_b6.svg" />
-		<svg f="../../svg/tower_b6c.svg" />
-		<svg f="../../svg/tower_b61.svg" />
-		<svg f="../../svg/tower_b61l.svg" />
-		<svg f="../../svg/tower_b62.svg" />
-		<svg f="../../svg/tower_b62l.svg" />
+		<svg f="../../../lib/grid.svg" />
+		<svg f="../../../lib/tower_a.svg" />
+		<svg f="../../../lib/tower_at.svg" />
+		<svg f="../../../lib/tower_a3d.svg" />
+		<svg f="../../../lib/tower_a3dt.svg" />
+		<svg f="../../../lib/tower_b.svg" />
+		<svg f="../../../lib/tower_bc.svg" />
+		<svg f="../../../lib/tower_b6.svg" />
+		<svg f="../../../lib/tower_b6c.svg" />
+		<svg f="../../../lib/tower_b61.svg" />
+		<svg f="../../../lib/tower_b61l.svg" />
+		<svg f="../../../lib/tower_b62.svg" />
+		<svg f="../../../lib/tower_b62l.svg" />
 	</defs>
 	<body>
 <!--

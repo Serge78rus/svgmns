@@ -2,17 +2,17 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/grid.svg" />
+		<svg f="../../../lib/grid.svg" />
 
-		<svg f="../../svg/tank_cho.svg" />
-		<svg f="../../svg/tank_cxo.svg" />
-		<svg f="../../svg/tank_cho4.svg" />
-		<svg f="../../svg/tank_cxo4.svg" />
+		<svg f="../../../lib/tank_cho.svg" />
+		<svg f="../../../lib/tank_cxo.svg" />
+		<svg f="../../../lib/tank_cho4.svg" />
+		<svg f="../../../lib/tank_cxo4.svg" />
 
-		<svg f="../../svg/tank_chc.svg" />
-		<svg f="../../svg/tank_cxc.svg" />
-		<svg f="../../svg/tank_chc4.svg" />
-		<svg f="../../svg/tank_cxc4.svg" />
+		<svg f="../../../lib/tank_chc.svg" />
+		<svg f="../../../lib/tank_cxc.svg" />
+		<svg f="../../../lib/tank_chc4.svg" />
+		<svg f="../../../lib/tank_cxc4.svg" />
 <svg>
 </svg>
 

@@ -2,7 +2,7 @@
 
 <mnemo>
 	<defs>
-		<svg f="../../svg/grid_1k.svg" />
+		<svg f="../../../lib/grid_1k.svg" />
 	</defs>
 	<body>
 <!--
