@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<body>
+
+		<border_c x="10" y="10" s="200" f="black" b="white" />
+		<border_c x="220" y="10" s="200" f="gray" b="white" />
+		<border_c x="430" y="10" s="150" f="red" b="silver" />
+		<border_c x="590" y="10" s="150" f="blue" b="silver" />
+		<border_c x="750" y="10" s="150" f="green" b="silver" />
+
+		<border x="10" y="220" w="200" h="200" s="10" f="black" b="white" />
+		<border x="220" y="220" w="200" h="200" s="10" f="gray" b="white" />
+		<border x="430" y="220" w="150" h="200" s="7" f="red" b="silver" />
+		<border x="590" y="220" w="150" h="200" s="7" f="blue" b="silver" />
+		<border x="750" y="220" w="150" h="200" s="7" f="green" b="silver" />
+
+		<border x="10" y="430" w="770" h="200" s="10" f="black" />
+		<border x="790" y="430" w="200" h="550" s="10" f="black" />
+
+		<border_c x="10" y="650" s="150" f="black" b="white" />
+		<border_c x="170" y="650" s="100" f="gray" b="white" />
+		<border_c x="280" y="650" s="80" f="red" b="silver" />
+		<border_c x="370" y="650" s="50" f="blue" b="silver" />
+		<border_c x="430" y="650" s="30" f="green" b="silver" />
+
+		<border x="10" y="810" w="150" h="150" s="10" f="black" />
+		<border x="170" y="810" w="150" h="150" s="8" f="black" />
+		<border x="330" y="810" w="150" h="150" s="5" f="black" />
+		<border x="490" y="810" w="150" h="150" s="3" f="black" />
+
+		<border x="280" y="740" w="100" h="60" s="10" f="gray" />
+		<border x="390" y="740" w="100" h="60" s="8" f="gray" />
+		<border x="500" y="740" w="100" h="60" s="5" f="gray" />
+		<border x="610" y="740" w="100" h="60" s="3" f="gray" />
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

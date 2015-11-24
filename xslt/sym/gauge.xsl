@@ -64,13 +64,14 @@
      			</xsl:otherwise>
    			</xsl:choose>
 				<xsl:if test='@o="h"'>
-					<xsl:call-template name="attr_rot90lw" />
+					<xsl:call-template name="attr_rot90lw">
 						<xsl:with-param name="x">
   			    	<xsl:value-of select="$x" />
 						</xsl:with-param>
 						<xsl:with-param name="y">
       				<xsl:value-of select="$y" />
 						</xsl:with-param>
+					</xsl:call-template>
 				</xsl:if>
 			</use>
 			<use>

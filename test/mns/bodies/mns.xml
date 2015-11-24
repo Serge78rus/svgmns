@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<body>
+
+		<cyl x="10" y="10" w="100" l="100" o="v" c="black" />
+		<cyl x="120" y="10" w="100" l="100" o="h" c="black" />
+		<cyl x="230" y="10" w="100" l="100" o="v" c="red" />
+		<cyl x="340" y="10" w="100" l="100" o="v" c="blue" />
+		<cyl x="450" y="10" w="100" l="100" o="v" c="green" />
+		<cyl x="560" y="10" w="50" l="40" o="v" c="red" />
+		<cyl x="620" y="10" w="50" l="40" o="v" c="blue" />
+		<cyl x="680" y="10" w="50" l="40" o="v" c="green" />
+		<cyl x="560" y="60" w="40" l="50" o="h" c="red" />
+		<cyl x="620" y="60" w="40" l="50" o="h" c="blue" />
+		<cyl x="680" y="60" w="40" l="50" o="h" c="green" />
+		<cyl x="740" y="10" w="100" l="250" o="h" c="black" />
+
+		<cone x="10" y="120" w="100" l="100" o="t" c="black" />
+		<cone x="120" y="120" w="100" l="100" o="r" c="red" />
+		<cone x="220" y="120" w="100" l="100" o="b" c="blue" />
+		<cone x="320" y="120" w="100" l="100" o="l" c="green" />
+		<cone x="430" y="120" w="50" l="100" o="r" c="black" />
+		<cone x="430" y="170" w="50" l="100" o="l" c="red" />
+		<cone x="540" y="120" w="50" l="100" o="t" c="blue" />
+		<cone x="590" y="120" w="50" l="100" o="b" c="green" />
+
+		<ball x="10" y="230" s="100" c="black" />
+		<ball x="120" y="230" s="100" c="red" />
+		<ball x="230" y="230" s="100" c="blue" />
+		<ball x="340" y="230" s="100" c="green" />
+
+		<tor x="450" y="230" s="100" c="black" />
+		<tor x="560" y="230" s="100" c="red" />
+		<tor x="670" y="230" s="100" c="blue" />
+		<tor x="780" y="230" s="100" c="green" />
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

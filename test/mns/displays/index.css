@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+body {
+	margin:0;
+	padding:0;
+}
+body embed {
+	position:absolute;
+	left:3%;
+	top:3%;
+	width:94%;
+	height:94%;
+}
+h1 {
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	margin:0;
+	padding:0;
+}

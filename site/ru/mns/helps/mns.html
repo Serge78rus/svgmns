@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><title>mns.xml</title></head><body><xmp style="tab-size:2;-moz-tab-size:2;-o-tab-size:2;-webkit-tab-size:2;"><mnemo>
+	<defs>
+
+		<svg>
+			<symbol id="tail" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid meet">
+				<circle cx=".5" cy="1" r=".5" stroke="none" stroke-width="0" fill="url(#ball_rg_gray)"></circle>
+			</symbol>
+		</svg>
+
+	</defs>
+	<body>
+
+		<tube x="10" y="100" w="40" l="500" o="h" c="black"></tube>
+		<help x="210" y="90" s="60">
+			Труба толстая черная
+		</help>
+
+		<tube x="10" y="180" w="40" l="500" o="h" c="maroon"></tube>
+		<help x="210" y="170" s="60">
+			Труба толстая ржавая
+		</help>
+
+		<tube x="300" y="265" w="15" l="150" o="h" c="blue"></tube>
+		<tube x="470" y="265" w="15" l="130" o="h" c="blue"></tube>
+		<tube x="300" y="365" w="15" l="150" o="h" c="red"></tube>
+		<tube x="450" y="380" w="15" l="490" o="v" c="red"></tube>
+		<tube x="465" y="870" w="15" l="150" o="h" c="red"></tube>
+		<tube_l x="450" y="365" s="15" o="lb" c="red"></tube_l>
+		<tube_l x="450" y="870" s="15" o="rt" c="red"></tube_l>
+
+		<tank x="550" y="100" w="250" h="200" o="v" c="black"></tank>
+		<help x="635" y="160" s="80">
+			Емкость с какой-то гадостью
+		</help>
+		<gauge i="1" x="820" y="110" l="180" w="30" v="25" o="v" b="gray" f="blue">
+			<mark v="0" l="8" w="2" s="20">0</mark>
+			<mark v="20" l="5" w="2" s="15">1</mark>
+			<mark v="40" l="5" w="2" s="15">2</mark>
+			<mark v="60" l="5" w="2" s="15">3</mark>
+			<mark v="80" l="5" w="2" s="15">4</mark>
+			<mark v="100" l="8" w="2" s="20">5</mark>
+		</gauge>
+		<help x="790" y="160" s="80">
+			Уровень какой-то гадости
+		</help>
+
+		<tank x="550" y="700" w="250" h="200" o="v" c="black"></tank>
+		<help x="635" y="760" s="80">
+			Емкость с какой-то другой гадостью
+		</help>
+		<gauge i="2" x="820" y="710" l="180" w="30" v="25" o="v" b="gray" f="blue">
+			<mark v="0" l="8" w="2" s="20">0</mark>
+			<mark v="20" l="5" w="2" s="15">1</mark>
+			<mark v="40" l="5" w="2" s="15">2</mark>
+			<mark v="60" l="5" w="2" s="15">3</mark>
+			<mark v="80" l="5" w="2" s="15">4</mark>
+			<mark v="100" l="8" w="2" s="20">5</mark>
+		</gauge>
+		<help x="790" y="760" s="80">
+			Уровень какой-то другой гадости
+		</help>
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#tail" x="580" y="430" width="20" height="20"></use>
+		</svg>
+		<gauge i="22" x="580" y="450" w="28.5" l="350" v="50" o="v" b="gray" f="red">
+			<mark v="0" l="5" w="2" s="20">-50</mark>
+			<mark v="10" l="5" w="2" s="15">-40</mark>
+			<mark v="20" l="5" w="2" s="15">-30</mark>
+			<mark v="30" l="5" w="2" s="15">-20</mark>
+			<mark v="40" l="5" w="2" s="15">-10</mark>
+			<mark v="50" l="5" w="2" s="20">0</mark>
+			<mark v="60" l="5" w="2" s="15">10</mark>
+			<mark v="70" l="5" w="2" s="15">20</mark>
+			<mark v="80" l="5" w="2" s="15">30</mark>
+			<mark v="90" l="5" w="2" s="15">40</mark>
+			<mark v="100" l="5" w="2" s="20">50</mark>
+		</gauge>
+		<tube x="580" y="800" w="20" l="30" o="v" c="red"></tube>
+		<ball x="565" y="820" s="50" c="red"></ball>
+		<help x="550" y="585" s="80">
+			Температура какой-то другой гадости
+		</help>
+
+		<panel x="10" y="590" w="350" h="350" c="silver"></panel>
+		<switch3 i="23" x="35" y="615" s="300" v="1" t1="Text 1" t2="Text 2" t3="Text 3"></switch3>
+		<help x="105" y="685" s="160">
+			Какой-то переключатель
+		</help>
+
+		<tank x="10" y="240" w="350" h="300" o="v" c="black"></tank>
+		<help x="135" y="340" s="100">
+			Емкость со смесью какой-то гадости с какой-то другой гадостью
+		</help>
+
+		<valve i="5" x="440" y="252.5" s="40" o="h" f="white"></valve>
+		<help x="430" y="242.5" s="60">
+			Клапан подачи какой-то гадости
+			в емкость со смесью какой-то гадости с какой-то другой гадостью.
+			Подача гадости осуществляется самотеком.
+		</help>
+
+		<pump i="24" x="427.5" y="500" s="60" o="t" f="white"></pump>
+		<help x="427.5" y="500" s="60">
+			Насос подачи какой-то другой гадости
+			в емкость со смесью какой-то гадости с какой-то другой гадостью.
+			Подача гадости осуществляется под давлением.
+		</help>
+
+		<svg>
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo></xmp></body></html>

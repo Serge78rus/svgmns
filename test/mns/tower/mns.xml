@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<svg>
+			<pattern id="hatch" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+				<line x1="0" y1="10" x2="10" y2="0" stroke="gray" stroke-width="1" />
+				<line x1="0" y1="0" x2="10" y2="10" stroke="gray" stroke-width="1" />
+			</pattern>
+			<pattern id="gran" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+				<rect x="0" y="0" width="10" height="10" stroke="none" fill="yellow"/>
+				<circle cx="5" cy="5" r="3" fill="none" stroke="gray" stroke-width="1"/>
+			</pattern>
+			<pattern id="wall" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+				<rect x="0" y="0" width="20" height="20" stroke="none" fill="maroon"/>
+				<line x1="0" y1="0" x2="20" y2="0" stroke="black" stroke-width="1" />
+				<line x1="0" y1="10" x2="20" y2="10" stroke="black" stroke-width="1" />
+				<line x1="0" y1="20" x2="20" y2="20" stroke="black" stroke-width="1" />
+				<line x1="0" y1="0" x2="0" y2="10" stroke="black" stroke-width="1" />
+				<line x1="20" y1="0" x2="20" y2="10" stroke="black" stroke-width="1" />
+				<line x1="10" y1="10" x2="10" y2="20" stroke="black" stroke-width="1" />
+			</pattern>
+			<symbol id="surf" x="0" y="0" height="100">
+				<rect x="0" y="0" width="100%" height="100" stroke="none" fill="url(#hatch)"/>
+				<line x1="0" y1="2.5" x2="100%" y2="2.5" stroke="black" stroke-width="5" />
+			</symbol>
+			<symbol id="tower" x="0" y="0" width="240" height="400">
+				<line x1="25" y1="360" x2="70" y2="-10" stroke="black" stroke-width="10" />
+				<line x1="215" y1="360" x2="170" y2="-10" stroke="black" stroke-width="10" />
+				<path stroke="black" stroke-width="5" fill="none"
+							d="M70,20 H170 L60,100 H180 L50,200 H190 L30,340" />
+				<rect x="0" y="340" width="50" height="60" stroke="none" fill="url(#wall)"/>
+				<rect x="190" y="340" width="50" height="60" stroke="none" fill="url(#wall)"/>
+			</symbol>
+			<symbol id="hole1" x="0" y="0" width="100" height="350">
+				<rect x="0" y="0" width="20" height="200" stroke="none" fill="url(#hatch)"/>
+				<rect x="0" y="200" width="20" height="150" stroke="none" fill="url(#gran)"/>
+				<rect x="80" y="0" width="20" height="200" stroke="none" fill="url(#hatch)"/>
+				<rect x="80" y="200" width="20" height="150" stroke="none" fill="url(#gran)"/>
+				<rect x="20" y="330" width="60" height="20" stroke="none" fill="url(#gran)"/>
+				<rect x="20" y="170" width="60" height="160" stroke="none" fill="blue"/>
+				<line x1="0" y1="2.5" x2="22.5" y2="2.5" stroke="black" stroke-width="5" />
+				<line x1="77.5" y1="2.5" x2="100" y2="2.5" stroke="black" stroke-width="5" />
+				<line x1="22.5" y1="0" x2="22.5" y2="330" stroke="black" stroke-width="5" />
+				<line x1="77.5" y1="0" x2="77.5" y2="330" stroke="black" stroke-width="5" />
+				<line x1="22.5" y1="327.5" x2="77.5" y2="327.5" stroke="black" stroke-width="5" />
+			</symbol>
+			<symbol id="hole2" x="0" y="0" width="120" height="200">
+				<rect x="0" y="0" width="20" height="200" stroke="none" fill="url(#hatch)"/>
+				<rect x="100" y="0" width="20" height="200" stroke="none" fill="url(#hatch)"/>
+				<rect x="20" y="180" width="80" height="20" stroke="none" fill="url(#hatch)"/>
+				<line x1="0" y1="2.5" x2="22.5" y2="2.5" stroke="black" stroke-width="5" />
+				<line x1="97.5" y1="2.5" x2="120" y2="2.5" stroke="black" stroke-width="5" />
+				<line x1="22.5" y1="0" x2="22.5" y2="180" stroke="black" stroke-width="5" />
+				<line x1="97.5" y1="0" x2="97.5" y2="180" stroke="black" stroke-width="5" />
+				<line x1="22.5" y1="177.5" x2="97.5" y2="177.5" stroke="black" stroke-width="5" />
+			</symbol>
+			<symbol id="house" x="0" y="0" width="300" height="300">
+				<rect x="60" y="50" width="180" height="250" stroke="none" fill="#e0e0e0"/>
+				<rect x="20" y="50" width="40" height="250" fill="url(#wall)"/>
+				<rect x="240" y="50" width="40" height="250" fill="url(#wall)"/>
+				<polygon points="0,50 150,5 300,50" fill="red" stroke="black" stroke-width="2" />
+			</symbol>
+			<linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+  	    <stop offset="0%" stop-color="blue"/>
+  	    <stop offset="100%" stop-color="#e0e0e0"/>
+			</linearGradient>
+		</svg>
+		<svg f="../../svg/svglogo.svg" />
+	</defs>
+	<body>
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+			<rect x="0" y="0" width="1000" height="650" fill="url(#sky)" stroke="none" />
+			<use xlink:href="#surf" x="0" y="650" width="200"/>
+			<use xlink:href="#surf" x="300" y="650" width="550"/>
+			<use xlink:href="#surf" x="970" y="650" width="30"/>
+			<use xlink:href="#hole1" x="200" y="650"/>
+			<use xlink:href="#hole2" x="850" y="650"/>
+			<use xlink:href="#tower" x="530" y="300" />
+			<use xlink:href="#house" x="150" y="350" />
+		</svg>
+
+		<tubes x="242.5" y="970" w="15" c="blue">
+			<seg o="t" l="20" />
+			<br o="t" l="30" />
+			<seg o="t" l="320" />
+			<seg o="r" l="102.5" />
+			<seg o="b" l="180" />
+			<seg o="r" l="125" />
+			<seg o="t" l="680" />
+			<seg o="r" l="100" />
+		</tubes>
+		<tubes x="700" y="260" w="15" c="blue">
+			<seg o="r" l="85" />
+			<seg o="b" l="505" />
+			<seg o="r" l="90" />
+			<br o="r" l="40" />
+			<seg o="r" l="70" />
+		</tubes>
+
+
+		<tube_t x="292.5" y="585" s="15" o="t" c="blue"/>
+		<tube x="292.5" y="560" w="15" l="25" o="v" c="blue"/>
+		<border_c x="220" y="410" s="160" f="black" b="white" />
+		<svg>
+			<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="300" y="520">bar</text>
+		</svg>
+		<meter240 i="press" x="250" y="440" s="100" b="black" f="red">
+			<mark v="0" l="4" w="2.5" s="15">0</mark>
+			<mark v="10" l="2" w="2.5" s="15"></mark>
+			<mark v="20" l="4" w="2.5" s="15">1</mark>
+			<mark v="30" l="2" w="2.5" s="15"></mark>
+			<mark v="40" l="4" w="2.5" s="15">2</mark>
+			<mark v="50" l="2" w="2.5" s="15"></mark>
+			<mark v="60" l="4" w="2.5" s="15">3</mark>
+			<mark v="70" l="2" w="2.5" s="15"></mark>
+			<mark v="80" l="4" w="2.5" s="15">4</mark>
+			<mark v="90" l="2" w="2.5" s="15"></mark>
+			<mark v="100" l="4" w="2.5" s="15">5</mark>
+		</meter240>
+
+		<valve_b x="230" y="915" s="40" o="t" f="white" />
+		<pump i="p" x="225" y="850" s="50" o="t" f="gray" />
+		<valve i="v" x="885" y="762.5" s="50" o="h" f="lime" />
+		<tank x="550" y="50" w="200" h="260" o="v" c="black" />
+
+		<panel x="810" y="40" w="140" h="280" c="silver" />
+		<gauge i="l" x="845" y="70" l="220" w="20" o="v" v="50" b="gray" f="blue">
+			<mark v="0" l="5" w="2" s="20">0</mark>
+			<mark v="20" l="5" w="2" s="20">1</mark>
+			<mark v="40" l="5" w="2" s="20">2</mark>
+			<mark v="60" l="5" w="2" s="20">3</mark>
+			<mark v="80" l="5" w="2" s="20">4</mark>
+			<mark v="100" l="5" w="2" s="20">5</mark>
+
+			<mark v="10" l="10" w="5" s="20" c="red">НАГ</mark>
+			<mark v="30" l="10" w="5" s="20" c="yellow">НРГ</mark>
+			<mark v="70" l="10" w="5" s="20" c="yellow">ВРГ</mark>
+			<mark v="90" l="10" w="5" s="20" c="red">ВАГ</mark>
+		</gauge>
+
+		<label i="hhl" x="625" y="70" w="50" h="25" b="silver" f="black" t="ВАГ" />
+		<led i="hh" x="625" y="100" s="50" f="black" />
+		<label i="lll" x="625" y="210" w="50" h="25" b="silver" f="black" t="НАГ" />
+		<led i="ll" x="625" y="240" s="50" f="black" />
+
+		<panel x="5" y="5" w="300" h="320" c="silver" />
+		<switch3 i="sw" x="30" y="30" s="250" v="3" t1="Откл." t2="Вкл." t3="Авто" />
+		<led i="pl" x="125" y="240" s="60" f="black" />
+
+		<button i="btn0" x="320" y="50" w="160" h="50" b="silver" f="black" t="Откл." />
+		<button i="btn1" x="320" y="110" w="160" h="50" b="silver" f="black" t="Вкл." />
+		<button i="btnA" x="320" y="170" w="160" h="50" b="silver" f="black" t="Авто" />
+
+		<button i="btnO" x="830" y="870" w="160" h="50" b="silver" f="black" t="Откр." />
+		<button i="btnC" x="830" y="930" w="160" h="50" b="silver" f="black" t="Закр." />
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#svglogo" width="200" height="85" x="0" y="915" />
+		</svg>
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="845" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="10" y="865" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

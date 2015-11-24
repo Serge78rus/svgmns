@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<svg f="../../svg/grid.svg" />
+
+		<svg f="../../svg/tank_cho.svg" />
+		<svg f="../../svg/tank_cxo.svg" />
+		<svg f="../../svg/tank_cho4.svg" />
+		<svg f="../../svg/tank_cxo4.svg" />
+
+		<svg f="../../svg/tank_chc.svg" />
+		<svg f="../../svg/tank_cxc.svg" />
+		<svg f="../../svg/tank_chc4.svg" />
+		<svg f="../../svg/tank_cxc4.svg" />
+<svg>
+</svg>
+
+	</defs>
+	<body>
+<!--
+		<use r="grid"/>
+-->
+		<level i="1_1" x="110" y="10" w="80" h="180" v="50" b="black" f="blue" />
+		<use r="tank_cho" x="10" y="10" s="200"/>
+
+		<level i="1_2" x="320" y="10" w="80" h="180" v="50" b="black" f="blue" />
+		<use r="tank_cxo" x="220" y="10" s="200"/>
+
+		<level i="1_3" x="550" y="10" w="140" h="180" v="50" b="black" f="blue" />
+		<use r="tank_cho4" x="430" y="10" w="280" h="200"/>
+
+		<level i="1_4" x="840" y="10" w="140" h="180" v="50" b="black" f="blue" />
+		<use r="tank_cxo4" x="720" y="10" w="280" h="200"/>
+
+		<level i="2_1" x="110" y="240" w="80" h="160" v="50" b="black" f="blue" />
+		<use r="tank_chc" x="10" y="220" s="200"/>
+
+		<level i="2_2" x="320" y="240" w="80" h="160" v="50" b="black" f="blue" />
+		<use r="tank_cxc" x="220" y="220" s="200"/>
+
+		<level i="2_3" x="550" y="240" w="140" h="160" v="50" b="black" f="blue" />
+		<use r="tank_chc4" x="430" y="220" w="280" h="200"/>
+
+		<level i="2_4" x="840" y="240" w="140" h="160" v="50" b="black" f="blue" />
+		<use r="tank_cxc4" x="720" y="220" w="280" h="200"/>
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

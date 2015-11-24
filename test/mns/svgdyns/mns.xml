@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<svg f="../../svg/baterfly.svg" />
+	</defs>
+	<body>
+		<svg i="1" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#baterfly" width="300" height="300" x="0" y="0" />
+		</svg>
+		<svg i="2" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#baterfly" width="300" height="300" x="0" y="330" />
+		</svg>
+		<svg i="3" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#baterfly" width="300" height="300" x="0" y="660" />
+		</svg>
+		<svg i="4">
+			<rect x="700" y="100" width="200" height="200" stroke-width="10" />
+		</svg>
+		<svg i="5">
+			<circle cx="800" cy="500" r="80" stroke-width="10" />
+		</svg>
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

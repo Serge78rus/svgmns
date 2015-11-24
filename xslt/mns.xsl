@@ -9,9 +9,9 @@
 	<xsl:import href="filter.xsl" />
 	<xsl:import href="font.xsl" />
 
-	<xsl:output method="xml" encoding="utf-8" indent="yes" cdata-section-elements="style script" />
-
 	<xsl:call-template name="sym_imp" />
+
+	<xsl:output method="xml" encoding="utf-8" indent="yes" cdata-section-elements="style script" />
 
 	<xsl:template match="mnemo">
 		<svg xmlns="http://www.w3.org/2000/svg"

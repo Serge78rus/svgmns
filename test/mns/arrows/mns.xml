@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<body>
+
+		<arrow i="1" x="100" y="100" l="200" w="40" o="r" f="white" b="red" />
+		<arrow i="2" x="400" y="100" l="200" w="40" o="b" f="red" />
+		<arrow i="3" x="400" y="400" l="200" w="40" o="l" f="blue" />
+		<arrow i="4" x="100" y="400" l="200" w="40" o="t" f="green" />
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

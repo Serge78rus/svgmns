@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<body>
+
+		<led i="1" x="10" y="45" s="10" />
+		<led i="2" x="110" y="40" s="20" />
+		<led i="3" x="210" y="35" s="30" />
+		<led i="4" x="310" y="30" s="40" />
+		<led i="5" x="410" y="25" s="50" />
+		<led i="6" x="510" y="20" s="60" />
+		<led i="7" x="610" y="15" s="70" />
+		<led i="8" x="710" y="10" s="80" />
+
+		<led i="11" x="10" y="145" s="10" f="black" />
+		<led i="12" x="110" y="140" s="20" f="black" />
+		<led i="13" x="210" y="135" s="30" f="black" />
+		<led i="14" x="310" y="130" s="40" f="black" />
+		<led i="15" x="410" y="125" s="50" f="black" />
+		<led i="16" x="510" y="120" s="60" f="black" />
+		<led i="17" x="610" y="115" s="70" f="black" />
+		<led i="18" x="710" y="110" s="80" f="black" />
+
+		<led i="21" x="10" y="245" s="10" f="red" />
+		<led i="22" x="110" y="240" s="20" f="red" />
+		<led i="23" x="210" y="235" s="30" f="red" />
+		<led i="24" x="310" y="230" s="40" f="red" />
+		<led i="25" x="410" y="225" s="50" f="red" />
+		<led i="26" x="510" y="220" s="60" f="red" />
+		<led i="27" x="610" y="215" s="70" f="red" />
+		<led i="28" x="710" y="210" s="80" f="red" />
+
+		<led i="31" x="10" y="345" s="10" f="blue" />
+		<led i="32" x="110" y="340" s="20" f="blue" />
+		<led i="33" x="210" y="335" s="30" f="blue" />
+		<led i="34" x="310" y="330" s="40" f="blue" />
+		<led i="35" x="410" y="325" s="50" f="blue" />
+		<led i="36" x="510" y="320" s="60" f="blue" />
+		<led i="37" x="610" y="315" s="70" f="blue" />
+		<led i="38" x="710" y="310" s="80" f="blue" />
+
+		<led i="41" x="10" y="445" s="10" f="green" />
+		<led i="42" x="110" y="440" s="20" f="green" />
+		<led i="43" x="210" y="435" s="30" f="green" />
+		<led i="44" x="310" y="430" s="40" f="green" />
+		<led i="45" x="410" y="425" s="50" f="green" />
+		<led i="46" x="510" y="420" s="60" f="green" />
+		<led i="47" x="610" y="415" s="70" f="green" />
+		<led i="48" x="710" y="410" s="80" f="green" />
+
+		<led i="51" x="10" y="545" s="10" f="white" b="red" />
+		<led i="52" x="110" y="540" s="20" f="white" b="red" />
+		<led i="53" x="210" y="535" s="30" f="white" b="red" />
+		<led i="54" x="310" y="530" s="40" f="white" b="red" />
+		<led i="55" x="410" y="525" s="50" f="white" b="red" />
+		<led i="56" x="510" y="520" s="60" f="white" b="red" />
+		<led i="57" x="610" y="515" s="70" f="white" b="red" />
+		<led i="58" x="710" y="510" s="80" f="white" b="red" />
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

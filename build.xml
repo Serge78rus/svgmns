@@ -5,11 +5,12 @@
 	<property file="ant.properties"/>
 
 	<target name="deploy" depends="build">
+
+
 <!--
 		<copy todir="${dpl}">
 			<fileset dir="${dst.cnt}"/>
 		</copy>
--->
 		<copy todir="${dpl}/script">
 			<filelist dir="${dst.cnt}">
 				<file name="mns.js"/>
@@ -28,51 +29,184 @@
 				<file name="mns.js"/>
 			</filelist>
 		</copy>
+-->
 	</target>
 
-	<target name="build" depends="bld_srvr, bld_glob_clnt, bld_loc_clnt, bld_mns"/>
+	<target name="build" depends="build_xslt, build_js, build_test" />
 
-	<target name="bld_srvr">
+	<target name="build_xslt">
+		<xslt in="${xslt.src}/symbols.xml" out="bldsym.xml" style="${xslt}/bldsymant.xsl"/>
+		<xslt in="${xslt.src}/symbols.xml" out="${xslt.gen}/symbols.xsl" style="${xslt}/bldsymxsl.xsl"/>
+		<ant antfile="bldsym.xml" />
 	</target>
 
-	<target name="bld_glob_clnt">
-		<concat destfile="${dst.cnt}/mns.js" encoding="utf-8">
-			<filelist dir="${clnt.glob.src}">
+	<target name="build_js">
+		<concat destfile="${js.bld}/mns.js" encoding="utf-8">
+			<filelist dir="${js.src}">
+				<file name="license.js"/>
 				<file name="mns.js"/>
 				<file name="util.js"/>
 				<file name="el.js"/>
 				<file name="pump.js"/>
 				<file name="led.js"/>
+				<file name="fan.js"/>
+				<file name="pwr.js"/>
+				<file name="arrow.js"/>
 				<file name="valve.js"/>
 				<file name="label.js"/>
+				<file name="display.js"/>
 				<file name="switch.js"/>
 				<file name="gauge.js"/>
+				<file name="meter.js"/>
+				<file name="svg.js"/>
+				<file name="level.js"/>
 			</filelist>
 		</concat>
-	</target>
-
-	<target name="bld_loc_clnt">
-		<copy todir="${dst.loc.cnt}">
-			<filelist dir="${clnt.loc.src}">
-				<file name="mns.html"/>
-				<file name="mns.css"/>
-			</filelist>
-		</copy>
-		<concat destfile="${dst.loc.cnt}/mns.js" encoding="utf-8">
-			<filelist dir="${clnt.loc.src}">
+		<yuicompress charset="utf-8" outputfolder="${js.tmp}">
+			<fileset dir="${js.bld}">
+				<include name="mns.js"/>
+			</fileset>
+		</yuicompress>
+		<copy todir="${js.tmp}" file="${js.src}/license.js"/>
+		<concat destfile="${js.bld}/mns.min.js" encoding="utf-8">
+			<filelist dir="${js.tmp}">
+				<file name="license.js"/>
 				<file name="mns.js"/>
 			</filelist>
 		</concat>
+		<copy tofile="${js.bld}/mns-${js.ver}.js" file="${js.bld}/mns.js"/>
+		<copy tofile="${js.bld}/mns-${js.ver}.min.js" file="${js.bld}/mns.min.js"/>
 	</target>
 
-	<target name="bld_mns" depends="bld_xslt">
-		<xslt	basedir="${mns.src}" destdir="${dst.loc.cnt}"	style="${xslt}/mns.xsl"	extension=".svg" force="true"/>
+	<target name="build_test" depends="
+		build_test_img,
+		build_test_index,
+		build_test_js,
+		build_test_logo,
+		build_test_menu,
+		build_test_mns
+	" />
+	
+	<target name="build_test_img">
+		<copy todir="${site.en}/img">
+			<fileset dir="${test.img}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}/img">
+			<fileset dir="${test.img}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
 	</target>
 
-	<target name="bld_xslt">
-		<xslt in="${xslt.src}/symbols.xml" out="bldsym.xml" style="${xslt}/bldsymant.xsl"/>
-		<xslt in="${xslt.src}/symbols.xml" out="${xslt.gen}/symbols.xsl" style="${xslt}/bldsymxsl.xsl"/>
-		<ant antfile="bldsym.xml" />
+	<target name="build_test_index">
+		<copy todir="${site.en}">
+			<fileset dir="${test.index}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}">
+			<fileset dir="${test.index}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
 	</target>
+		
+	<target name="build_test_js">
+		<copy todir="${site.en}/js">
+			<fileset dir="${test.js}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}/js">
+			<fileset dir="${test.js}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.en}" file="${js.bld}/mns.min.js"/>
+		<copy todir="${site.ru}" file="${js.bld}/mns.min.js"/>
+	</target>
+		
+	<target name="build_test_logo">
+		<copy todir="${site.en}">
+			<fileset dir="${test.logo}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}">
+			<fileset dir="${test.logo}">
+				<include name="*.*"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="build_test_menu">
+		<copy todir="${site.en}">
+			<fileset dir="${test.menu}">
+				<include name="menu.js"/>
+				<include name="menu.css"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}">
+			<fileset dir="${test.menu}">
+				<include name="menu.js"/>
+				<include name="menu.css"/>
+			</fileset>
+		</copy>
+		<xslt
+			in="${test.menu.en}/menu.xml"
+			out="${site.en}/menu.html"
+			style="${test.menu}/menu.xsl"
+			force="true"
+		/>
+		<xslt
+			in="${test.menu.ru}/menu.xml"
+			out="${site.ru}/menu.html"
+			style="${test.menu}/menu.xsl"
+			force="true"
+		/>
+	</target>
+
+	<target name="build_test_mns">
+		<copy todir="${site.en}/mns">
+			<fileset dir="${test.mns}">
+				<include name="*/index.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${site.ru}/mns">
+			<fileset dir="${test.mns}">
+				<include name="*/index.*"/>
+			</fileset>
+		</copy>
+		<xslt	destdir="${site.en}/mns"	style="${xslt}/mns.xsl"	extension=".svg" useImplicitFileset="false">
+			<fileset dir="${test.mns}">
+				<include name="*/mns.xml"/>
+			</fileset>
+		</xslt>
+		<xslt	destdir="${site.ru}/mns"	style="${xslt}/mns.xsl"	extension=".svg" useImplicitFileset="false">
+			<fileset dir="${test.mns}">
+				<include name="*/mns.xml"/>
+			</fileset>
+		</xslt>
+		<xslt	destdir="${site.en}/mns"	style="${xslt}/mns2html.xsl"	extension=".html" useImplicitFileset="false">
+			<fileset dir="${test.mns}">
+				<include name="*/mns.xml"/>
+			</fileset>
+		</xslt>
+		<xslt	destdir="${site.ru}/mns"	style="${xslt}/mns2html.xsl"	extension=".html" useImplicitFileset="false">
+			<fileset dir="${test.mns}">
+				<include name="*/mns.xml"/>
+			</fileset>
+		</xslt>
+	</target>
+	
+	<taskdef name="yuicompress" classname="com.yahoo.platform.yui.compressor.YUICompressTask">
+		<classpath>
+			<fileset dir="${tools}">
+				<include name="*.jar"/>
+			</fileset>
+		</classpath>
+	</taskdef>
 
 </project>

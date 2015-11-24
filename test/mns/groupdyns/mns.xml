@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<group i="g1">
+			<tube x="00" y="200" w="20" l="180" o="h" c="black" />
+			<tube_t x="180" y="200" s="20" o="t" c="black"/>
+			<tube x="180" y="160" w="20" l="40" o="v" c="black"/>
+			<tube x="200" y="200" w="20" l="20" o="h" c="black" />
+			<tube x="200" y="200" w="20" l="20" o="h" c="black" />
+			<tube x="250" y="200" w="20" l="30" o="h" c="black" />
+			<border_c x="110" y="10" s="160" f="black" b="white" />
+			<svg>
+				<text text-anchor="middle" fill="black" stroke="none" font-size="2" x="190" y="120">bar</text>
+			</svg>
+			<meter240 i="m" x="140" y="40" s="100" b="black" f="red">
+				<mark v="0" l="4" w="2.5" s="15">0</mark>
+				<mark v="10" l="2" w="2.5" s="15"></mark>
+				<mark v="20" l="4" w="2.5" s="15">1</mark>
+				<mark v="30" l="2" w="2.5" s="15"></mark>
+				<mark v="40" l="4" w="2.5" s="15">2</mark>
+				<mark v="50" l="2" w="2.5" s="15"></mark>
+				<mark v="60" l="4" w="2.5" s="15">3</mark>
+				<mark v="70" l="2" w="2.5" s="15"></mark>
+				<mark v="80" l="4" w="2.5" s="15">4</mark>
+				<mark v="90" l="2" w="2.5" s="15"></mark>
+				<mark v="100" l="4" w="2.5" s="15">5</mark>
+			</meter240>
+			<pump i="p" x="70" y="180" s="60" o="r" f="gray" />
+			<valve i="v" x="210" y="185" s="50" o="h" f="gray" />
+			<button i="b1" x="00" y="60" w="100" h="50" b="silver" f="black" t="On" />
+			<button i="b0" x="00" y="120" w="100" h="50" b="silver" f="black" t="Off" />
+		</group>
+	</defs>
+	<body>
+		<use i="1_" r="g1" x="0" y="0" />
+		<use i="2_" r="g1" x="0" y="240" />
+		<use i="3_" r="g1" x="0" y="480" />
+		<use i="4_" r="g1" x="0" y="720" />
+
+		<use i="5_" r="g1" x="330" y="0" />
+		<use i="6_" r="g1" x="330" y="240" />
+		<use i="7_" r="g1" x="330" y="480" />
+		<use i="8_" r="g1" x="330" y="720" />
+
+		<use i="9_" r="g1" x="660" y="00" />
+		<use i="10_" r="g1" x="660" y="240" />
+		<use i="11_" r="g1" x="660" y="480" />
+		<use i="12_" r="g1" x="660" y="720" />
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="970" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

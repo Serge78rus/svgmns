@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<svg f="../../svg/grid_1k.svg" />
+	</defs>
+	<body>
+<!--
+		<use r="grid_1k"/>
+-->
+		<tank x="10" y="10" w="90" h="100" o="v" c="black" />
+		<tank x="110" y="10" w="90" h="100" o="v" c="red" />
+		<tank x="210" y="10" w="90" h="100" o="v" c="blue" />
+		<tank x="310" y="10" w="90" h="100" o="v" c="green" />
+		<tank_lv x="410" y="10" w="90" h="100" o="l" c="black" />
+		<tank_lv x="510" y="10" w="90" h="100" o="l" c="red" />
+		<tank_lv x="610" y="10" w="90" h="100" o="l" c="blue" />
+		<tank_lv x="710" y="10" w="90" h="100" o="r" c="black" />
+		<tank_lv x="810" y="10" w="90" h="100" o="r" c="red" />
+		<tank_lv x="910" y="10" w="90" h="100" o="r" c="blue" />
+
+		<tank_lv x="10" y="120" w="150" h="180" o="l" c="black" />
+		<tank_lv x="170" y="120" w="150" h="180" o="l" c="red" />
+		<tank_lv x="330" y="120" w="150" h="180" o="l" c="blue" />
+		<tank_lv x="490" y="120" w="150" h="180" o="r" c="black" />
+		<tank_lv x="650" y="120" w="150" h="180" o="r" c="red" />
+		<tank_lv x="810" y="120" w="150" h="180" o="r" c="blue" />
+
+		<tank x="10" y="310" w="90" h="80" o="h" c="black" />
+		<tank x="110" y="310" w="90" h="80" o="h" c="red" />
+		<tank x="210" y="310" w="90" h="80" o="h" c="blue" />
+		<tank x="310" y="310" w="90" h="80" o="h" c="green" />
+		<tank_lh x="410" y="310" w="90" h="80" o="l" c="black" />
+		<tank_lh x="510" y="310" w="90" h="80" o="l" c="red" />
+		<tank_lh x="610" y="310" w="90" h="80" o="l" c="blue" />
+		<tank_lh x="710" y="310" w="90" h="80" o="r" c="black" />
+		<tank_lh x="810" y="310" w="90" h="80" o="r" c="red" />
+		<tank_lh x="910" y="310" w="90" h="80" o="r" c="blue" />
+
+		<tank_lh x="10" y="400" w="150" h="140" o="l" c="black" />
+		<tank_lh x="170" y="400" w="150" h="140" o="l" c="red" />
+		<tank_lh x="330" y="400" w="150" h="140" o="l" c="blue" />
+		<tank_lh x="490" y="400" w="150" h="140" o="r" c="black" />
+		<tank_lh x="650" y="400" w="150" h="140" o="r" c="red" />
+		<tank_lh x="810" y="400" w="150" h="140" o="r" c="blue" />
+
+		<tank_lv x="10" y="550" w="240" h="240" o="l" c="black" />
+		<tank_lv x="260" y="550" w="240" h="240" o="r" c="black" />
+		<tank_lh x="510" y="550" w="240" h="240" o="l" c="black" />
+		<tank_lh x="760" y="550" w="240" h="240" o="r" c="black" />
+<!--
+
+
+
+		<tank x="70" y="160" w="100" h="100" o="v" c="black" />
+		<tank_lv x="190" y="110" w="150" h="150" o="l" c="black" />
+		<tank_lv x="370" y="60" w="200" h="200" o="r" c="black" />
+
+		<tank x="610" y="10" w="250" h="250" o="v" c="black" />
+-->
+
+<!--
+		<tank x="10" y="510" w="50" h="50" o="h" c="blue" />
+		<tank x="70" y="460" w="100" h="100" o="h" c="blue" />
+		<tank x="190" y="410" w="150" h="150" o="h" c="blue" />
+		<tank x="370" y="360" w="200" h="200" o="h" c="blue" />
+		<tank x="610" y="310" w="250" h="250" o="h" c="blue" />
+
+		<tank x="10" y="610" w="100" h="300" o="v" c="black" />
+		<tank x="120" y="610" w="100" h="300" o="h" c="black" />
+		<tank x="230" y="610" w="700" h="100" o="v" c="black" />
+		<tank x="230" y="810" w="700" h="100" o="h" c="black" />
+-->
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

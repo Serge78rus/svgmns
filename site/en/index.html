@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<title>NoSCADA</title>
+</head>
+<body>
+  <div id="body">
+		<div id="left">
+			<div id="lefttop">
+				<b><span style="color:red;">No</span>SCADA</b>
+			</div>
+			<div id="leftmidle">
+				<iframe id="navigator" name="navigator" frameborder="0" src="menu.html"></iframe>
+			</div>
+			<div id="leftbottom">
+			</div>
+		</div>
+		<div id="right">
+			<iframe id="content" name="content" frameborder="0" src="logo.html" onload="setTitle(this.contentDocument.title);"></iframe>
+		</div>
+	</div>
+</body>
+</html>
+
+

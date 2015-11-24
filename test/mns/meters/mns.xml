@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+
+	<body>
+
+		<meter120 i="1" x="0" y="50" s="400" b="black" f="black" v="10">
+			<mark v="0" l="1" w="5" s="3">0</mark>
+			<mark v="10" l="5" w="2.5" s="2">10</mark>
+			<mark v="20" l="5" w="2.5" s="2">20</mark>
+			<mark v="30" l="5" w="2.5" s="2">30</mark>
+			<mark v="40" l="5" w="2.5" s="2">40</mark>
+			<mark v="50" l="1" w="5" s="3">50</mark>
+			<mark v="60" l="5" w="2.5" s="2">60</mark>
+			<mark v="70" l="5" w="2.5" s="2">70</mark>
+			<mark v="80" l="5" w="2.5" s="2">80</mark>
+			<mark v="90" l="5" w="2.5" s="2">90</mark>
+			<mark v="100" l="1" w="5" s="3">100</mark>
+		</meter120>
+
+		<svg>
+			<rect x="430" y="0" width="570" height="402" stroke="none" fill="black" />
+		</svg>
+		<meter120 i="2_1" x="550" y="230" s="100" b="lime" f="red" v="80">
+			<mark v="0" l="5" w="2.5" s="15">0</mark>
+			<mark v="67" l="5" w="2.5" s="15" c="yellow" >80</mark>
+			<mark v="100" l="5" w="2.5" s="15" c="red" >120</mark>
+		</meter120>
+		<meter120 i="2_2" x="780" y="230" s="100" b="lime" f="red" v="50">
+			<mark v="0" l="5" w="2.5" s="15" c="red">E</mark>
+			<mark v="50" l="5" w="2.5" s="15">1/2</mark>
+			<mark v="100" l="5" w="2.5" s="15">F</mark>
+		</meter120>
+		<meter240 i="2" x="490" y="40" s="450" b="lime" f="red" v="90">
+			<mark v="0" l="1" w="5" s="30">0</mark>
+			<mark v="4" l="3" w="2.5" s="20"></mark>
+			<mark v="8" l="5" w="2.5" s="20">20</mark>
+			<mark v="12" l="3" w="2.5" s="20"></mark>
+			<mark v="16" l="5" w="2.5" s="20">40</mark>
+			<mark v="20" l="3" w="2.5" s="20"></mark>
+			<mark v="24" l="5" w="2.5" s="20">60</mark>
+			<mark v="28" l="3" w="2.5" s="20"></mark>
+			<mark v="32" l="5" w="2.5" s="20">80</mark>
+			<mark v="36" l="3" w="2.5" s="20"></mark>
+			<mark v="40" l="1" w="5" s="30">100</mark>
+			<mark v="44" l="3" w="2.5" s="20"></mark>
+			<mark v="48" l="5" w="2.5" s="20">120</mark>
+			<mark v="52" l="3" w="2.5" s="20"></mark>
+			<mark v="56" l="5" w="2.5" s="20">140</mark>
+			<mark v="60" l="3" w="2.5" s="20"></mark>
+			<mark v="64" l="5" w="2.5" s="20">160</mark>
+			<mark v="68" l="3" w="2.5" s="20"></mark>
+			<mark v="72" l="5" w="2.5" s="20">180</mark>
+			<mark v="76" l="3" w="2.5" s="20"></mark>
+			<mark v="80" l="1" w="5" s="30">200</mark>
+			<mark v="84" l="3" w="2.5" s="20"></mark>
+			<mark v="88" l="5" w="2.5" s="20">220</mark>
+			<mark v="92" l="3" w="2.5" s="20"></mark>
+			<mark v="96" l="5" w="2.5" s="20">240</mark>
+			<mark v="100" l="1" w="5" s="30"></mark>
+		</meter240>
+
+		<meter360 i="3" x="10" y="350" s="400" b="blue" f="red" v="30">
+			<mark v="0" l="10" w="5" s="30">0</mark>
+			<mark v="10" l="5" w="2.5" s="20">10</mark>
+			<mark v="20" l="5" w="2.5" s="20">20</mark>
+			<mark v="30" l="5" w="2.5" s="20">30</mark>
+			<mark v="40" l="5" w="2.5" s="20">40</mark>
+			<mark v="50" l="10" w="5" s="30">50</mark>
+			<mark v="60" l="5" w="2.5" s="20">60</mark>
+			<mark v="70" l="5" w="2.5" s="20">70</mark>
+			<mark v="80" l="5" w="2.5" s="20">80</mark>
+			<mark v="90" l="5" w="2.5" s="20">90</mark>
+		</meter360>
+
+		<meter120 i="11" x="450" y="450" s="200" b="black" f="red" v="0">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+			<mark v="100" l="10" w="5" s="20">100</mark>
+		</meter120>
+
+		<meter240 i="12" x="450" y="580" s="200" b="black" f="red">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+			<mark v="100" l="10" w="5" s="20">100</mark>
+		</meter240>
+
+		<meter360 i="13" x="450" y="760" s="200" b="black" f="red">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+		</meter360>
+
+		<meter120 i="21" x="700" y="450" s="150" b="black" f="red" v="50">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+			<mark v="100" l="10" w="5" s="20">100</mark>
+		</meter120>
+
+		<meter240 i="22" x="700" y="580" s="150" b="black" f="red">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+			<mark v="100" l="10" w="5" s="20">100</mark>
+		</meter240>
+
+		<meter360 i="23" x="700" y="760" s="150" b="black" f="red">
+			<mark v="0" l="10" w="5" s="20">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+		</meter360>
+
+		<meter120 i="31" x="900" y="450" s="100" b="black" f="red" v="100">
+			<mark v="0" l="5" w="2.5" s="15">0</mark>
+			<mark v="25" l="5" w="2.5" s="15">25</mark>
+			<mark v="50" l="5" w="2.5" s="15">50</mark>
+			<mark v="75" l="5" w="2.5" s="15">75</mark>
+			<mark v="100" l="5" w="2.5" s="15">100</mark>
+		</meter120>
+
+		<meter240 i="32" x="900" y="580" s="100" b="black" f="red">
+			<mark v="0" l="5" w="2.5" s="15">0</mark>
+			<mark v="25" l="5" w="2.5" s="15">25</mark>
+			<mark v="50" l="5" w="2.5" s="15">50</mark>
+			<mark v="75" l="5" w="2.5" s="15">75</mark>
+			<mark v="100" l="5" w="2.5" s="15">100</mark>
+		</meter240>
+
+		<meter360 i="33" x="900" y="760" s="100" b="black" f="red">
+			<mark v="0" l="5" w="2.5" s="15">0</mark>
+			<mark v="25" l="5" w="2.5" s="15">25</mark>
+			<mark v="50" l="5" w="2.5" s="15">50</mark>
+			<mark v="75" l="5" w="2.5" s="15">75</mark>
+		</meter360>
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

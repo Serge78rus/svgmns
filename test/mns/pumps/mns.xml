@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<body>
+
+		<tube x="50" y="30" w="20" l="200" o="h" c="black" />
+		<tube x="250" y="50" w="20" l="200" o="v" c="black" />
+		<tube x="50" y="250" w="20" l="200" o="h" c="black" />
+		<tube x="30" y="50" w="20" l="200" o="v" c="black" />
+		<tube_l x="30" y="30" s="20" o="rb" c="black" />
+		<tube_l x="250" y="30" s="20" o="lb" c="black" />
+		<tube_l x="250" y="250" s="20" o="lt" c="black" />
+		<tube_l x="30" y="250" s="20" o="rt" c="black" />
+
+		<pump i="1" x="120" y="10" s="60" o="r" f="white" b="red" />
+		<pump i="2" x="230" y="120" s="60" o="b" f="red" />
+		<pump i="3" x="120" y="230" s="60" o="l" f="blue" />
+		<pump i="4" x="10" y="120" s="60" o="t" f="green" />
+
+		<tube x="370" y="130" w="40" l="400" o="h" c="blue" />
+		<tube x="770" y="170" w="40" l="400" o="v" c="blue" />
+		<tube x="370" y="570" w="40" l="400" o="h" c="blue" />
+		<tube x="330" y="170" w="40" l="400" o="v" c="blue" />
+		<tube_l x="330" y="130" s="40" o="rb" c="blue" />
+		<tube_l x="770" y="130" s="40" o="lb" c="blue" />
+		<tube_l x="770" y="570" s="40" o="lt" c="blue" />
+		<tube_l x="330" y="570" s="40" o="rt" c="blue" />
+
+		<pump i="11" x="500" y="90" s="120" o="r" f="white" b="red" />
+		<pump i="12" x="730" y="300" s="120" o="b" f="red" />
+		<pump i="13" x="500" y="530" s="120" o="l" f="blue" />
+		<pump i="14" x="290" y="300" s="120" o="t" f="green" />
+
+		<tube x="40" y="330" w="10" l="200" o="h" c="black" />
+		<tube x="240" y="340" w="10" l="200" o="v" c="black" />
+		<tube x="40" y="540" w="10" l="200" o="h" c="black" />
+		<tube x="30" y="340" w="10" l="200" o="v" c="black" />
+		<tube_l x="30" y="330" s="10" o="rb" c="black" />
+		<tube_l x="240" y="330" s="10" o="lb" c="black" />
+		<tube_l x="240" y="540" s="10" o="lt" c="black" />
+		<tube_l x="30" y="540" s="10" o="rt" c="black" />
+
+		<pump i="21" x="120" y="320" s="30" o="r" f="white" b="red" />
+		<pump i="22" x="230" y="420" s="30" o="b" f="red" />
+		<pump i="23" x="120" y="530" s="30" o="l" f="blue" />
+		<pump i="24" x="20" y="420" s="30" o="t" f="green" />
+
+		<pump i="31" x="10" y="790" s="20" o="r" />
+		<pump i="32" x="40" y="785" s="40" o="r" />
+		<pump i="33" x="90" y="780" s="60" o="r" />
+		<pump i="34" x="160" y="775" s="80" o="r" />
+		<pump i="35" x="250" y="770" s="100" o="r" />
+		<pump i="36" x="360" y="765" s="120" o="r" />
+		<pump i="37" x="490" y="760" s="140" o="r" />
+		<pump i="38" x="640" y="755" s="160" o="r" />
+		<pump i="39" x="810" y="750" s="180" o="r" />
+
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<led i="dyn_l" x="250" y="910" s="80" f="black" />
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="350" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="350" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

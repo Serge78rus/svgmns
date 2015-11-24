@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mnemo>
+	<defs>
+		<group i="g1">
+			<panel x="0" y="0" w="290" h="290" c="silver" />
+		</group>
+		<group i="g2">
+			<panel x="0" y="0" w="190" h="190" c="silver" />
+		</group>
+		<group i="g3">
+			<panel x="0" y="0" w="90" h="90" c="silver" />
+			<svg>
+				<text text-anchor="middle" x="45" y="80" font-size="40">Tst</text>
+			</svg>
+		</group>
+		<group i="g12">
+			<use r="g1" x="0" y="0" />
+			<use r="g2" x="20" y="20" />
+		</group>
+		<group i="g123">
+			<use r="g12" x="0" y="0" />
+			<use r="g3" x="40" y="40" />
+		</group>
+	</defs>
+	<body>
+		<use r="g1" x="0" y="0" />
+		<use r="g2" x="0" y="330" />
+		<use r="g3" x="0" y="650" />
+		<use r="g12" x="330" y="0" />
+		<use r="g123" x="660" y="0" />
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo>

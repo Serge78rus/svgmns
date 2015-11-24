@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+
+<root label="Меню">
+ 	<item target="content" ref="logo.html" label="NoSCADA logo" />
+	<tree label="Элементы">
+		<tree label="Статические">
+	  		<item target="content" ref="/mns/bodies/index.html" label="3D тела" />
+	  		<item target="content" ref="/mns/tubes/index.html" label="Трубы" />
+	  		<item target="content" ref="/mns/tanks/index.html" label="Емкости" />
+	  		<item target="content" ref="/mns/panels/index.html" label="Панели" />
+	  		<item target="content" ref="/mns/scales/index.html" label="Шкалы" />
+	  		<item target="content" ref="/mns/borders/index.html" label="Рамки" />
+	  		<item target="content" ref="/mns/svgs/index.html" label="SVG графика" />
+	  		<item target="content" ref="/mns/svganis/index.html" label="SVG анимация" />
+	  		<item target="content" ref="/mns/groups/index.html" label="Группы" />
+		</tree>
+		<tree label="Динамические">
+	  		<item target="content" ref="/mns/leds/index.html" label="Светодиоды" />
+	  		<item target="content" ref="/mns/pumps/index.html" label="Насосы" />
+	  		<item target="content" ref="/mns/ventils/index.html" label="Клапаны" />
+	  		<item target="content" ref="/mns/fans/index.html" label="Вентиляторы" />
+	  		<item target="content" ref="/mns/pwr/index.html" label="Питание" />
+	  		<item target="content" ref="/mns/arrows/index.html" label="Стрелки" />
+	  		<item target="content" ref="/mns/labels/index.html" label="Надписи" />
+	  		<item target="content" ref="/mns/displays/index.html" label="Дисплеи" />
+	  		<item target="content" ref="/mns/switches/index.html" label="Переключатели" />
+	  		<item target="content" ref="/mns/gauges/index.html" label="Столбики" />
+	  		<item target="content" ref="/mns/meters/index.html" label="Измерители" />
+	  		<item target="content" ref="/mns/levels/index.html" label="Уровни" />
+	  		<item target="content" ref="/mns/svgdyns/index.html" label="SVG графика" />
+	  		<item target="content" ref="/mns/groupdyns/index.html" label="Группы" />
+		</tree>
+		<tree label="Управляющие">
+	  		<item target="content" ref="/mns/buttons/index.html" label="Кнопки" />
+		</tree>
+		<tree label="Библиотека SVG">
+	  		<item target="content" ref="/mns/lib_towers/index.html" label="Башни" />
+	  		<item target="content" ref="/mns/lib_tanks/index.html" label="Емкости бет." />
+	  		<item target="content" ref="/mns/lib_tanks_b/index.html" label="Емкости кирп." />
+	  		<item target="content" ref="/mns/lib_tank_bc/index.html" label="Емкости к/б" />
+		</tree>
+  		<item target="content" ref="/mns/helps/index.html" label="Справка" />
+	</tree>
+	<tree label="Мнемосхемы">
+  		<item target="content" ref="/mns/kns/index.html" label="КНС" />
+  		<item target="content" ref="/mns/kns3/index.html" label="КНС-3" />
+  		<item target="content" ref="/mns/kns3_1/index.html" label="КНС-3.1" />
+<!--
+  		<item target="content" ref="/mns/kns_ch/index.html" label="КНС + График" new="true" />
+-->
+  		<item target="content" ref="/mns/kns_ch/index.html" label="КНС + График" />
+  		<item target="content" ref="/mns/tower/index.html" label="Башня" />
+	</tree>
+</root>
+
