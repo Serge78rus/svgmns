@@ -8,5 +8,5 @@ $(function() {
 });
 
 function click(id) {
-	alert("Вы нажали кнопку " + id.replace("btn", ""));
+	alert("You press button " + id.replace("btn", ""));
 }

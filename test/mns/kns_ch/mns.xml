@@ -6,8 +6,8 @@
 		<group i="i">
 			<tube x="140" y="90" w="15" l="10" o="h" c="black" />
 			<cone x="120" y="90" w="15" l="20" o="l" c="black" />
-			<button i="v_1" x="65" y="10" w="70" h="30" b="silver" f="black" t="Откр." />
-			<button i="v_0" x="65" y="45" w="70" h="30" b="silver" f="black" t="Закр." />
+			<button i="v_1" x="65" y="10" w="70" h="30" b="silver" f="black" t="Open" />
+			<button i="v_0" x="65" y="45" w="70" h="30" b="silver" f="black" t="Close" />
 		</group>
 		<group i="t">
 			<tank x="00" y="0" w="300" h="400" o="v" c="black" />
@@ -19,34 +19,34 @@
 				<mark v="80" l="5" w="2" s="20">4</mark>
 				<mark v="100" l="5" w="2" s="20">5</mark>
 
-				<mark v="5" l="2" w="5" s="20" c="red">НАГ</mark>
-				<mark v="15" l="2" w="5" s="20" c="yellow">НРГ</mark>
-				<mark v="55" l="2" w="5" s="20" c="yellow">ВРГ1</mark>
-				<mark v="70" l="2" w="5" s="20" c="yellow">ВРГ2</mark>
-				<mark v="85" l="2" w="5" s="20" c="yellow">ВРГ3</mark>
-				<mark v="95" l="2" w="5" s="20" c="red">ВАГ</mark>
+				<mark v="5" l="5" w="5" s="20" c="red">LoLo</mark>
+				<mark v="15" l="5" w="5" s="20" c="yellow">Lo</mark>
+				<mark v="55" l="5" w="5" s="20" c="yellow">Hi1</mark>
+				<mark v="70" l="5" w="5" s="20" c="yellow">Hi2</mark>
+				<mark v="85" l="5" w="5" s="20" c="yellow">Hi3</mark>
+				<mark v="95" l="5" w="5" s="20" c="red">HiHi</mark>
 			</gauge>
-			<label i="hhl" x="40" y="60" w="80" h="30" b="silver" f="black" t="ВАГ" />
+			<label i="hhl" x="40" y="60" w="80" h="30" b="silver" f="black" t="HiHi" />
 			<led i="hh" x="55" y="100" s="50" f="black" />
-			<label i="lll" x="40" y="210" w="80" h="30" b="silver" f="black" t="НАГ" />
+			<label i="lll" x="40" y="210" w="80" h="30" b="silver" f="black" t="LoLo" />
 			<led i="ll" x="55" y="250" s="50" f="black" />
 		</group>
 		<group i="p">
 			<svg>
 				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="55" y="-5">
-					Режим
+					Mode
 				</text>
 			</svg>
 			<svg>
 				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="255" y="-5">
-					Очередь
+					Priority
 				</text>
 			</svg>
 			<panel x="0" y="0" w="110" h="110" c="silver" />
-			<switch3 i="sp" x="5" y="5" s="100" v="3" t1="Откл." t2="Вкл." t3="Авто" />
-			<button i="p_0" x="120" y="0" w="70" h="30" b="silver" f="black" t="Откл." />
-			<button i="p_1" x="120" y="40" w="70" h="30" b="silver" f="black" t="Вкл." />
-			<button i="p_a" x="120" y="80" w="70" h="30" b="silver" f="black" t="Авто" />
+			<switch3 i="sp" x="5" y="5" s="100" v="3" t1="Off" t2="On" t3="Auto" />
+			<button i="p_0" x="120" y="0" w="70" h="30" b="silver" f="black" t="Off" />
+			<button i="p_1" x="120" y="40" w="70" h="30" b="silver" f="black" t="On" />
+			<button i="p_a" x="120" y="80" w="70" h="30" b="silver" f="black" t="Auto" />
 			<panel x="200" y="00" w="110" h="110" c="silver" />
 			<switch3 i="sq" x="205" y="5" s="100" t1="1" t2="2" t3="3" />
 			<button i="q_1" x="320" y="0" w="30" h="30" b="silver" f="black" t="1" />
@@ -110,7 +110,7 @@
 		<tube_l x="940" y="955" s="15" o="lt" c="black" />
 		<tube x="955" y="555" w="15" l="35" o="h" c="black" />
 
-		<display i="w" x="10" y="840" w="400" h="60" s="7" b="black" f="#505050" t="Нет доступного насоса!" />
+		<display i="w" x="10" y="840" w="400" h="60" s="7" b="black" f="#505050" t="No pump available!" />
 
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 			<use xlink:href="#svglogo" width="200" height="85" x="0" y="915" />

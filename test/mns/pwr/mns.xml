@@ -53,7 +53,7 @@
 		<pwr_a i="48" x="640" y="770" s="160" f="blue" />
 		<pwr_a i="49" x="810" y="770" s="180" f="blue" />
 
-		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Run" />
 		<led i="dyn_l" x="250" y="910" s="80" f="black" />
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 		  <a xlink:href="mns.html" target="_blank">

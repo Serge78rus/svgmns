@@ -1372,8 +1372,8 @@ function hidehlp(evt) {
 <use xlink:href="#level" fill="black" width="90" height="160" x="290" y="240" transform="translate(0,120) scale(1,0.5)"/>
 </g>
 <g class="level" id="2_3">
-<use xlink:href="#level" fill="blue" width="90" height="160" x="47.5" y="240"/>
-<use xlink:href="#level" fill="black" width="90" height="160" x="47.5" y="240" transform="translate(0,120) scale(1,0.5)"/>
+<use xlink:href="#level" fill="blue" width="90" height="160" x="475" y="240"/>
+<use xlink:href="#level" fill="black" width="90" height="160" x="475" y="240" transform="translate(0,120) scale(1,0.5)"/>
 </g>
 <g class="level" id="2_4">
 <use xlink:href="#level" fill="blue" width="110" height="160" x="670" y="240"/>
@@ -1408,7 +1408,7 @@ function hidehlp(evt) {
 <g id="int">
 <g class="button" onclick="buttonclick('dyn_b');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="dyn_b">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="200" height="50" x="10" y="925" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Динамика</text>
+<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Run</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

@@ -1107,14 +1107,14 @@ function hidehlp(evt) {
 <g class="switch2" id="2">
 <use xlink:href="#switch_b" width="200" height="200" x="410" y="10" stroke="red"/>
 <use xlink:href="#switch_f" width="200" height="200" x="410" y="10" transform="rotate(45,510,110)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="40" transform="rotate(-45,510,110)">Пол. 1</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="40" transform="rotate(45,510,110)">Пол. 2</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="40" transform="rotate(-45,510,110)">State 1</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="40" transform="rotate(45,510,110)">State 2</text>
 </g>
 <g class="switch2" id="3">
 <use xlink:href="#switch_b" width="150" height="150" x="660" y="10" stroke="none"/>
 <use xlink:href="#switch_f" width="150" height="150" x="660" y="10" transform="rotate(-45,735,85)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="32.5" transform="rotate(-45,735,85)">Режим 1</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="32.5" transform="rotate(45,735,85)">Режим 2</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="32.5" transform="rotate(-45,735,85)">Mode 1</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="32.5" transform="rotate(45,735,85)">Mode 2</text>
 </g>
 <g class="switch2" id="3">
 <use xlink:href="#switch_b" width="100" height="100" x="850" y="10" stroke="none"/>
@@ -1132,16 +1132,16 @@ function hidehlp(evt) {
 <g class="switch3" id="12">
 <use xlink:href="#switch_b" width="200" height="200" x="410" y="360" stroke="none"/>
 <use xlink:href="#switch_f" width="200" height="200" x="410" y="360"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(-65,510,460)">Пол. 1</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(0,510,460)">Пол. 2</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(60,510,460)">Пол. 3</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(-65,510,460)">State 1</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(0,510,460)">State 2</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="24" x="510" y="390" transform="rotate(60,510,460)">State 3</text>
 </g>
 <g class="switch3" id="13">
 <use xlink:href="#switch_b" width="150" height="150" x="660" y="360" stroke="none"/>
 <use xlink:href="#switch_f" width="150" height="150" x="660" y="360" transform="rotate(60,735,435)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(-65,735,435)">Реж. 1</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(0,735,435)">Реж. 2</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(60,735,435)">Реж. 3</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(-65,735,435)">Mode 1</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(0,735,435)">Mode 2</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="18" x="735" y="382.5" transform="rotate(60,735,435)">Mode 3</text>
 </g>
 <g class="switch3" id="14">
 <use xlink:href="#switch_b" width="100" height="100" x="850" y="360" stroke="none"/>
@@ -1168,7 +1168,7 @@ function hidehlp(evt) {
 <g id="int">
 <g class="button" onclick="buttonclick('dyn_b');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="dyn_b">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="200" height="50" x="10" y="925" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Динамика</text>
+<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Run</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

@@ -5,8 +5,8 @@
 			<tube x="0" y="90" w="15" l="40" o="h" c="black"></tube>
 			<tube x="60" y="90" w="15" l="40" o="h" c="black"></tube>
 			<valve i="v" x="30" y="77.5" s="40" o="h" f="lime"></valve>
-			<button i="v_1" x="15" y="0" w="70" h="30" b="silver" f="black" t="Откр."></button>
-			<button i="v_0" x="15" y="40" w="70" h="30" b="silver" f="black" t="Закр."></button>
+			<button i="v_1" x="15" y="0" w="70" h="30" b="silver" f="black" t="Open"></button>
+			<button i="v_0" x="15" y="40" w="70" h="30" b="silver" f="black" t="Close"></button>
 		</group>
 		<group i="t">
 			<tank x="0" y="0" w="300" h="400" o="v" c="black"></tank>
@@ -18,16 +18,16 @@
 				<mark v="80" l="5" w="2" s="20">4</mark>
 				<mark v="100" l="5" w="2" s="20">5</mark>
 
-				<mark v="5" l="20" w="5" s="20" c="red">НАГ</mark>
-				<mark v="15" l="20" w="5" s="20" c="yellow">НРГ</mark>
-				<mark v="55" l="20" w="5" s="20" c="yellow">ВРГ1</mark>
-				<mark v="70" l="20" w="5" s="20" c="yellow">ВРГ2</mark>
-				<mark v="85" l="20" w="5" s="20" c="yellow">ВРГ3</mark>
-				<mark v="95" l="20" w="5" s="20" c="red">ВАГ</mark>
+				<mark v="5" l="20" w="5" s="20" c="red">LoLo</mark>
+				<mark v="15" l="20" w="5" s="20" c="yellow">Lo</mark>
+				<mark v="55" l="20" w="5" s="20" c="yellow">Hi1</mark>
+				<mark v="70" l="20" w="5" s="20" c="yellow">Hi2</mark>
+				<mark v="85" l="20" w="5" s="20" c="yellow">Hi3</mark>
+				<mark v="95" l="20" w="5" s="20" c="red">HiHi</mark>
 			</gauge>
-			<label i="hhl" x="40" y="60" w="80" h="30" b="silver" f="black" t="ВАГ"></label>
+			<label i="hhl" x="40" y="60" w="80" h="30" b="silver" f="black" t="HiHi"></label>
 			<led i="hh" x="55" y="100" s="50" f="black"></led>
-			<label i="lll" x="40" y="210" w="80" h="30" b="silver" f="black" t="НАГ"></label>
+			<label i="lll" x="40" y="210" w="80" h="30" b="silver" f="black" t="LoLo"></label>
 			<led i="ll" x="55" y="250" s="50" f="black"></led>
 		</group>
 		<group i="f">
@@ -52,19 +52,19 @@
 		<group i="p">
 			<svg>
 				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="55" y="-5">
-					Режим
+					Mode
 				</text>
 			</svg>
 			<svg>
 				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="255" y="-5">
-					Очередь
+					Priority
 				</text>
 			</svg>
 			<panel x="0" y="0" w="110" h="110" c="silver"></panel>
-			<switch3 i="sp" x="5" y="5" s="100" v="3" t1="Откл." t2="Вкл." t3="Авто"></switch3>
-			<button i="p_0" x="120" y="0" w="70" h="30" b="silver" f="black" t="Откл."></button>
-			<button i="p_1" x="120" y="40" w="70" h="30" b="silver" f="black" t="Вкл."></button>
-			<button i="p_a" x="120" y="80" w="70" h="30" b="silver" f="black" t="Авто"></button>
+			<switch3 i="sp" x="5" y="5" s="100" v="3" t1="Off" t2="On" t3="Auto"></switch3>
+			<button i="p_0" x="120" y="0" w="70" h="30" b="silver" f="black" t="Off"></button>
+			<button i="p_1" x="120" y="40" w="70" h="30" b="silver" f="black" t="On"></button>
+			<button i="p_a" x="120" y="80" w="70" h="30" b="silver" f="black" t="Auto"></button>
 			<panel x="200" y="00" w="110" h="110" c="silver"></panel>
 			<switch3 i="sq" x="205" y="5" s="100" t1="1" t2="2" t3="3"></switch3>
 			<button i="q_1" x="320" y="00" w="30" h="30" b="silver" f="black" t="1"></button>
@@ -85,13 +85,13 @@
 
 		<svg>
 			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="130" y="30">
-				Приток
+				Inflow
 			</text>
 		</svg>
 		<use i="i_" r="f" x="0" y="50"></use>
 		<svg>
 			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="870" y="30">
-				Расход
+				Outflow
 			</text>
 		</svg>
 		<use i="o_" r="f" x="740" y="50"></use>
@@ -120,7 +120,7 @@
 		<tube_l x="890" y="865" s="15" o="lt" c="black"></tube_l>
 		<tube x="905" y="425" w="15" l="95" o="h" c="black"></tube>
 
-		<display i="w" x="300" y="100" w="400" h="60" s="7" b="black" f="#505050" t="Нет доступного насоса!"></display>
+		<display i="w" x="300" y="100" w="400" h="60" s="7" b="black" f="#505050" t="No pump available!"></display>
 
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 			<use xlink:href="#svglogo" width="200" height="85" x="0" y="915"></use>

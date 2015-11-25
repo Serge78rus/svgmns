@@ -1163,23 +1163,23 @@ function hidehlp(evt) {
 <line x1="470" x2="475" y1="250" y2="250" stroke-width="2"/>
 <text stroke="none" font-size="20" x="481" y="256">5</text>
 <line x1="470" x2="480" y1="520" y2="520" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="486" y="526" fill="red">НАГ</text>
+<text stroke="none" font-size="20" x="486" y="526" fill="red">LoLo</text>
 <line x1="470" x2="480" y1="460" y2="460" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="486" y="466" fill="yellow">НРГ</text>
+<text stroke="none" font-size="20" x="486" y="466" fill="yellow">Lo</text>
 <line x1="470" x2="480" y1="340" y2="340" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="486" y="346" fill="yellow">ВРГ</text>
+<text stroke="none" font-size="20" x="486" y="346" fill="yellow">Hi</text>
 <line x1="470" x2="480" y1="280" y2="280" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="486" y="286" fill="red">ВАГ</text>
+<text stroke="none" font-size="20" x="486" y="286" fill="red">HiHi</text>
 </g>
 </g>
 <g class="label" id="hhl">
 <use filter="url(#shadow)" xlink:href="#label" width="80" height="30" x="310" y="260" fill="silver"/>
-<text text-anchor="middle" font-size="24" x="350" y="282.5" fill="black">ВАГ</text>
+<text text-anchor="middle" font-size="24" x="350" y="282.5" fill="black">HiHi</text>
 </g>
 <use class="led" xlink:href="#led" id="hh" width="50" height="50" x="325" y="300" stroke="none" fill="url(#led_rg_black)"/>
 <g class="label" id="lll">
 <use filter="url(#shadow)" xlink:href="#label" width="80" height="30" x="310" y="410" fill="silver"/>
-<text text-anchor="middle" font-size="24" x="350" y="432.5" fill="black">НАГ</text>
+<text text-anchor="middle" font-size="24" x="350" y="432.5" fill="black">LoLo</text>
 </g>
 <use class="led" xlink:href="#led" id="ll" width="50" height="50" x="325" y="450" stroke="none" fill="url(#led_rg_black)"/>
 <use class="valve" xlink:href="#valve" id="v" width="60" height="60" x="100" y="280" stroke="none" fill="lime"/>

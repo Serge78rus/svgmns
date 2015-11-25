@@ -1100,12 +1100,22 @@ function hidehlp(evt) {
 <use class="arrow" xlink:href="#arrow" id="2" width="40" height="200" x="400" y="100" stroke="none" fill="red"/>
 <use class="arrow" xlink:href="#arrow" id="3" width="40" height="200" x="400" y="400" stroke="none" fill="blue" transform="translate(200,0) rotate(90,400,400)"/>
 <use class="arrow" xlink:href="#arrow" id="4" width="40" height="200" x="100" y="400" stroke="none" fill="green" transform="translate(40,200) rotate(180,100,400)"/>
+<use class="arrow" xlink:href="#arrow" id="5" width="20" height="100" x="500" y="100" stroke="red" fill="white" transform="translate(0,20) rotate(270,500,100)"/>
+<use class="arrow" xlink:href="#arrow" id="6" width="20" height="100" x="800" y="100" stroke="none" fill="red"/>
+<use class="arrow" xlink:href="#arrow" id="7" width="20" height="100" x="800" y="300" stroke="none" fill="blue" transform="translate(100,0) rotate(90,800,300)"/>
+<use class="arrow" xlink:href="#arrow" id="8" width="20" height="100" x="500" y="300" stroke="none" fill="green" transform="translate(20,100) rotate(180,500,300)"/>
+<use class="arrow" xlink:href="#arrow" id="9" width="80" height="400" x="100" y="600" stroke="none" fill="red" transform="translate(0,80) rotate(270,100,600)"/>
+<use class="arrow" xlink:href="#arrow" id="10" width="120" height="600" x="100" y="700" stroke="none" fill="blue" transform="translate(0,120) rotate(270,100,700)"/>
+<use class="arrow" xlink:href="#arrow" id="11" width="20" height="40" x="700" y="600" stroke="none" fill="blue" transform="translate(0,20) rotate(270,700,600)"/>
+<use class="arrow" xlink:href="#arrow" id="12" width="20" height="40" x="750" y="600" stroke="none" fill="red"/>
+<use class="arrow" xlink:href="#arrow" id="13" width="10" height="40" x="800" y="600" stroke="none" fill="green" transform="translate(40,0) rotate(90,800,600)"/>
+<use class="arrow" xlink:href="#arrow" id="14" width="10" height="40" x="850" y="600" stroke="none" fill="black" transform="translate(10,40) rotate(180,850,600)"/>
 <use class="led" xlink:href="#led" id="dyn_l" width="80" height="80" x="250" y="910" stroke="none" fill="url(#led_rg_black)"/>
 </g>
 <g id="int">
 <g class="button" onclick="buttonclick('dyn_b');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="dyn_b">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="200" height="50" x="10" y="925" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Динамика</text>
+<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Run</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

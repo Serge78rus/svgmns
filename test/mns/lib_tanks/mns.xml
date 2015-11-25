@@ -45,7 +45,7 @@
 		<level i="2_4" x="840" y="240" w="140" h="160" v="50" b="black" f="blue" />
 		<use r="tank_cxc4" x="720" y="220" w="280" h="200"/>
 
-		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Run" />
 		<led i="dyn_l" x="250" y="910" s="80" f="black" />
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 		  <a xlink:href="mns.html" target="_blank">

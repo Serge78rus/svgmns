@@ -1193,61 +1193,90 @@ function hidehlp(evt) {
 <g id="hlp" display="none">
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="60" height="60" x="210" y="90">
 <desc>
-			Труба толстая черная
+			Tube ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="60" height="60" x="210" y="170">
 <desc>
-			Труба толстая ржавая
+			Other tube ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="80" height="80" x="635" y="160">
 <desc>
-			Емкость с какой-то гадостью
+			Tank ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="80" height="80" x="790" y="160">
 <desc>
-			Уровень какой-то гадости
+			Gauge ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="80" height="80" x="635" y="760">
 <desc>
-			Емкость с какой-то другой гадостью
+			Other tank ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="80" height="80" x="790" y="760">
 <desc>
-			Уровень какой-то другой гадости
+			Other gauge ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="80" height="80" x="550" y="585">
 <desc>
-			Температура какой-то другой гадости
+			Thermometer ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="160" height="160" x="105" y="685">
 <desc>
-			Какой-то переключатель
+			Switch ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="100" height="100" x="135" y="340">
 <desc>
-			Емкость со смесью какой-то гадости с какой-то другой гадостью
+			Other tank ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="60" height="60" x="430" y="242.5">
 <desc>
-			Клапан подачи какой-то гадости
-			в емкость со смесью какой-то гадости с какой-то другой гадостью.
-			Подача гадости осуществляется самотеком.
+			Valve ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 <use xlink:href="#help" onmouseover="showhlp(evt);" onmouseout="hidehlp(evt);" width="60" height="60" x="427.5" y="500">
 <desc>
-			Насос подачи какой-то другой гадости
-			в емкость со смесью какой-то гадости с какой-то другой гадостью.
-			Подача гадости осуществляется под давлением.
+			Pump ...
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet lectus in 
+			laoreet cursus. Aliquam et malesuada turpis. Sed tristique aliquam nibh a interdum. 
+			Etiam fermentum volutpat mi ac accumsan. Proin vitae tellus nulla.
 		</desc>
 </use>
 </g>

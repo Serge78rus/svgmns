@@ -1286,54 +1286,54 @@ function hidehlp(evt) {
 <line x1="865" x2="870" y1="70" y2="70" stroke-width="2"/>
 <text stroke="none" font-size="20" x="876" y="76">5</text>
 <line x1="865" x2="875" y1="268" y2="268" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="881" y="274" fill="red">НАГ</text>
+<text stroke="none" font-size="20" x="881" y="274" fill="red">LoLo</text>
 <line x1="865" x2="875" y1="224" y2="224" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="881" y="230" fill="yellow">НРГ</text>
+<text stroke="none" font-size="20" x="881" y="230" fill="yellow">Lo</text>
 <line x1="865" x2="875" y1="136" y2="136" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="881" y="142" fill="yellow">ВРГ</text>
+<text stroke="none" font-size="20" x="881" y="142" fill="yellow">Hi</text>
 <line x1="865" x2="875" y1="92" y2="92" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="881" y="98" fill="red">ВАГ</text>
+<text stroke="none" font-size="20" x="881" y="98" fill="red">HiHi</text>
 </g>
 </g>
 <g class="label" id="hhl">
 <use filter="url(#shadow)" xlink:href="#label" width="50" height="25" x="625" y="70" fill="silver"/>
-<text text-anchor="middle" font-size="20" x="650" y="88.75" fill="black">ВАГ</text>
+<text text-anchor="middle" font-size="20" x="650" y="88.75" fill="black">HiHi</text>
 </g>
 <use class="led" xlink:href="#led" id="hh" width="50" height="50" x="625" y="100" stroke="none" fill="url(#led_rg_black)"/>
 <g class="label" id="lll">
 <use filter="url(#shadow)" xlink:href="#label" width="50" height="25" x="625" y="210" fill="silver"/>
-<text text-anchor="middle" font-size="20" x="650" y="228.75" fill="black">НАГ</text>
+<text text-anchor="middle" font-size="20" x="650" y="228.75" fill="black">LoLo</text>
 </g>
 <use class="led" xlink:href="#led" id="ll" width="50" height="50" x="625" y="240" stroke="none" fill="url(#led_rg_black)"/>
 <g class="switch3" id="sw">
 <use xlink:href="#switch_b" width="250" height="250" x="30" y="30" stroke="none"/>
 <use xlink:href="#switch_f" width="250" height="250" x="30" y="30" transform="rotate(60,155,155)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(-65,155,155)">Откл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(0,155,155)">Вкл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(60,155,155)">Авто</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(-65,155,155)">Off</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(0,155,155)">On</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="155" y="67.5" transform="rotate(60,155,155)">Auto</text>
 </g>
 <use class="led" xlink:href="#led" id="pl" width="60" height="60" x="125" y="240" stroke="none" fill="url(#led_rg_black)"/>
 </g>
 <g id="int">
 <g class="button" onclick="buttonclick('btn0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="160" height="50" x="320" y="50" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="400" y="85" fill="black">Откл.</text>
+<text text-anchor="middle" font-size="35" x="400" y="85" fill="black">Off</text>
 </g>
 <g class="button" onclick="buttonclick('btn1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="160" height="50" x="320" y="110" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="400" y="145" fill="black">Вкл.</text>
+<text text-anchor="middle" font-size="35" x="400" y="145" fill="black">On</text>
 </g>
 <g class="button" onclick="buttonclick('btnA');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btnA">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="160" height="50" x="320" y="170" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="400" y="205" fill="black">Авто</text>
+<text text-anchor="middle" font-size="35" x="400" y="205" fill="black">Auto</text>
 </g>
 <g class="button" onclick="buttonclick('btnO');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btnO">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="160" height="50" x="830" y="870" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="910" y="905" fill="black">Откр.</text>
+<text text-anchor="middle" font-size="35" x="910" y="905" fill="black">Open</text>
 </g>
 <g class="button" onclick="buttonclick('btnC');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btnC">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="160" height="50" x="830" y="930" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="910" y="965" fill="black">Закр.</text>
+<text text-anchor="middle" font-size="35" x="910" y="965" fill="black">Close</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

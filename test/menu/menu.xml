@@ -43,11 +43,11 @@
 		</tree>
   	<item target="content" ref="mns/helps/index.html" label="Help" />
 	</tree>
-	<tree label="Tech process">
+	<tree label="Tech processes">
   		<item target="content" ref="mns/kns/index.html" label="Waste plant" />
   		<item target="content" ref="mns/kns3/index.html" label="Waste plant 3" />
   		<item target="content" ref="mns/kns_ch/index.html" label="WP + Chart" />
-  		<item target="content" ref="mns/tower/index.html" label="Tower" />
+  		<item target="content" ref="mns/tower/index.html" label="Water tower" />
 	</tree>
 </root>
 

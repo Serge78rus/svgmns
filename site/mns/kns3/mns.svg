@@ -1121,10 +1121,10 @@ function hidehlp(evt) {
 		</g>
 <g class="group" id="p">
 			<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="55" y="-5">
-					Режим
+					Mode
 				</text>
 			<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="255" y="-5">
-					Очередь
+					Priority
 				</text>
 			<use class="panel" filter="url(#shadow)" xlink:href="#panel" stroke="url(#panel_lg_silver)" width="110" height="110" x="0" y="0" fill="silver"/>
 			
@@ -1172,11 +1172,11 @@ function hidehlp(evt) {
 <use class="group" xlink:href="#i" x="0" y="400"/>
 <use class="group" xlink:href="#i" x="0" y="550"/>
 <text text-anchor="middle" fill="black" stroke="none" font-size="30" x="130" y="30">
-				Приток
+				Inflow
 			</text>
 <use class="group" xlink:href="#f" x="0" y="50"/>
 <text text-anchor="middle" fill="black" stroke="none" font-size="30" x="870" y="30">
-				Расход
+				Outflow
 			</text>
 <use class="group" xlink:href="#f" x="740" y="50"/>
 <use class="tube" xlink:href="#tube" fill="url(#tube_lg_black)" width="15" height="285" x="100" y="355"/>
@@ -1269,9 +1269,9 @@ function hidehlp(evt) {
 <g class="switch3" id="1_sp">
 <use xlink:href="#switch_b" width="100" height="100" x="525" y="280" stroke="none"/>
 <use xlink:href="#switch_f" width="100" height="100" x="525" y="280" transform="rotate(60,575,330)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(-65,575,330)">Откл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(0,575,330)">Вкл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(60,575,330)">Авто</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(-65,575,330)">Off</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(0,575,330)">On</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="295" transform="rotate(60,575,330)">Auto</text>
 </g>
 <g class="switch3" id="1_sq">
 <use xlink:href="#switch_b" width="100" height="100" x="725" y="280" stroke="none"/>
@@ -1285,9 +1285,9 @@ function hidehlp(evt) {
 <g class="switch3" id="2_sp">
 <use xlink:href="#switch_b" width="100" height="100" x="525" y="500" stroke="none"/>
 <use xlink:href="#switch_f" width="100" height="100" x="525" y="500" transform="rotate(60,575,550)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(-65,575,550)">Откл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(0,575,550)">Вкл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(60,575,550)">Авто</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(-65,575,550)">Off</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(0,575,550)">On</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="515" transform="rotate(60,575,550)">Auto</text>
 </g>
 <g class="switch3" id="2_sq">
 <use xlink:href="#switch_b" width="100" height="100" x="725" y="500" stroke="none"/>
@@ -1301,9 +1301,9 @@ function hidehlp(evt) {
 <g class="switch3" id="3_sp">
 <use xlink:href="#switch_b" width="100" height="100" x="525" y="720" stroke="none"/>
 <use xlink:href="#switch_f" width="100" height="100" x="525" y="720" transform="rotate(60,575,770)"/>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(-65,575,770)">Откл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(0,575,770)">Вкл.</text>
-<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(60,575,770)">Авто</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(-65,575,770)">Off</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(0,575,770)">On</text>
+<text text-anchor="middle" fill="black" stroke="none" font-size="12" x="575" y="735" transform="rotate(60,575,770)">Auto</text>
 </g>
 <g class="switch3" id="3_sq">
 <use xlink:href="#switch_b" width="100" height="100" x="725" y="720" stroke="none"/>
@@ -1332,27 +1332,27 @@ function hidehlp(evt) {
 <line x1="350" x2="355" y1="335" y2="335" stroke-width="2"/>
 <text stroke="none" font-size="20" x="361" y="341">5</text>
 <line x1="350" x2="370" y1="648.5" y2="648.5" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="376" y="654.5" fill="red">НАГ</text>
+<text stroke="none" font-size="20" x="376" y="654.5" fill="red">LoLo</text>
 <line x1="350" x2="370" y1="615.5" y2="615.5" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="376" y="621.5" fill="yellow">НРГ</text>
+<text stroke="none" font-size="20" x="376" y="621.5" fill="yellow">Lo</text>
 <line x1="350" x2="370" y1="483.5" y2="483.5" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="376" y="489.5" fill="yellow">ВРГ1</text>
+<text stroke="none" font-size="20" x="376" y="489.5" fill="yellow">Hi1</text>
 <line x1="350" x2="370" y1="434" y2="434" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="376" y="440" fill="yellow">ВРГ2</text>
+<text stroke="none" font-size="20" x="376" y="440" fill="yellow">Hi2</text>
 <line x1="350" x2="370" y1="384.5" y2="384.5" stroke-width="5" stroke="yellow"/>
-<text stroke="none" font-size="20" x="376" y="390.5" fill="yellow">ВРГ3</text>
+<text stroke="none" font-size="20" x="376" y="390.5" fill="yellow">Hi3</text>
 <line x1="350" x2="370" y1="351.5" y2="351.5" stroke-width="5" stroke="red"/>
-<text stroke="none" font-size="20" x="376" y="357.5" fill="red">ВАГ</text>
+<text stroke="none" font-size="20" x="376" y="357.5" fill="red">HiHi</text>
 </g>
 </g>
 <g class="label" id="t_hhl">
 <use filter="url(#shadow)" xlink:href="#label" width="80" height="30" x="190" y="360" fill="silver"/>
-<text text-anchor="middle" font-size="24" x="230" y="382.5" fill="black">ВАГ</text>
+<text text-anchor="middle" font-size="24" x="230" y="382.5" fill="black">HiHi</text>
 </g>
 <use class="led" xlink:href="#led" id="t_hh" width="50" height="50" x="205" y="400" stroke="none" fill="url(#led_rg_black)"/>
 <g class="label" id="t_lll">
 <use filter="url(#shadow)" xlink:href="#label" width="80" height="30" x="190" y="510" fill="silver"/>
-<text text-anchor="middle" font-size="24" x="230" y="532.5" fill="black">НАГ</text>
+<text text-anchor="middle" font-size="24" x="230" y="532.5" fill="black">LoLo</text>
 </g>
 <use class="led" xlink:href="#led" id="t_ll" width="50" height="50" x="205" y="550" stroke="none" fill="url(#led_rg_black)"/>
 <g class="display" filter="url(#shadow)" id="w">
@@ -1369,45 +1369,45 @@ function hidehlp(evt) {
 <use xlink:href="#tube_l" x="693" y="100" width="7" height="7" transform="rotate(270,696.5,103.5)"/>
 <use xlink:href="#tube_l" x="693" y="153" width="7" height="7"/>
 </g>
-<text text-anchor="middle" font-size="36.800000000000004" x="500" y="140" fill="#505050">Нет доступного насоса!</text>
+<text text-anchor="middle" font-size="36.800000000000004" x="500" y="140" fill="#505050">No pump available!</text>
 </g>
 </g>
 <g id="int">
 <g class="button" onclick="buttonclick('1_v_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_v_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="250" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="271" fill="black">Откр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="271" fill="black">Open</text>
 </g>
 <g class="button" onclick="buttonclick('1_v_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_v_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="290" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="311" fill="black">Закр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="311" fill="black">Close</text>
 </g>
 <g class="button" onclick="buttonclick('2_v_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_v_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="400" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="421" fill="black">Откр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="421" fill="black">Open</text>
 </g>
 <g class="button" onclick="buttonclick('2_v_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_v_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="440" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="461" fill="black">Закр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="461" fill="black">Close</text>
 </g>
 <g class="button" onclick="buttonclick('3_v_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_v_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="550" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="571" fill="black">Откр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="571" fill="black">Open</text>
 </g>
 <g class="button" onclick="buttonclick('3_v_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_v_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="15" y="590" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="50" y="611" fill="black">Закр.</text>
+<text text-anchor="middle" font-size="21" x="50" y="611" fill="black">Close</text>
 </g>
 <g class="button" onclick="buttonclick('1_p_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_p_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="275" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="296" fill="black">Откл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="296" fill="black">Off</text>
 </g>
 <g class="button" onclick="buttonclick('1_p_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_p_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="315" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="336" fill="black">Вкл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="336" fill="black">On</text>
 </g>
 <g class="button" onclick="buttonclick('1_p_a');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_p_a">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="355" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="376" fill="black">Авто</text>
+<text text-anchor="middle" font-size="21" x="675" y="376" fill="black">Auto</text>
 </g>
 <g class="button" onclick="buttonclick('1_q_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="1_q_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="30" height="30" x="840" y="275" fill="silver"/>
@@ -1423,15 +1423,15 @@ function hidehlp(evt) {
 </g>
 <g class="button" onclick="buttonclick('2_p_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_p_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="495" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="516" fill="black">Откл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="516" fill="black">Off</text>
 </g>
 <g class="button" onclick="buttonclick('2_p_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_p_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="535" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="556" fill="black">Вкл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="556" fill="black">On</text>
 </g>
 <g class="button" onclick="buttonclick('2_p_a');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_p_a">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="575" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="596" fill="black">Авто</text>
+<text text-anchor="middle" font-size="21" x="675" y="596" fill="black">Auto</text>
 </g>
 <g class="button" onclick="buttonclick('2_q_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="2_q_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="30" height="30" x="840" y="495" fill="silver"/>
@@ -1447,15 +1447,15 @@ function hidehlp(evt) {
 </g>
 <g class="button" onclick="buttonclick('3_p_0');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_p_0">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="715" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="736" fill="black">Откл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="736" fill="black">Off</text>
 </g>
 <g class="button" onclick="buttonclick('3_p_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_p_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="755" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="776" fill="black">Вкл.</text>
+<text text-anchor="middle" font-size="21" x="675" y="776" fill="black">On</text>
 </g>
 <g class="button" onclick="buttonclick('3_p_a');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_p_a">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="70" height="30" x="640" y="795" fill="silver"/>
-<text text-anchor="middle" font-size="21" x="675" y="816" fill="black">Авто</text>
+<text text-anchor="middle" font-size="21" x="675" y="816" fill="black">Auto</text>
 </g>
 <g class="button" onclick="buttonclick('3_q_1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="3_q_1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="30" height="30" x="840" y="715" fill="silver"/>

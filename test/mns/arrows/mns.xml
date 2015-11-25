@@ -8,7 +8,20 @@
 		<arrow i="3" x="400" y="400" l="200" w="40" o="l" f="blue" />
 		<arrow i="4" x="100" y="400" l="200" w="40" o="t" f="green" />
 
-		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Динамика" />
+		<arrow i="5" x="500" y="100" l="100" w="20" o="r" f="white" b="red" />
+		<arrow i="6" x="800" y="100" l="100" w="20" o="b" f="red" />
+		<arrow i="7" x="800" y="300" l="100" w="20" o="l" f="blue" />
+		<arrow i="8" x="500" y="300" l="100" w="20" o="t" f="green" />
+
+		<arrow i="9" x="100" y="600" l="400" w="80" o="r" f="red"/>
+		<arrow i="10" x="100" y="700" l="600" w="120" o="r" f="blue"/>
+
+		<arrow i="11" x="700" y="600" l="40" w="20" o="r" f="blue"/>
+		<arrow i="12" x="750" y="600" l="40" w="20" o="b" f="red"/>
+		<arrow i="13" x="800" y="600" l="40" w="10" o="l" f="green"/>
+		<arrow i="14" x="850" y="600" l="40" w="10" o="t" f="black"/>
+
+		<button i="dyn_b" x="10" y="925" w="200" h="50" b="silver" f="black" t="Run" />
 		<led i="dyn_l" x="250" y="910" s="80" f="black" />
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 		  <a xlink:href="mns.html" target="_blank">

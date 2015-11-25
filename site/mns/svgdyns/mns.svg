@@ -1131,7 +1131,7 @@ function hidehlp(evt) {
 <g id="int">
 <g class="button" onclick="buttonclick('dyn_b');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="dyn_b">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="200" height="50" x="10" y="925" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Динамика</text>
+<text text-anchor="middle" font-size="35" x="110" y="960" fill="black">Run</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

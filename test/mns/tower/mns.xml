@@ -133,27 +133,27 @@
 			<mark v="80" l="5" w="2" s="20">4</mark>
 			<mark v="100" l="5" w="2" s="20">5</mark>
 
-			<mark v="10" l="10" w="5" s="20" c="red">НАГ</mark>
-			<mark v="30" l="10" w="5" s="20" c="yellow">НРГ</mark>
-			<mark v="70" l="10" w="5" s="20" c="yellow">ВРГ</mark>
-			<mark v="90" l="10" w="5" s="20" c="red">ВАГ</mark>
+			<mark v="10" l="10" w="5" s="20" c="red">LoLo</mark>
+			<mark v="30" l="10" w="5" s="20" c="yellow">Lo</mark>
+			<mark v="70" l="10" w="5" s="20" c="yellow">Hi</mark>
+			<mark v="90" l="10" w="5" s="20" c="red">HiHi</mark>
 		</gauge>
 
-		<label i="hhl" x="625" y="70" w="50" h="25" b="silver" f="black" t="ВАГ" />
+		<label i="hhl" x="625" y="70" w="50" h="25" b="silver" f="black" t="HiHi" />
 		<led i="hh" x="625" y="100" s="50" f="black" />
-		<label i="lll" x="625" y="210" w="50" h="25" b="silver" f="black" t="НАГ" />
+		<label i="lll" x="625" y="210" w="50" h="25" b="silver" f="black" t="LoLo" />
 		<led i="ll" x="625" y="240" s="50" f="black" />
 
 		<panel x="5" y="5" w="300" h="320" c="silver" />
-		<switch3 i="sw" x="30" y="30" s="250" v="3" t1="Откл." t2="Вкл." t3="Авто" />
+		<switch3 i="sw" x="30" y="30" s="250" v="3" t1="Off" t2="On" t3="Auto" />
 		<led i="pl" x="125" y="240" s="60" f="black" />
 
-		<button i="btn0" x="320" y="50" w="160" h="50" b="silver" f="black" t="Откл." />
-		<button i="btn1" x="320" y="110" w="160" h="50" b="silver" f="black" t="Вкл." />
-		<button i="btnA" x="320" y="170" w="160" h="50" b="silver" f="black" t="Авто" />
+		<button i="btn0" x="320" y="50" w="160" h="50" b="silver" f="black" t="Off" />
+		<button i="btn1" x="320" y="110" w="160" h="50" b="silver" f="black" t="On" />
+		<button i="btnA" x="320" y="170" w="160" h="50" b="silver" f="black" t="Auto" />
 
-		<button i="btnO" x="830" y="870" w="160" h="50" b="silver" f="black" t="Откр." />
-		<button i="btnC" x="830" y="930" w="160" h="50" b="silver" f="black" t="Закр." />
+		<button i="btnO" x="830" y="870" w="160" h="50" b="silver" f="black" t="Open" />
+		<button i="btnC" x="830" y="930" w="160" h="50" b="silver" f="black" t="Close" />
 
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 			<use xlink:href="#svglogo" width="200" height="85" x="0" y="915" />

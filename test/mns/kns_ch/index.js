@@ -26,12 +26,12 @@ $(function() {
     gap: {l: 40, t: 0},
     digital: true,
     trends: [
-      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 1, text0: "Откл.", text1: "Вкл.",
-          title: "Насос 1"}),
-      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 2, text0: "Откл.", text1: "Вкл.",
-          title: "Насос 2"}),
-      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 3, text0: "Откл.", text1: "Вкл.",
-          title: "Насос 3"})
+      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 1, text0: "Off", text1: "On",
+          title: "Pump 1"}),
+      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 2, text0: "Off", text1: "On",
+          title: "Pump 2"}),
+      new JSGadget.DTrend({data: chart_d, xFld: 0, yFld: 3, text0: "Off", text1: "On",
+          title: "Pump 3"})
     ]
   });
 	var t2 = new Date();

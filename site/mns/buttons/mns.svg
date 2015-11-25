@@ -1099,51 +1099,51 @@ function hidehlp(evt) {
 <g id="int">
 <g class="button" onclick="buttonclick('btn1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="170" height="50" x="0" y="100" fill="silver"/>
-<text text-anchor="middle" font-size="35" x="85" y="135" fill="black">Кнопка 1</text>
+<text text-anchor="middle" font-size="35" x="85" y="135" fill="black">Button 1</text>
 </g>
 <g class="button" onclick="buttonclick('btn2');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn2">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_red)" width="170" height="50" x="0" y="200" fill="red"/>
-<text text-anchor="middle" font-size="35" x="85" y="235" fill="black">Кнопка 2</text>
+<text text-anchor="middle" font-size="35" x="85" y="235" fill="black">Button 2</text>
 </g>
 <g class="button" onclick="buttonclick('btn3');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn3">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_green)" width="170" height="50" x="0" y="300" fill="green"/>
-<text text-anchor="middle" font-size="35" x="85" y="335" fill="black">Кнопка 3</text>
+<text text-anchor="middle" font-size="35" x="85" y="335" fill="black">Button 3</text>
 </g>
 <g class="button" onclick="buttonclick('btn4');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn4">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_blue)" width="170" height="50" x="0" y="400" fill="blue"/>
-<text text-anchor="middle" font-size="35" x="85" y="435" fill="black">Кнопка 4</text>
+<text text-anchor="middle" font-size="35" x="85" y="435" fill="black">Button 4</text>
 </g>
 <g class="button" onclick="buttonclick('btn1s');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn1s">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_silver)" width="120" height="25" x="200" y="100" fill="silver"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="117.5" fill="black">Кнопка 1s</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="117.5" fill="black">Button 1s</text>
 </g>
 <g class="button" onclick="buttonclick('btn2s');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn2s">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_red)" width="120" height="25" x="200" y="200" fill="red"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="217.5" fill="black">Кнопка 2s</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="217.5" fill="black">Button 2s</text>
 </g>
 <g class="button" onclick="buttonclick('btn3s');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn3s">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_green)" width="120" height="25" x="200" y="300" fill="green"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="317.5" fill="white">Кнопка 3s</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="317.5" fill="white">Button 3s</text>
 </g>
 <g class="button" onclick="buttonclick('btn4s');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn4s">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_blue)" width="120" height="25" x="200" y="400" fill="blue"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="417.5" fill="white">Кнопка 4s</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="417.5" fill="white">Button 4s</text>
 </g>
 <g class="button" onclick="buttonclick('btn1s1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn1s1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_gray)" width="120" height="25" x="200" y="150" fill="gray"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="167.5" fill="black">Кнопка 1s1</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="167.5" fill="black">Button 1s1</text>
 </g>
 <g class="button" onclick="buttonclick('btn2s1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn2s1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_white)" width="120" height="25" x="200" y="250" fill="white"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="267.5" fill="black">Кнопка 2s1</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="267.5" fill="black">Button 2s1</text>
 </g>
 <g class="button" onclick="buttonclick('btn3s1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn3s1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_black)" width="120" height="25" x="200" y="350" fill="black"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="367.5" fill="white">Кнопка 3s1</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="367.5" fill="white">Button 3s1</text>
 </g>
 <g class="button" onclick="buttonclick('btn4s1');" onmousedown="btnpress(this);" onmouseup="btnrelease(this);" onmouseout="btnrelease(this);" id="btn4s1">
 <use class="button" xlink:href="#button" stroke="url(#button_lg_lime)" width="120" height="25" x="200" y="450" fill="lime"/>
-<text text-anchor="middle" font-size="17.5" x="260" y="467.5" fill="black">Кнопка 4s1</text>
+<text text-anchor="middle" font-size="17.5" x="260" y="467.5" fill="black">Button 4s1</text>
 </g>
 </g>
 <g id="hlp" display="none"/>

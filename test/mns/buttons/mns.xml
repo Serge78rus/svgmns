@@ -3,20 +3,20 @@
 <mnemo>
 	<body>
 
-		<button i="btn1" x="0" y="100" w="170" h="50" b="silver" f="black" t="Кнопка 1" />
-		<button i="btn2" x="0" y="200" w="170" h="50" b="red" f="black" t="Кнопка 2" />
-		<button i="btn3" x="0" y="300" w="170" h="50" b="green" f="black" t="Кнопка 3" />
-		<button i="btn4" x="0" y="400" w="170" h="50" b="blue" f="black" t="Кнопка 4" />
+		<button i="btn1" x="0" y="100" w="170" h="50" b="silver" f="black" t="Button 1" />
+		<button i="btn2" x="0" y="200" w="170" h="50" b="red" f="black" t="Button 2" />
+		<button i="btn3" x="0" y="300" w="170" h="50" b="green" f="black" t="Button 3" />
+		<button i="btn4" x="0" y="400" w="170" h="50" b="blue" f="black" t="Button 4" />
 
-		<button i="btn1s" x="200" y="100" w="120" h="25" b="silver" f="black" t="Кнопка 1s" />
-		<button i="btn2s" x="200" y="200" w="120" h="25" b="red" f="black" t="Кнопка 2s" />
-		<button i="btn3s" x="200" y="300" w="120" h="25" b="green" f="white" t="Кнопка 3s" />
-		<button i="btn4s" x="200" y="400" w="120" h="25" b="blue" f="white" t="Кнопка 4s" />
+		<button i="btn1s" x="200" y="100" w="120" h="25" b="silver" f="black" t="Button 1s" />
+		<button i="btn2s" x="200" y="200" w="120" h="25" b="red" f="black" t="Button 2s" />
+		<button i="btn3s" x="200" y="300" w="120" h="25" b="green" f="white" t="Button 3s" />
+		<button i="btn4s" x="200" y="400" w="120" h="25" b="blue" f="white" t="Button 4s" />
 
-		<button i="btn1s1" x="200" y="150" w="120" h="25" b="gray" f="black" t="Кнопка 1s1" />
-		<button i="btn2s1" x="200" y="250" w="120" h="25" b="white" f="black" t="Кнопка 2s1" />
-		<button i="btn3s1" x="200" y="350" w="120" h="25" b="black" f="white" t="Кнопка 3s1" />
-		<button i="btn4s1" x="200" y="450" w="120" h="25" b="lime" f="black" t="Кнопка 4s1" />
+		<button i="btn1s1" x="200" y="150" w="120" h="25" b="gray" f="black" t="Button 1s1" />
+		<button i="btn2s1" x="200" y="250" w="120" h="25" b="white" f="black" t="Button 2s1" />
+		<button i="btn3s1" x="200" y="350" w="120" h="25" b="black" f="white" t="Button 3s1" />
+		<button i="btn4s1" x="200" y="450" w="120" h="25" b="lime" f="black" t="Button 4s1" />
 
 		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
 		  <a xlink:href="mns.html" target="_blank">
