@@ -9,7 +9,7 @@
 	<target name="copy">
 		<copy todir=".">
 			<fileset dir="${src}">
-				<include name="*.*"/>
+				<include name="**/*"/>
 			</fileset>
 		</copy>
 	</target>
