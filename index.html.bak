@@ -18,7 +18,6 @@
 
 </script></head>
 
-</head>
 <body>
   <div id="body">
 		<div id="left">
@@ -29,9 +28,6 @@
 				<iframe id="navigator" name="navigator" frameborder="0" src="menu.html"></iframe>
 			</div>
 			<div id="leftbottom">
-				<a href="https://github.com/Serge78rus/svgmns">
-					Project on GitHub
-				</a>
 			</div>
 		</div>
 		<div id="right">

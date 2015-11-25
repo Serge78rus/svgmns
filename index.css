@@ -33,7 +33,7 @@ body {
 	left:0;
 	right:0;
 	top:26px;
-	bottom:56px;
+	bottom:26px;
 	border:3px ridge gray;
 }
 #leftbottom {
@@ -41,8 +41,9 @@ body {
 	left:0;
 	right:0;
 	bottom:0;
-	height:50px;
+	height:20px;
 	border:3px ridge gray;
+	text-align:center;
 }
 #right {
 	position:absolute;
