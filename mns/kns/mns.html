@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta charset="UTF-8"><title>mns.xml</title></head><body><xmp style="tab-size:2;-moz-tab-size:2;-o-tab-size:2;-webkit-tab-size:2;"><mnemo>
+	<body>
+
+		<panel x="00" y="640" w="300" h="300" c="silver"></panel>
+		<switch3 i="sw" x="25" y="665" s="250" v="3" t1="Off" t2="On" t3="Auto"></switch3>
+
+		<button i="btn0" x="310" y="750" w="120" h="50" b="silver" f="black" t="Off"></button>
+		<button i="btn1" x="310" y="810" w="120" h="50" b="silver" f="black" t="On"></button>
+		<button i="btnA" x="310" y="870" w="120" h="50" b="silver" f="black" t="Auto"></button>
+
+		<button i="btnO" x="40" y="360" w="170" h="50" b="silver" f="black" t="Open"></button>
+		<button i="btnC" x="40" y="420" w="170" h="50" b="silver" f="black" t="Close"></button>
+
+		<tube x="10" y="300" w="20" l="100" o="h" c="blue"></tube>
+		<tube x="150" y="300" w="20" l="110" o="h" c="blue"></tube>
+
+		<tube x="640" y="500" w="20" l="260" o="h" c="red"></tube>
+		<tube x="900" y="320" w="20" l="70" o="v" c="red"></tube>
+		<tube x="900" y="430" w="20" l="70" o="v" c="red"></tube>
+		<tube x="920" y="300" w="20" l="70" o="h" c="red"></tube>
+		<tube_l x="900" y="500" s="20" o="lt" c="red"></tube_l>
+		<tube_l x="900" y="300" s="20" o="rb" c="red"></tube_l>
+
+		<tank x="250" y="200" w="400" h="400" o="v" c="black"></tank>
+		<gauge i="l" x="440" y="250" l="300" w="30" o="v" v="50" b="gray" f="blue">
+			<mark v="0" l="5" w="2" s="20">0</mark>
+			<mark v="20" l="5" w="2" s="20">1</mark>
+			<mark v="40" l="5" w="2" s="20">2</mark>
+			<mark v="60" l="5" w="2" s="20">3</mark>
+			<mark v="80" l="5" w="2" s="20">4</mark>
+			<mark v="100" l="5" w="2" s="20">5</mark>
+
+			<mark v="10" l="10" w="5" s="20" c="red">LoLo</mark>
+			<mark v="30" l="10" w="5" s="20" c="yellow">Lo</mark>
+			<mark v="70" l="10" w="5" s="20" c="yellow">Hi</mark>
+			<mark v="90" l="10" w="5" s="20" c="red">HiHi</mark>
+		</gauge>
+		<label i="hhl" x="310" y="260" w="80" h="30" b="silver" f="black" t="HiHi"></label>
+		<led i="hh" x="325" y="300" s="50" f="black"></led>
+		<label i="lll" x="310" y="410" w="80" h="30" b="silver" f="black" t="LoLo"></label>
+		<led i="ll" x="325" y="450" s="50" f="black"></led>
+
+		<valve i="v" x="100" y="280" s="60" o="h" f="lime"></valve>
+		<valve_b x="880" y="380" s="60" o="t" f="white"></valve_b>
+		<pump i="p" x="740" y="470" s="80" o="r" f="gray"></pump>
+
+
+		<border x="460" y="810" w="260" h="180" s="10" f="black" b="white"></border>
+		<svg>
+			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="590" y="910">V</text>
+		</svg>
+		<meter120 i="u" x="490" y="850" s="200" b="black" f="red" v="80">
+			<mark v="0" l="10" w="5" s="18">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">100</mark>
+			<mark v="40" l="5" w="2.5" s="15">200</mark>
+			<mark v="60" l="5" w="2.5" s="15">300</mark>
+			<mark v="80" l="5" w="2.5" s="15">400</mark>
+			<mark v="100" l="10" w="5" s="18">500</mark>
+		</meter120>
+
+		<border x="730" y="810" w="260" h="180" s="10" f="black" b="white"></border>
+		<svg>
+			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="860" y="910">A</text>
+		</svg>
+		<meter120 i="i" x="760" y="850" s="200" b="black" f="red">
+			<mark v="0" l="10" w="5" s="18">0</mark>
+			<mark v="20" l="5" w="2.5" s="15">20</mark>
+			<mark v="40" l="5" w="2.5" s="15">40</mark>
+			<mark v="60" l="5" w="2.5" s="15">60</mark>
+			<mark v="80" l="5" w="2.5" s="15">80</mark>
+			<mark v="100" l="10" w="5" s="18">100</mark>
+		</meter120>
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="10" y="970" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="10" y="990" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo></xmp></body></html>

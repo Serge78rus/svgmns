@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta charset="UTF-8"><title>mns.xml</title></head><body><xmp style="tab-size:2;-moz-tab-size:2;-o-tab-size:2;-webkit-tab-size:2;"><mnemo>
+	<defs>
+		<group i="i">
+			<tube x="0" y="90" w="15" l="40" o="h" c="black"></tube>
+			<tube x="60" y="90" w="15" l="40" o="h" c="black"></tube>
+			<valve i="v" x="30" y="77.5" s="40" o="h" f="lime"></valve>
+			<button i="v_1" x="15" y="0" w="70" h="30" b="silver" f="black" t="Open"></button>
+			<button i="v_0" x="15" y="40" w="70" h="30" b="silver" f="black" t="Close"></button>
+		</group>
+		<group i="t">
+			<tank x="0" y="0" w="300" h="400" o="v" c="black"></tank>
+			<gauge i="l" x="170" y="35" l="330" w="30" o="v" v="50" b="gray" f="blue">
+				<mark v="0" l="5" w="2" s="20">0</mark>
+				<mark v="20" l="5" w="2" s="20">1</mark>
+				<mark v="40" l="5" w="2" s="20">2</mark>
+				<mark v="60" l="5" w="2" s="20">3</mark>
+				<mark v="80" l="5" w="2" s="20">4</mark>
+				<mark v="100" l="5" w="2" s="20">5</mark>
+
+				<mark v="5" l="20" w="5" s="20" c="red">LoLo</mark>
+				<mark v="15" l="20" w="5" s="20" c="yellow">Lo</mark>
+				<mark v="55" l="20" w="5" s="20" c="yellow">Hi1</mark>
+				<mark v="70" l="20" w="5" s="20" c="yellow">Hi2</mark>
+				<mark v="85" l="20" w="5" s="20" c="yellow">Hi3</mark>
+				<mark v="95" l="20" w="5" s="20" c="red">HiHi</mark>
+			</gauge>
+			<label i="hhl" x="40" y="60" w="80" h="30" b="silver" f="black" t="HiHi"></label>
+			<led i="hh" x="55" y="100" s="50" f="black"></led>
+			<label i="lll" x="40" y="210" w="80" h="30" b="silver" f="black" t="LoLo"></label>
+			<led i="ll" x="55" y="250" s="50" f="black"></led>
+		</group>
+		<group i="f">
+			<border x="0" y="0" w="260" h="180" s="10" f="black" b="white"></border>
+			<svg>
+				<text text-anchor="middle" fill="black" stroke="none" font-size="3" x="130" y="100">F</text>
+			</svg>
+			<meter120 i="f" x="30" y="40" s="200" b="black" f="red">
+				<mark v="0" l="10" w="5" s="18">0</mark>
+				<mark v="10" l="3" w="2.5" s="15"></mark>
+				<mark v="20" l="5" w="2.5" s="15">20</mark>
+				<mark v="30" l="3" w="2.5" s="15"></mark>
+				<mark v="40" l="5" w="2.5" s="15">40</mark>
+				<mark v="50" l="3" w="2.5" s="15"></mark>
+				<mark v="60" l="5" w="2.5" s="15">60</mark>
+				<mark v="70" l="3" w="2.5" s="15"></mark>
+				<mark v="80" l="5" w="2.5" s="15">80</mark>
+				<mark v="90" l="3" w="2.5" s="15"></mark>
+				<mark v="100" l="10" w="5" s="18">100</mark>
+			</meter120>
+		</group>
+		<group i="p">
+			<svg>
+				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="55" y="-5">
+					Mode
+				</text>
+			</svg>
+			<svg>
+				<text text-anchor="middle" fill="black" stroke="none" font-size="20" x="255" y="-5">
+					Priority
+				</text>
+			</svg>
+			<panel x="0" y="0" w="110" h="110" c="silver"></panel>
+			<switch3 i="sp" x="5" y="5" s="100" v="3" t1="Off" t2="On" t3="Auto"></switch3>
+			<button i="p_0" x="120" y="0" w="70" h="30" b="silver" f="black" t="Off"></button>
+			<button i="p_1" x="120" y="40" w="70" h="30" b="silver" f="black" t="On"></button>
+			<button i="p_a" x="120" y="80" w="70" h="30" b="silver" f="black" t="Auto"></button>
+			<panel x="200" y="00" w="110" h="110" c="silver"></panel>
+			<switch3 i="sq" x="205" y="5" s="100" t1="1" t2="2" t3="3"></switch3>
+			<button i="q_1" x="320" y="00" w="30" h="30" b="silver" f="black" t="1"></button>
+			<button i="q_2" x="320" y="40" w="30" h="30" b="silver" f="black" t="2"></button>
+			<button i="q_3" x="320" y="80" w="30" h="30" b="silver" f="black" t="3"></button>
+			<tube x="-20" y="150" w="15" l="265" o="h" c="black"></tube>
+			<tube x="265" y="150" w="15" l="105" o="h" c="black"></tube>
+			<pump i="p" x="50" y="122.5" s="70" o="r" f="gray"></pump>
+			<valve_b x="235" y="137.5" s="40" o="h" f="white"></valve_b>
+		</group>
+		<svg f="../../../lib/svglogo.svg"></svg>
+	</defs>
+	<body>
+
+		<use i="1_" r="i" x="0" y="250"></use>
+		<use i="2_" r="i" x="0" y="400"></use>
+		<use i="3_" r="i" x="0" y="550"></use>
+
+		<svg>
+			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="130" y="30">
+				Inflow
+			</text>
+		</svg>
+		<use i="i_" r="f" x="0" y="50"></use>
+		<svg>
+			<text text-anchor="middle" fill="black" stroke="none" font-size="30" x="870" y="30">
+				Outflow
+			</text>
+		</svg>
+		<use i="o_" r="f" x="740" y="50"></use>
+
+		<tube x="100" y="355" w="15" l="285" o="v" c="black"></tube>
+		<tube_t x="100" y="340" s="15" o="b" c="black"></tube_t>
+		<tube_t x="100" y="490" s="15" o="l" c="black"></tube_t>
+		<tube_l x="100" y="640" s="15" o="lt" c="black"></tube_l>
+		<tube x="115" y="340" w="15" l="85" o="h" c="black"></tube>
+
+		<use i="1_" r="p" x="520" y="275"></use>
+		<use i="2_" r="p" x="520" y="495"></use>
+		<use i="3_" r="p" x="520" y="715"></use>
+
+		<tube x="485" y="440" w="15" l="425" o="v" c="black"></tube>
+		<tube_l x="485" y="425" s="15" o="rb" c="black"></tube_l>
+		<tube_l x="485" y="865" s="15" o="rt" c="black"></tube_l>
+		<tube_x x="485" y="645" s="15" c="black"></tube_x>
+		<tube x="370" y="645" w="15" l="115" o="h" c="black"></tube>
+
+		<use i="t_" r="t" x="150" y="300"></use>
+
+		<tube x="890" y="440" w="15" l="425" o="v" c="black"></tube>
+		<tube_t x="890" y="425" s="15" o="b" c="black"></tube_t>
+		<tube_t x="890" y="645" s="15" o="l" c="black"></tube_t>
+		<tube_l x="890" y="865" s="15" o="lt" c="black"></tube_l>
+		<tube x="905" y="425" w="15" l="95" o="h" c="black"></tube>
+
+		<display i="w" x="300" y="100" w="400" h="60" s="7" b="black" f="#505050" t="No pump available!"></display>
+
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+			<use xlink:href="#svglogo" width="200" height="85" x="0" y="915"></use>
+		</svg>
+		<svg>
+		  <a xlink:href="mns.html" target="_blank">
+    		<text x="250" y="945" font-size="20" fill="blue" stroke="none">source</text>
+		  </a>
+		  <a xlink:href="index.js" target="_blank">
+    		<text x="250" y="965" font-size="20" fill="blue" stroke="none">script</text>
+		  </a>
+		</svg>
+	</body>
+</mnemo></xmp></body></html>
