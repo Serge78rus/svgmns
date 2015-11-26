@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://serge78rus.github.io/svgmns/sitemap.xml
