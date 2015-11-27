@@ -4,7 +4,7 @@
 
 	<property file="ant.properties"/>
 
-	<target name="build" depends="copy, include_ga, include_hl" />
+	<target name="build" depends="copy, include_fi, include_ga, include_hl" />
 
 	<target name="copy">
 		<copy todir=".">
@@ -14,6 +14,16 @@
 		</copy>
 	</target>
 
+	<target name="include_fi">
+    <replace file="./index.html">
+      <replacetoken><![CDATA[<!-- @@@ include fi @@@ -->]]></replacetoken>
+      <replacevalue><![CDATA[
+<link rel="shortcut icon" href="/svgmns/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="/svgmns/favicon.ico" type="image/vnd.microsoft.icon" />
+      ]]></replacevalue>
+    </replace>
+	</target>
+	
 	<target name="include_ga">
     <replace file="./index.html">
       <replacetoken><![CDATA[<!-- @@@ include ga @@@ -->]]></replacetoken>
