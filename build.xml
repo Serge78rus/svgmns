@@ -38,8 +38,10 @@
       <replacevalue><![CDATA[
 <hr/>
 <script type="text/javascript">
+$(function(){
 $("#leftmidle").css("bottom", "81px");
 $("#leftbottom").css("height", "75px");
+});
 </script>
 <!-- HotLog -->
 <span id="hotlog_counter"></span>
